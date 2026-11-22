@@ -20,6 +20,8 @@ interface Props {
   app: AppApi;
   highlight: { ids: Set<string>; label: string } | null;
   hiddenCount: number;
+  onSurprise: () => void;
+  onDashboard: () => void;
 }
 
 export function Sidebar(p: Props) {
@@ -51,13 +53,17 @@ export function Sidebar(p: Props) {
         <span>{p.filtered.length.toLocaleString()} of {p.locations.length.toLocaleString()} shown</span>
         <button className="li-icon-btn li-left-close" onClick={p.onClose} aria-label="Close filters"><X size={18} /></button>
       </div>
+      <div className="li-mobile-actions">
+        <button className="li-btn small" onClick={() => { p.onClose(); p.onSurprise(); }}>🎲 Surprise me</button>
+        <button className="li-btn small" onClick={() => { p.onClose(); p.onDashboard(); }}>📊 Dashboard</button>
+      </div>
 
       <section className="li-section">
         <h3>Map style</h3>
         <div className="li-seg">
           {p.meta?.layers.map((l) => (
             <button key={l.id} disabled={!l.installed} className={p.layerId === l.id ? 'active' : ''} onClick={() => p.setLayerId(l.id)} title={l.installed ? l.label : `${l.label} — not installed on server`}>
-              {l.label.replace('Game map ', '').replace('Community road map (YANIS v18)', 'Community')}
+              {({ day: 'Day', night: 'Night', community: 'Community' } as Record<string, string>)[l.id] ?? l.label}
             </button>
           ))}
         </div>

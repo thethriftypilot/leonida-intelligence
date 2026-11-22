@@ -1,5 +1,7 @@
 # Status and remaining work
 
+[← Back to README](../README.md)
+
 Last verified: 22 November 2026.
 
 ## Operational and tested
@@ -63,7 +65,7 @@ Automated coverage: **27 unit/integration tests** and **10 Playwright browser te
 
   Richer marker sets exist on gtamap.io, mapgenie.io and vice-city.app. Their terms either
   forbid scraping or need a paid API key whose redistribution terms are unclear (see
-  RESEARCH.md). You can import your own exports.
+  [research.md](research.md)). You can import your own exports.
 - **94 missions without a published start position** stay in the unplaced queue. They are
   never guessed.
 - **Road routing** isn't available: no licensed Leonida road network exists. The planner uses

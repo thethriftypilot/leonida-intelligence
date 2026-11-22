@@ -1,5 +1,7 @@
 # Troubleshooting
 
+[← Back to README](../README.md)
+
 ### The app doesn't open on my other computer, tablet or phone
 
 1. Check that the server is running on the host. Its window lists addresses such as

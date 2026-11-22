@@ -1,5 +1,7 @@
 # Source research (22 November 2026, three days after GTA VI's release)
 
+[← Back to README](../README.md)
+
 This is what was checked before choosing the map foundation and data sources, and why each
 source was used or rejected.
 

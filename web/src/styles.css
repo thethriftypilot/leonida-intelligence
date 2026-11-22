@@ -87,6 +87,8 @@ h4 { margin: 18px 0 6px; text-transform: uppercase; font-size: 13px; color: var(
 .left-open .li-left { display: block; }
 .li-left-head { display: flex; justify-content: space-between; align-items: center; color: var(--muted); font-size: 12px; }
 .li-left-close { display: none; }
+.li-mobile-actions { display: none; gap: 6px; margin: 8px 0 4px; }
+@media (max-width: 560px) { .li-mobile-actions { display: flex; } }
 .li-section { border-top: 1px solid var(--line); padding: 10px 0; }
 .li-section:first-of-type { border-top: 0; }
 .li-section h3 { font-size: 12px; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); margin-bottom: 8px; display: flex; justify-content: space-between; }
@@ -155,6 +157,7 @@ h4 { margin: 18px 0 6px; text-transform: uppercase; font-size: 13px; color: var(
 @keyframes pulse { 70% { box-shadow: 0 0 0 16px #4da3ff00; } 100% { box-shadow: 0 0 0 0 #4da3ff00; } }
 .li-wp { width: 22px; height: 22px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); background: var(--pink); color: #fff; display: grid; place-items: center; font-weight: 800; font-size: 11px; border: 2px solid #fff; }
 .li-wp { line-height: 1; }
+.li-wp span { transform: rotate(45deg); }
 .leaflet-tooltip.li-tip { background: #120a1fee; color: var(--text); border: 1px solid var(--line); border-radius: 6px; box-shadow: 0 4px 16px #0008; }
 .leaflet-tooltip.li-tip::before { border-top-color: #120a1fee; }
 .li-measure-tip { background: #241a00; color: #ffe066; border-color: #ffe06688; }
@@ -311,8 +314,15 @@ h4 { margin: 18px 0 6px; text-transform: uppercase; font-size: 13px; color: var(
   .li-map-tools span { display: none; }
 }
 @media (max-width: 560px) {
-  .li-top { gap: 6px; padding: 0 6px; }
-  .li-top-actions { gap: 2px; }
-  .li-top-actions .li-pill { padding: 6px 8px; }
+  .li-top { gap: 4px; padding: 0 6px; }
+  .li-search { padding: 0 8px; }
+  .li-search > svg { display: none; }
+  .li-chapter select { max-width: 92px; padding: 5px 4px; }
+  .li-spoiler-wrap .li-pill { padding: 6px 7px; }
+  .li-spoiler-wrap .li-count { display: none; }
+  .li-top-actions { gap: 0; margin-left: 0; }
+  .li-top-actions .li-pill { padding: 6px 7px; border: 0; background: transparent; }
+  /* Surprise me + Dashboard move into the slide-out menu on phones; full screen is hidden. */
+  .li-top-actions > .li-pill:first-child, .li-top-actions > .li-icon-btn { display: none; }
   .li-progress-btns { grid-template-columns: repeat(3, 1fr); }
 }

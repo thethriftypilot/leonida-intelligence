@@ -41,7 +41,7 @@ if (-not $SkipMapDownload) {
   $fetchArgs = @('--disable-warning=ExperimentalWarning', 'scripts/fetch-data.ts')
   if ($HiRes) { $fetchArgs += '--hires' }
   & node @fetchArgs
-  if ($LASTEXITCODE -ne 0) { Fail "map download failed — see TROUBLESHOOTING.md" }
+  if ($LASTEXITCODE -ne 0) { Fail "map download failed — see docs/troubleshooting.md" }
   Ok "Map data ready"
 }
 

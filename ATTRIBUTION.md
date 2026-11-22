@@ -21,6 +21,10 @@ Rockstar Games / Take-Two Interactive. This project is not affiliated with or en
   derived from the in-game map; its original artwork provenance has not been independently
   confirmed, so Leonida Intelligence downloads it onto your own machine for private use and does
   **not** redistribute it (tiles are not part of this project's files).
+- The documentation screenshots in `docs/screenshots/` show the app running, and therefore
+  include rendered views of the GTADB map tiles and one GTADB in-game photo (CC BY 4.0,
+  gtadb.org and contributors). They are illustrative screenshots of the app, not a copy of
+  the tile set.
 
 ### GTA 6 Loot Map dataset
 - Source: https://github.com/theihtishaam/GTA-6-Interactive-Map-and-Loot-Tracker (MIT licence,

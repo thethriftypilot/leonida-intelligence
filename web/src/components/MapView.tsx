@@ -244,7 +244,7 @@ export function MapView(props: Props) {
     L.polyline(pts, { color: '#ff5fa2', weight: 4, opacity: 0.9, dashArray: '10 8' }).addTo(g);
     r.points.forEach((p, i) => {
       L.marker(toLatLng(p.x, p.y), {
-        icon: L.divIcon({ className: 'li-wp-wrap', html: `<div class="li-wp">${i + 1}</div>`, iconSize: [22, 22], iconAnchor: [11, 30] }),
+        icon: L.divIcon({ className: 'li-wp-wrap', html: `<div class="li-wp"><span>${i + 1}</span></div>`, iconSize: [22, 22], iconAnchor: [11, 30] }),
         interactive: false, zIndexOffset: 1500,
       }).addTo(g);
     });
@@ -273,7 +273,11 @@ export function MapView(props: Props) {
     // Wait a frame so a panel that just opened has resized the map first.
     requestAnimationFrame(() => {
       map.invalidateSize({ pan: false });
-      map.flyTo(target, z, { duration: 0.8 });
+      const size = map.getSize();
+      // On narrow screens the details sheet covers the lower ~60% of the map: aim above it.
+      const sheetOpen = size.x <= 900 && !!document.querySelector('.li-right');
+      const centre = sheetOpen ? map.unproject(map.project(target, z).add([0, size.y * 0.3]), z) : target;
+      map.flyTo(centre, z, { duration: 0.8 });
     });
   }, [props.fly]);
 

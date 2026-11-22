@@ -292,6 +292,7 @@ export default function App() {
           meta={meta} locations={locations} filtered={filtered} progress={progress} filters={filters} setFilters={setFilters}
           layerId={layer?.id ?? ''} setLayerId={(id) => { setLayerId(id); saveLocal('li.prefs', { layer: id }); }}
           app={appApi} highlight={highlight} hiddenCount={hiddenCount}
+          onSurprise={surprise} onDashboard={() => setShowDashboard(true)}
         />
         <main className="li-main">
           {loading && <div className="li-loading"><div className="li-spinner" /> Loading Leonida…</div>}
