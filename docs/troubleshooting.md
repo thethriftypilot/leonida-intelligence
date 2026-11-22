@@ -5,7 +5,7 @@
 ### The app doesn't open on my other computer, tablet or phone
 
 1. Check that the server is running on the host. Its window lists addresses such as
-   `http://192.168.1.153:5180`. Use that address, not `localhost`, on other devices.
+   `http://192.168.1.50:5180`. Use that address, not `localhost`, on other devices.
 2. Make sure both devices are on the same Wi-Fi or LAN. Guest networks often block
    device-to-device traffic.
 3. Windows network profile: go to Settings → Network & internet → Wi-Fi or Ethernet →

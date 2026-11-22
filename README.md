@@ -9,6 +9,7 @@
 Open it on the PC, laptop, tablet or phone beside your PS5. Your progress follows you to every
 device, and the map gains new places as the community discovers them.
 
+[![CI](https://github.com/thethriftypilot/leonida-intelligence/actions/workflows/ci.yml/badge.svg)](https://github.com/thethriftypilot/leonida-intelligence/actions/workflows/ci.yml)
 ![Node 24](https://img.shields.io/badge/Node.js-24+-3c873a?style=flat-square)
 ![Windows · Linux · Docker](https://img.shields.io/badge/runs%20on-Windows%20%C2%B7%20Linux%20%C2%B7%20Docker-ff5fa2?style=flat-square)
 ![Tests](https://img.shields.io/badge/tests-27%20unit%20%2B%2010%20browser-2ee6d6?style=flat-square)
@@ -16,7 +17,7 @@ device, and the map gains new places as the community discovers them.
 ![Unofficial](https://img.shields.io/badge/unofficial-fan%20tool-9aa4b8?style=flat-square)
 
 [Quick start](#-quick-start) · [Features](#-features) · [Screenshots](#-screenshots) ·
-[Documentation](#-documentation) · [Data & credits](#-data--credits)
+[Documentation](#-documentation) · [Contributing](#-contributing) · [Data & credits](#-data--credits)
 
 <img src="docs/screenshots/overview.jpg" alt="The full Leonida map with category pins, filters and progress bar" width="100%" />
 
@@ -90,11 +91,22 @@ winget install OpenJS.NodeJS
 winget install Git.Git
 ```
 
-Then, from the project folder:
+Then download the project and set it up:
+
+```powershell
+git clone https://github.com/thethriftypilot/leonida-intelligence.git
+```
+
+```powershell
+cd leonida-intelligence
+```
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\setup.ps1
 ```
+
+(No git? Use the green **Code → Download ZIP** button, extract it, and run the last command
+in that folder.)
 
 ```powershell
 .\start.cmd
@@ -106,7 +118,8 @@ run `ipconfig` and look for *IPv4 Address*.
 **Linux / Docker**
 
 ```sh
-docker compose up -d
+git clone https://github.com/thethriftypilot/leonida-intelligence.git
+cd leonida-intelligence && docker compose up -d
 ```
 
 For autostart, firewall, Linux/systemd, configuration and security, see the
@@ -150,6 +163,18 @@ For autostart, firewall, Linux/systemd, configuration and security, see the
 | [**Architecture & development**](docs/architecture.md) | How it's built, project layout, running tests, regenerating screenshots |
 | [**Source research**](docs/research.md) | Which sites were evaluated, their licences and terms, and why each was used or not |
 | [**Status & roadmap**](docs/status.md) | What's tested, what isn't yet, and known data gaps |
+
+---
+
+## 🤝 Contributing
+
+- **Bugs and ideas:** open an [issue](https://github.com/thethriftypilot/leonida-intelligence/issues/new/choose).
+- **A pin is wrong or missing:** use the **Data correction** template, and include a source
+  link.
+- **Code and data changes:** read [CONTRIBUTING.md](CONTRIBUTING.md) first. In short: never
+  invent coordinates, always cite a source, only use data whose licence allows reuse, and
+  respect spoilers.
+- **Security issues:** report them privately, as described in [SECURITY.md](SECURITY.md).
 
 ---
 

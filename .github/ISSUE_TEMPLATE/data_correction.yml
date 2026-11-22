@@ -1,0 +1,49 @@
+name: Data correction
+description: A location is wrong, missing, misplaced or mislabelled
+labels: [data]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! Please only report things with a source. Coordinates are never estimated.
+        Map and landmark data comes from GTADB (map.gtadb.org). Landmark position fixes are best
+        made there, and they flow into this app automatically.
+  - type: input
+    id: place
+    attributes:
+      label: Place name (as shown in the app)
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What's wrong?
+      options:
+        - Wrong position
+        - Missing location
+        - Wrong name / category / description
+        - Wrong chapter or spoiler level
+        - Doesn't exist in the game
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Hover over the map to read game coordinates (bottom-left) if relevant.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source link
+      description: Guide, video timestamp or screenshot that shows the correct information
+    validations:
+      required: true
+  - type: checkboxes
+    id: spoilers
+    attributes:
+      label: Spoilers
+      options:
+        - label: My report doesn't contain story spoilers (or they're clearly marked)
+          required: true

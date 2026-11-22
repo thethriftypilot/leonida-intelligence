@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Setup help & troubleshooting
+    url: https://github.com/thethriftypilot/leonida-intelligence/blob/main/docs/troubleshooting.md
+    about: Most connection and map problems are covered here.
+  - name: Fix landmark data at the source (GTADB)
+    url: https://map.gtadb.org
+    about: Landmark names and positions come from GTADB; corrections there reach everyone.
