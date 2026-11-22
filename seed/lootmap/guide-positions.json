@@ -1,0 +1,852 @@
+{
+  "guide-job-key-lento-fleeca": {
+    "x": 0.54628317,
+    "y": 0.8479561,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-bank-location-small-1.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 242,
+      "p90ImagePixels": 1.29
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 242 road and coastline keypoints. The alignment 90th-percentile residual is 1.29 in-game reference pixels.",
+    "sourceImageSha256": "d122b709721fa2c32f18f7a50f49c30f8fe3eb179d03cac654f0afa5e3063676"
+  },
+  "guide-job-watson-shorefront": {
+    "x": 0.37490213,
+    "y": 0.70014621,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-bank-location-small-3.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 599,
+      "p90ImagePixels": 1.24
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 599 road and coastline keypoints. The alignment 90th-percentile residual is 1.24 in-game reference pixels.",
+    "sourceImageSha256": "a81baf17de92381f82b5f5b94128397c1bac458e47caf39e547ccaceee0dce62"
+  },
+  "guide-job-gibson-bank": {
+    "x": 0.2392975,
+    "y": 0.51804134,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-bank-location-small-5.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 610,
+      "p90ImagePixels": 1.73
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 610 road and coastline keypoints. The alignment 90th-percentile residual is 1.73 in-game reference pixels.",
+    "sourceImageSha256": "e3db528f806044dafbb702a3446d5085beabbb8b950b5d7f124bd7dfabbcf137"
+  },
+  "guide-job-peacock-lombank": {
+    "x": 0.64521576,
+    "y": 0.62453994,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-bank-location-small-7.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 694,
+      "p90ImagePixels": 1.33
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 694 road and coastline keypoints. The alignment 90th-percentile residual is 1.33 in-game reference pixels.",
+    "sourceImageSha256": "c3d3fba11f7d2dbdc8cd6d4731e858b1ee4d3b67901b8dcf0ed1d5e5bd1738db"
+  },
+  "guide-job-peacock-fleeca": {
+    "x": 0.64915277,
+    "y": 0.6191821,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-bank-location-small-9.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 716,
+      "p90ImagePixels": 1.27
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 716 road and coastline keypoints. The alignment 90th-percentile residual is 1.27 in-game reference pixels.",
+    "sourceImageSha256": "a09921f80b8309aa5424c2286c7517aee43b54120f9cf5703212902b0432adc8"
+  },
+  "guide-job-downtown-shorefront": {
+    "x": 0.68571307,
+    "y": 0.5436834,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-bank-location-small-11.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 596,
+      "p90ImagePixels": 1.4
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 596 road and coastline keypoints. The alignment 90th-percentile residual is 1.40 in-game reference pixels.",
+    "sourceImageSha256": "e1fb92d677e026268d7d9a5017e5b46b1716074a8cea26b9883965afffed45a1"
+  },
+  "guide-job-rockridge-shorefront": {
+    "x": 0.64293732,
+    "y": 0.49070822,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-bank-location-small-13.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 678,
+      "p90ImagePixels": 1.31
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 678 road and coastline keypoints. The alignment 90th-percentile residual is 1.31 in-game reference pixels.",
+    "sourceImageSha256": "3e74ac520fcb34c32d51625aa1f26336868cf57f1ca3617b13b11363de1917af"
+  },
+  "guide-job-bayside-lombank": {
+    "x": 0.71566245,
+    "y": 0.44909243,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-bank-location-small-15.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 556,
+      "p90ImagePixels": 1.47
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 556 road and coastline keypoints. The alignment 90th-percentile residual is 1.47 in-game reference pixels.",
+    "sourceImageSha256": "5c9fcdebbe1cdd43dd6226ffe87c73ab55d10ba2f2f089ccd4234c1936ea115d"
+  },
+  "guide-job-washington-fleeca": {
+    "x": 0.84958181,
+    "y": 0.43883227,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-bank-location-small-17.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 393,
+      "p90ImagePixels": 1.32
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 393 road and coastline keypoints. The alignment 90th-percentile residual is 1.32 in-game reference pixels.",
+    "sourceImageSha256": "5231ffc1a30536114f7b193302c118db549217357be0fe8e398baead6456d816"
+  },
+  "guide-job-ocean-lombank-small": {
+    "x": 0.8673601,
+    "y": 0.46433866,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-bank-location-small-19.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 352,
+      "p90ImagePixels": 1.2
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 352 road and coastline keypoints. The alignment 90th-percentile residual is 1.20 in-game reference pixels.",
+    "sourceImageSha256": "cf310c3d8ac92efdcb24c89943e65f290548ab6f5be686c51d99b23f59ff83d1"
+  },
+  "guide-job-ocean-fleeca-small": {
+    "x": 0.87082423,
+    "y": 0.50576521,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-bank-location-small-21.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 460,
+      "p90ImagePixels": 1.27
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 460 road and coastline keypoints. The alignment 90th-percentile residual is 1.27 in-game reference pixels.",
+    "sourceImageSha256": "de899ec8718512234383887b4457d046d6fe6afedc52c9fcc2dbe2768d9ea790"
+  },
+  "guide-job-ocean-shorefront-small": {
+    "x": 0.85816207,
+    "y": 0.52003835,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-bank-location-small-23.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 368,
+      "p90ImagePixels": 1.62
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 368 road and coastline keypoints. The alignment 90th-percentile residual is 1.62 in-game reference pixels.",
+    "sourceImageSha256": "3322850d4629571eb33a96cf3c232dbe999addc0c6f52a05489812d54be6e8d9"
+  },
+  "guide-job-druthers-bank": {
+    "x": 0.64000671,
+    "y": 0.38787699,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-bank-location-small-25.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 523,
+      "p90ImagePixels": 1.52
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 523 road and coastline keypoints. The alignment 90th-percentile residual is 1.52 in-game reference pixels.",
+    "sourceImageSha256": "b39139eca9092e10e6a2f22d0eff20485f8e6723abfd6345ce4db7dd60bc7b9a"
+  },
+  "guide-job-ambrosia-shorefront": {
+    "x": 0.54113099,
+    "y": 0.30711218,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-bank-location-small-27.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 439,
+      "p90ImagePixels": 2.44
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 439 road and coastline keypoints. The alignment 90th-percentile residual is 2.44 in-game reference pixels.",
+    "sourceImageSha256": "4d88edb31f02340bb0178c98c3b6566d7210fea00d23c1dfe4d1b8cd053d2588"
+  },
+  "guide-vault-airport-fleeca": {
+    "x": 0.61582798,
+    "y": 0.55705426,
+    "precision": "map-marker",
+    "locationSource": "https://games.gg/grand-theft-auto-vi/guides/all-bank-locations-gta-6/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-bank-location-large-1.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 543,
+      "p90ImagePixels": 1.54
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 543 road and coastline keypoints. The alignment 90th-percentile residual is 1.54 in-game reference pixels.",
+    "sourceImageSha256": "cd921f26c57db91291109a02e922c111a5f10a3831419ca6724644f7c4f35d5c"
+  },
+  "guide-vault-tequesta-fleeca": {
+    "x": 0.67262722,
+    "y": 0.58860678,
+    "precision": "map-marker",
+    "locationSource": "https://games.gg/grand-theft-auto-vi/guides/all-bank-locations-gta-6/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-bank-location-large-3.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 565,
+      "p90ImagePixels": 1.33
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 565 road and coastline keypoints. The alignment 90th-percentile residual is 1.33 in-game reference pixels.",
+    "sourceImageSha256": "b04b34b1a488b80f5a7a632cabb8563b51b518ab9ba776fb54e2062d18644c6b"
+  },
+  "guide-vault-downtown-lombank": {
+    "x": 0.69835745,
+    "y": 0.54784266,
+    "precision": "map-marker",
+    "locationSource": "https://games.gg/grand-theft-auto-vi/guides/all-bank-locations-gta-6/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-bank-location-large-5.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 588,
+      "p90ImagePixels": 1.47
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 588 road and coastline keypoints. The alignment 90th-percentile residual is 1.47 in-game reference pixels.",
+    "sourceImageSha256": "e0622ef02c9d9f7efb4b198edeaaa5c89b1465091afa60d5c3b9bb8fb01cf58b"
+  },
+  "guide-vault-downtown-fleeca": {
+    "x": 0.6885561,
+    "y": 0.54094513,
+    "precision": "map-marker",
+    "locationSource": "https://games.gg/grand-theft-auto-vi/guides/all-bank-locations-gta-6/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-bank-location-large-7.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 623,
+      "p90ImagePixels": 1.51
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 623 road and coastline keypoints. The alignment 90th-percentile residual is 1.51 in-game reference pixels.",
+    "sourceImageSha256": "9406f5b5ebc47c99d75f82468d8a190b7ebe44cf17b8f8b40a7b13e7998d944d"
+  },
+  "guide-vault-ocean-lombank-high": {
+    "x": 0.86024815,
+    "y": 0.53033418,
+    "precision": "map-marker",
+    "locationSource": "https://games.gg/grand-theft-auto-vi/guides/all-bank-locations-gta-6/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-bank-location-large-9.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 461,
+      "p90ImagePixels": 1.2
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 461 road and coastline keypoints. The alignment 90th-percentile residual is 1.20 in-game reference pixels.",
+    "sourceImageSha256": "c7b3245979b609cc239b519e3d0e421c2124dca833c2f66cdd9801bb0bea6a9a"
+  },
+  "guide-vault-ocean-fleeca-large": {
+    "x": 0.86279668,
+    "y": 0.52943105,
+    "precision": "map-marker",
+    "locationSource": "https://games.gg/grand-theft-auto-vi/guides/all-bank-locations-gta-6/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-bank-location-large-11.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 439,
+      "p90ImagePixels": 1.23
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 439 road and coastline keypoints. The alignment 90th-percentile residual is 1.23 in-game reference pixels.",
+    "sourceImageSha256": "ef66798564cdc7b834ebd5245874d5cf0309d70dff9cc483f46331155c5e2d6b"
+  },
+  "guide-vault-ocean-lombank-medium": {
+    "x": 0.8427343,
+    "y": 0.51371111,
+    "precision": "map-marker",
+    "locationSource": "https://games.gg/grand-theft-auto-vi/guides/all-bank-locations-gta-6/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-bank-location-large-13.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 498,
+      "p90ImagePixels": 1.15
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 498 road and coastline keypoints. The alignment 90th-percentile residual is 1.15 in-game reference pixels.",
+    "sourceImageSha256": "791ec17654af9d76b30882574328287d8aae3a74236d9ba8ada11fcf7bc4c8c2"
+  },
+  "guide-vault-ocean-shorefront-large": {
+    "x": 0.86882324,
+    "y": 0.47303962,
+    "precision": "map-marker",
+    "locationSource": "https://games.gg/grand-theft-auto-vi/guides/all-bank-locations-gta-6/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-bank-location-large-15.jpg",
+    "sourceMarkerPixel": [
+      971,
+      539
+    ],
+    "markerAlignment": {
+      "inliers": 399,
+      "p90ImagePixels": 1.18
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 399 road and coastline keypoints. The alignment 90th-percentile residual is 1.18 in-game reference pixels.",
+    "sourceImageSha256": "e4ce00035729d99c24ea8b26a89a2c8581df61a53145507891257093e4ff57a3"
+  },
+  "guide-audio-zekes-gadgets-hamlet": {
+    "x": 0.55316747,
+    "y": 0.69480612,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-electronics-store-location-1.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 604,
+      "p90ImagePixels": 1.29
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 604 road and coastline keypoints. The alignment 90th-percentile residual is 1.29 in-game reference pixels.",
+    "sourceImageSha256": "4a505d3d1a7669a43ed29d9f7e4af6e4999e49abe52b2c18ecbc066568bd3d16"
+  },
+  "guide-audio-tech-point-tequesta": {
+    "x": 0.69109861,
+    "y": 0.57500509,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-electronics-store-location-3.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 599,
+      "p90ImagePixels": 1.43
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 599 road and coastline keypoints. The alignment 90th-percentile residual is 1.43 in-game reference pixels.",
+    "sourceImageSha256": "42617a0ed036b4d32cea2a601af78159308e412e726954f2ae65579faef8a7d8"
+  },
+  "guide-audio-electronick-downtown": {
+    "x": 0.68499815,
+    "y": 0.54647085,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-electronics-store-location-5.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 658,
+      "p90ImagePixels": 1.52
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 658 road and coastline keypoints. The alignment 90th-percentile residual is 1.52 in-game reference pixels.",
+    "sourceImageSha256": "f78c125dbdcd91ae1048ce08a92daf23d98229a08981c2887b525dfadc2dfb79"
+  },
+  "guide-audio-simply-sound-vice-city": {
+    "x": 0.67881965,
+    "y": 0.52686624,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-electronics-store-location-7.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 760,
+      "p90ImagePixels": 1.51
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 760 road and coastline keypoints. The alignment 90th-percentile residual is 1.51 in-game reference pixels.",
+    "sourceImageSha256": "3350885ebd4b2bc98482058018eb16eb3e7c2fc1149acfe3c3a5305cbc3be82c"
+  },
+  "guide-audio-super-friki-inc-little-cuba": {
+    "x": 0.6510365,
+    "y": 0.51725389,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-electronics-store-location-9.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 755,
+      "p90ImagePixels": 1.41
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 755 road and coastline keypoints. The alignment 90th-percentile residual is 1.41 in-game reference pixels.",
+    "sourceImageSha256": "a0f12cadba2d2b8ede44bee76af8b8fe7d04b907c5979d89f9620a39a6fb408b"
+  },
+  "guide-audio-cell-phone-zone-crosstown": {
+    "x": 0.68770808,
+    "y": 0.48631946,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-electronics-store-location-11.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 732,
+      "p90ImagePixels": 1.44
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 732 road and coastline keypoints. The alignment 90th-percentile residual is 1.44 in-game reference pixels.",
+    "sourceImageSha256": "7a9737c446415fab4e64215cb3f50d895560a3cd4747c80cb7ef5c2b988c143c"
+  },
+  "guide-audio-electric-boulevard-bayside": {
+    "x": 0.7136022,
+    "y": 0.45179306,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-electronics-store-location-13.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 616,
+      "p90ImagePixels": 1.36
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 616 road and coastline keypoints. The alignment 90th-percentile residual is 1.36 in-game reference pixels.",
+    "sourceImageSha256": "07af9805efe5fa9ec30a3045d5b28df686985e0bfd47bbb959783d20ffb5090b"
+  },
+  "guide-audio-best-priced-electrical-supplies-la-perle": {
+    "x": 0.67306379,
+    "y": 0.44737948,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-electronics-store-location-15.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 624,
+      "p90ImagePixels": 1.48
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 624 road and coastline keypoints. The alignment 90th-percentile residual is 1.48 in-game reference pixels.",
+    "sourceImageSha256": "16ca1b9d6c371232c28acb085a80ecf2cdfb72d575bdc17f876bb35aa37d80ab"
+  },
+  "guide-audio-tech-point-ocean-beach": {
+    "x": 0.84551199,
+    "y": 0.4643274,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-electronics-store-location-17.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 459,
+      "p90ImagePixels": 1.21
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 459 road and coastline keypoints. The alignment 90th-percentile residual is 1.21 in-game reference pixels.",
+    "sourceImageSha256": "8ca02e146bda46f8eeaa6ce6bb097ca35fa98c0d18ceda9709db97e76c199690"
+  },
+  "guide-audio-beta-audio-and-electronics-vice-beach": {
+    "x": 0.87028724,
+    "y": 0.46448335,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-electronics-store-location-19.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 367,
+      "p90ImagePixels": 1.26
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 367 road and coastline keypoints. The alignment 90th-percentile residual is 1.26 in-game reference pixels.",
+    "sourceImageSha256": "ccce0b2461d318de2783b10142db1192acbb1626501e72bf1a940c13ae12ea90"
+  },
+  "guide-audio-easy-electronics-vice-beach": {
+    "x": 0.87403091,
+    "y": 0.47024342,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-electronics-store-location-21.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 375,
+      "p90ImagePixels": 1.36
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 375 road and coastline keypoints. The alignment 90th-percentile residual is 1.36 in-game reference pixels.",
+    "sourceImageSha256": "0b33102faf05c2447c6b9cb6c77992eeba90c60c24d62023c0f5eba5895708ee"
+  },
+  "guide-audio-acpc-vice-beach": {
+    "x": 0.86876784,
+    "y": 0.4854456,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-electronics-store-location-23.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 461,
+      "p90ImagePixels": 1.11
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 461 road and coastline keypoints. The alignment 90th-percentile residual is 1.11 in-game reference pixels.",
+    "sourceImageSha256": "8e8bcd052c7ffe7b4584bca07b6e00bcef4b2f43ca72867cf58d0833e8a1a6bb"
+  },
+  "guide-audio-aural-expert-ocean-beach": {
+    "x": 0.8548388,
+    "y": 0.50555703,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-electronics-store-location-25.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 467,
+      "p90ImagePixels": 1.32
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 467 road and coastline keypoints. The alignment 90th-percentile residual is 1.32 in-game reference pixels.",
+    "sourceImageSha256": "6eb9910321c1cf4d544c88145203380842a34888265dc5e858579ecde4bf1122"
+  },
+  "guide-audio-empowered-electronics-belville": {
+    "x": 0.64594519,
+    "y": 0.38307776,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-electronics-store-location-27.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 522,
+      "p90ImagePixels": 1.42
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 522 road and coastline keypoints. The alignment 90th-percentile residual is 1.42 in-game reference pixels.",
+    "sourceImageSha256": "6ed1c642c1e8b16b509e948eb72153d6545ee8ac167442c5ed3e908fcc9f973a"
+  },
+  "guide-game-horde-earbuds": {
+    "x": 0.28070549,
+    "y": 0.33272389,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-electronics-store-location-29.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 501,
+      "p90ImagePixels": 2.18
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 501 road and coastline keypoints. The alignment 90th-percentile residual is 2.18 in-game reference pixels.",
+    "sourceImageSha256": "5eee5068656ef148291980da7ad8e9dfcd311d6be71118498fc39afbe5ad2f00"
+  },
+  "guide-loan-quick-buck-hamlet": {
+    "x": 0.5561758,
+    "y": 0.7190565,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-payday-loans-jobs-locations/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-payday-loans-location-1.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 546,
+      "p90ImagePixels": 1.07
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 546 road and coastline keypoints. The alignment 90th-percentile residual is 1.07 in-game reference pixels.",
+    "sourceImageSha256": "711fd8ec64e02c0b914822680ced08aa1b1356e8cd97ca7e6cefaf95cc4e124f"
+  },
+  "guide-loan-payline-loans-247-vice-dale-county": {
+    "x": 0.57906143,
+    "y": 0.69964541,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-payday-loans-jobs-locations/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-payday-loans-location-3.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 546,
+      "p90ImagePixels": 1.19
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 546 road and coastline keypoints. The alignment 90th-percentile residual is 1.19 in-game reference pixels.",
+    "sourceImageSha256": "c99f551e5e70b98beba33450e05563f9b6d378df2dd5944e8f91e8886f6dff64"
+  },
+  "guide-loan-payday-loans-store-southside": {
+    "x": 0.62099644,
+    "y": 0.63717783,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-payday-loans-jobs-locations/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-payday-loans-location-5.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 682,
+      "p90ImagePixels": 1.37
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 682 road and coastline keypoints. The alignment 90th-percentile residual is 1.37 in-game reference pixels.",
+    "sourceImageSha256": "40f18efa6281b159b8c3899426f0ae2c58b278c6451347e0ae18fb2862ff2482"
+  },
+  "guide-loan-payday-loans-store-little-cuba": {
+    "x": 0.64688631,
+    "y": 0.50926793,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-payday-loans-jobs-locations/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-payday-loans-location-7.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 698,
+      "p90ImagePixels": 1.24
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 698 road and coastline keypoints. The alignment 90th-percentile residual is 1.24 in-game reference pixels.",
+    "sourceImageSha256": "249ebf875781470fb2c26aa973cf9560e04f11713095e4e684361b14cdb29d06"
+  },
+  "guide-loan-payday-loans-store-rockridge": {
+    "x": 0.65753417,
+    "y": 0.4799577,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-payday-loans-jobs-locations/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-payday-loans-location-9.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 684,
+      "p90ImagePixels": 1.49
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 684 road and coastline keypoints. The alignment 90th-percentile residual is 1.49 in-game reference pixels.",
+    "sourceImageSha256": "f70117f1df38d750d7d3e5a2ab7a43447bc7d3652f2030666648a51ef5c2fd63"
+  },
+  "guide-loan-quick-buck-la-perle": {
+    "x": 0.69560081,
+    "y": 0.4475702,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-payday-loans-jobs-locations/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-payday-loans-location-11.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 654,
+      "p90ImagePixels": 1.43
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 654 road and coastline keypoints. The alignment 90th-percentile residual is 1.43 in-game reference pixels.",
+    "sourceImageSha256": "c1e8d56fd052885c9600b1c58b39ea65869530eb59d508633d1ccb6adcd779c6"
+  },
+  "guide-loan-cash-flow-kelly-county": {
+    "x": 0.27779548,
+    "y": 0.33100458,
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-all-payday-loans-jobs-locations/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-payday-loans-location-13.jpg",
+    "sourceMarkerPixel": [
+      960,
+      514
+    ],
+    "markerAlignment": {
+      "inliers": 493,
+      "p90ImagePixels": 2.15
+    },
+    "evidenceNote": "The selected in-game map marker in PowerPyx’s screenshot registers to the atlas using 493 road and coastline keypoints. The alignment 90th-percentile residual is 2.15 in-game reference pixels.",
+    "sourceImageSha256": "d3296c0d59bb35fadddab214de079359f4bd488aff9e08ffed39b887ff089ed9"
+  },
+  "guide-duffel-bag": {
+    "x": 0.5279509,
+    "y": 0.85982129,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-lab-fees-collect-brians-rent-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-lab-fees-1.jpg",
+    "sourceMarkerPixel": [
+      956,
+      517
+    ],
+    "markerAlignment": {
+      "heldOutMatches": 20,
+      "p90ImagePixels": 0.81
+    },
+    "evidenceNote": "The selected Collect Brian’s Rent mission start on Key Lento. The duffel bag equips automatically during the mission when stolen goods are picked up.",
+    "sourceImageSha256": "eda512d1269e4ef0348431ca6225ba2ecf8a945d05c1ae986aae8659da9cce02"
+  },
+  "guide-kingpin-watch": {
+    "x": 0.27971958,
+    "y": 0.37381519,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-hit-kingpin-bowling-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-hit-kingpin-bowling-1.jpg",
+    "sourceMarkerPixel": [
+      967,
+      548
+    ],
+    "markerAlignment": {
+      "heldOutMatches": 107,
+      "p90ImagePixels": 2.11
+    },
+    "evidenceNote": "The Hit Kingpin Bowling mission marker. The watch is awarded through the activity.",
+    "sourceImageSha256": "7badfe3c283804eccbc68aff8f35f0f4b4ab36d6d409e18730869ba8b449e310"
+  },
+  "guide-kingpin-trophy": {
+    "x": 0.27971958,
+    "y": 0.37381519,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-hit-kingpin-bowling-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-hit-kingpin-bowling-1.jpg",
+    "sourceMarkerPixel": [
+      967,
+      548
+    ],
+    "markerAlignment": {
+      "heldOutMatches": 107,
+      "p90ImagePixels": 2.11
+    },
+    "evidenceNote": "The Hit Kingpin Bowling mission marker. The trophy has its own objective conditions.",
+    "sourceImageSha256": "7badfe3c283804eccbc68aff8f35f0f4b4ab36d6d409e18730869ba8b449e310"
+  },
+  "guide-kenton-dives": {
+    "x": 0.59590405,
+    "y": 0.82592378,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-kenton-location-1.jpg",
+    "sourceMarkerPixel": [
+      967,
+      541
+    ],
+    "markerAlignment": {
+      "heldOutMatches": 82,
+      "p90ImagePixels": 1.29
+    },
+    "evidenceNote": "Kenton’s shop and quest contact. The actual underwater treasure sites unlock separately.",
+    "sourceImageSha256": "3b91ce5a44eb9a67703fbf8da3a573e04ddf65a275d996701151f895a700a918"
+  },
+  "guide-yasmani-tips": {
+    "x": 0.86453974,
+    "y": 0.47546046,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-thats-where-the-money-is-wait-at-the-cafe-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-thats-where-the-money-is-1.jpg",
+    "sourceMarkerPixel": [
+      964,
+      524
+    ],
+    "markerAlignment": {
+      "heldOutMatches": 48,
+      "p90ImagePixels": 2.1
+    },
+    "evidenceNote": "The café mission start for That’s Where The Money Is. Bank and security van locations are separate.",
+    "sourceImageSha256": "13b485d59fcccf8771b0978f6dfff5182465e2f0c85c81c25fbae4984bc9469d"
+  },
+  "guide-marquise-card": {
+    "x": 0.59527307,
+    "y": 0.83269403,
+    "precision": "landmark",
+    "locationSource": "https://www.powerpyx.com/gta-6-los-santos-panic-collectible-card-set-locations/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-card-los-santos-panic-location-1.jpg",
+    "sourceMarkerPixel": [
+      960,
+      538
+    ],
+    "markerAlignment": {
+      "heldOutMatches": 21,
+      "p90ImagePixels": 1.6
+    },
+    "evidenceNote": "The walkthrough maps the player at Kenton’s shop and shows the card on its porch barrel. This is the shop-level anchor.",
+    "sourceImageSha256": "24b861b890bd373720d1be4d51418f73cfc7648869a2bf9958565d107cfd1dfd"
+  }
+}

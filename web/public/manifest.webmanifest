@@ -1,0 +1,12 @@
+{
+  "name": "Leonida Intelligence",
+  "short_name": "Leonida",
+  "description": "Personal GTA VI map and discovery companion (unofficial).",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#120a1f",
+  "theme_color": "#120a1f",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

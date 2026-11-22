@@ -1,0 +1,1500 @@
+[
+  {
+    "id": "guide-afternoon-delight",
+    "title": "Afternoon Delight",
+    "category": "heist",
+    "subcategory": "Story jobs",
+    "region": "Port Gellhorn",
+    "x": 0.2806597,
+    "y": 0.35491098,
+    "source": "https://www.powerpyx.com/gta-6-afternoon-delight-rob-vickis-boss-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "details": "Vicki’s Chapter 2 job pays GTA$10,000 through BuckMe the following in-game day.",
+    "steps": [
+      "Finish Coffee Break and advance the remaining story jobs until Vicki calls.",
+      "Meet her at Delights. Follow the story prompts through the performance and complete the mission with your partner.",
+      "Check BuckMe the next in-game day for Vicki’s payment."
+    ],
+    "confidence": "guide",
+    "landmarkId": "gtadb-L629",
+    "precision": "venue",
+    "landmark": "Delights",
+    "locationSource": "https://map.gtadb.org/#VI,L629"
+  },
+  {
+    "id": "guide-game-horde-earbuds",
+    "title": "Game Horde earbuds",
+    "category": "earbuds",
+    "subcategory": "Electronics shops",
+    "region": "Port Gellhorn",
+    "x": 0.28100398,
+    "y": 0.33991375,
+    "source": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-headphones-music-radio-podcasts-how-to-use/",
+    "sourceLabel": "GamesRadar+",
+    "details": "Buy a pair for the character you want to use. Jason and Lucia have separate audio gear.",
+    "steps": [
+      "Open the in-game map index and choose Style → Electronics to find Game Horde.",
+      "Purchase earbuds, equip them from the headgear slot, then hold D-pad Left on foot to choose a station."
+    ],
+    "confidence": "guide",
+    "landmarkId": "gtadb-L1107",
+    "precision": "venue",
+    "secondarySource": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+    "landmark": "Game Horde",
+    "locationSource": "https://map.gtadb.org/#VI,L1107"
+  },
+  {
+    "id": "guide-duffel-bag",
+    "title": "First duffel bag",
+    "category": "bag",
+    "subcategory": "Equipment unlocks",
+    "region": "Key Lento",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-equipment/",
+    "sourceLabel": "PowerPyx",
+    "details": "Lab Fees unlocks the duffel bag as story equipment. It equips when Jason picks up mission loot.",
+    "steps": [
+      "After Gone Fishing, choose Collect Brian’s Rent on the Key Lento map and follow Jason’s marker to Moonstone Boutique.",
+      "Play through Lab Fees and complete the drop-off. Check Equipment in the Progress menu afterward."
+    ],
+    "confidence": "guide",
+    "precision": "area",
+    "secondarySource": "https://www.powerpyx.com/gta-6-lab-fees-collect-brians-rent-walkthrough/",
+    "locationSource": "https://gta6data.com/gta-6-lab-fees-walkthrough-boutique-code-and-brians-lockup/"
+  },
+  {
+    "id": "guide-kingpin-watch",
+    "title": "Kingpin luxury watch",
+    "category": "collectible",
+    "subcategory": "Watches",
+    "region": "Port Gellhorn",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-hit-kingpin-bowling-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "details": "The Chapter 2 bowling alley job includes a collectible watch in the southeast office.",
+    "steps": [
+      "Complete Coffee Break. Choose the optional Hit Kingpin Bowling marker.",
+      "Inside the southeast office, pick up the watch with the gold item icon. This is one of three valuables for the activity."
+    ],
+    "confidence": "guide",
+    "precision": "area"
+  },
+  {
+    "id": "guide-kingpin-trophy",
+    "title": "Let’s Go Bowling trophy",
+    "category": "reward",
+    "subcategory": "Trophies",
+    "region": "Port Gellhorn",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-hit-kingpin-bowling-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "details": "Completing all three valuable objectives in Kingpin Bowling can earn this achievement.",
+    "steps": [
+      "After Coffee Break, open the optional Kingpin Bowling job.",
+      "Collect the three items identified by the activity checklist. Finish the exit objective and wait for the achievement notification."
+    ],
+    "confidence": "guide",
+    "precision": "area"
+  },
+  {
+    "id": "guide-rusty-anchor-card",
+    "title": "Aimie dancer card",
+    "category": "collectible",
+    "subcategory": "Trading cards",
+    "region": "Key Lento",
+    "x": 0.57641999,
+    "y": 0.80966864,
+    "source": "https://www.pushsquare.com/guides/gta-6-key-lento-collectibles-and-secrets-walkthrough",
+    "sourceLabel": "Push Square",
+    "details": "A NINE1NINE card is tucked away inside the Rusty Anchor bar.",
+    "steps": [
+      "Visit The Rusty Anchor in northwest Key Lento.",
+      "Look inside the restroom stall marked Captain’s Log. Pick up Aimie to add her to the set."
+    ],
+    "confidence": "guide",
+    "landmarkId": "gtadb-L325",
+    "precision": "venue",
+    "landmark": "The Rusty Anchor",
+    "locationSource": "https://map.gtadb.org/#VI,L325"
+  },
+  {
+    "id": "guide-wonder-whale-scan",
+    "title": "Wonder Whale sculpture scan",
+    "category": "collectible",
+    "subcategory": "Sculpture scans",
+    "region": "Key Lento",
+    "x": 0.52838741,
+    "y": 0.86947237,
+    "source": "https://www.pushsquare.com/guides/gta-6-key-lento-collectibles-and-secrets-walkthrough",
+    "sourceLabel": "Push Square",
+    "details": "The whale outside the Wonder Whale counts as a phone scan in the sculpture collection.",
+    "steps": [
+      "Find the souvenir shop on Surfside Drive.",
+      "On foot, open the WAiNK app and scan the whale outside."
+    ],
+    "confidence": "guide",
+    "landmarkId": "gtadb-L332",
+    "precision": "venue",
+    "landmark": "Wonder Whale",
+    "locationSource": "https://map.gtadb.org/#VI,L332"
+  },
+  {
+    "id": "guide-off-the-hook",
+    "title": "Off the Hook magazine",
+    "category": "collectible",
+    "subcategory": "Books & magazines",
+    "region": "Key Lento",
+    "x": 0.5704911,
+    "y": 0.82382067,
+    "source": "https://www.powerpyx.com/gta-6-all-magazines-books-comics-locations/",
+    "sourceLabel": "PowerPyx",
+    "details": "Chapter 1 offers a copy in the workshop below Jason’s house.",
+    "steps": [
+      "Visit Jason’s house before finishing Chapter 1.",
+      "Go downstairs to the tool shed and read the magazine."
+    ],
+    "confidence": "guide",
+    "landmarkId": "gtadb-L266",
+    "precision": "venue",
+    "secondarySource": "https://www.pushsquare.com/guides/gta-6-key-lento-collectibles-and-secrets-walkthrough",
+    "landmark": "Jason's House",
+    "locationSource": "https://map.gtadb.org/#VI,L266"
+  },
+  {
+    "id": "guide-rx-men",
+    "title": "RX Men magazine",
+    "category": "collectible",
+    "subcategory": "Books & magazines",
+    "region": "Key Lento",
+    "x": 0.59755905,
+    "y": 0.81366673,
+    "source": "https://www.powerpyx.com/gta-6-all-magazines-books-comics-locations/",
+    "sourceLabel": "PowerPyx",
+    "details": "The Key Lento branch of 24/7 stocks this readable collectible.",
+    "steps": [
+      "Enter the 24/7 supermarket.",
+      "Read RX Men at the magazine display."
+    ],
+    "confidence": "guide",
+    "landmarkId": "gtadb-L341",
+    "precision": "venue",
+    "landmark": "24/7 Supermarket",
+    "locationSource": "https://map.gtadb.org/#VI,L341"
+  },
+  {
+    "id": "guide-remote-strike",
+    "title": "Remote Strike magazine",
+    "category": "collectible",
+    "subcategory": "Books & magazines",
+    "region": "Washington Beach",
+    "x": 0.84347381,
+    "y": 0.44869881,
+    "source": "https://www.powerpyx.com/gta-6-all-magazines-books-comics-locations/",
+    "sourceLabel": "PowerPyx",
+    "details": "Lucia gains access to this part of Ajax Gym during Chapter 4.",
+    "steps": [
+      "Once Lucia can enter the gym’s trauma room, check the reading material there.",
+      "Read Remote Strike to register the volume."
+    ],
+    "confidence": "guide",
+    "landmarkId": "gtadb-L1869",
+    "precision": "venue",
+    "landmark": "Ajax Gym",
+    "locationSource": "https://map.gtadb.org/#VI,L1869"
+  },
+  {
+    "id": "guide-high-rollerz",
+    "title": "High Rollerz, issue 37",
+    "category": "collectible",
+    "subcategory": "Books & magazines",
+    "region": "Crosstown",
+    "x": 0.69112131,
+    "y": 0.47805628,
+    "source": "https://www.powerpyx.com/gta-6-all-magazines-books-comics-locations/",
+    "sourceLabel": "PowerPyx",
+    "details": "Find the issue upstairs in the Jack of Hearts club.",
+    "steps": [
+      "Go up to the club’s second floor.",
+      "Look in the hall west of the recording booths and read the magazine."
+    ],
+    "confidence": "guide",
+    "landmarkId": "gtadb-L172",
+    "precision": "venue",
+    "landmark": "Jack of Hearts",
+    "locationSource": "https://map.gtadb.org/#VI,L172"
+  },
+  {
+    "id": "guide-vicki-card",
+    "title": "Vicki dancer card",
+    "category": "collectible",
+    "subcategory": "Trading cards",
+    "region": "Gellhorn",
+    "x": 0.35339482,
+    "y": 0.36154081,
+    "source": "https://www.powerpyx.com/gta-6-delights-dancers-collectible-card-set-locations/",
+    "sourceLabel": "PowerPyx",
+    "details": "An early Delights Dancers card is available inside the Starlet Motel during Chapter 2.",
+    "steps": [
+      "Enter the motel office before Chapter 2 ends.",
+      "Check the floor of the office bathroom beside the toilet and pick up Vicki."
+    ],
+    "confidence": "guide",
+    "landmarkId": "gtadb-L304",
+    "precision": "venue",
+    "landmark": "Starlet Motel",
+    "locationSource": "https://map.gtadb.org/#VI,L304"
+  },
+  {
+    "id": "guide-harley-card",
+    "title": "Harley dancer card",
+    "category": "collectible",
+    "subcategory": "Trading cards",
+    "region": "Port Gellhorn",
+    "x": 0.2806597,
+    "y": 0.35491098,
+    "source": "https://www.powerpyx.com/gta-6-delights-dancers-collectible-card-set-locations/",
+    "sourceLabel": "PowerPyx",
+    "details": "Delights has a second reason to visit after Vicki’s story job.",
+    "steps": [
+      "Look for a booth against the club’s east wall.",
+      "Collect Harley from its seat. If the club is closed after Chapter 2, return once it reopens."
+    ],
+    "confidence": "guide",
+    "landmarkId": "gtadb-L629",
+    "precision": "venue",
+    "landmark": "Delights",
+    "locationSource": "https://map.gtadb.org/#VI,L629"
+  },
+  {
+    "id": "guide-marquise-card",
+    "title": "Marquise Bernard card",
+    "category": "collectible",
+    "subcategory": "Trading cards",
+    "region": "Key Lento",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-los-santos-panic-collectible-card-set-locations/",
+    "sourceLabel": "PowerPyx",
+    "details": "A Los Santos Panic card sits outside Kenton’s shop.",
+    "steps": [
+      "Visit Kenton in Key Lento.",
+      "Check the barrel immediately outside the shop and collect the card."
+    ],
+    "confidence": "guide",
+    "precision": "area"
+  },
+  {
+    "id": "guide-kenton-dives",
+    "title": "Kenton’s treasure sets",
+    "category": "reward",
+    "subcategory": "Underwater treasure",
+    "region": "Key Lento",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+    "sourceLabel": "PowerPyx",
+    "details": "Kenton adds treasure sites to your in-game map as you return completed sets.",
+    "steps": [
+      "Finish Island Dreams, then wait for Kenton’s invitation and use the green KR marker.",
+      "At the marked shipwrecks use the diving tools to recover the set. Bring it to Kenton and check for his next call."
+    ],
+    "confidence": "guide",
+    "precision": "area"
+  },
+  {
+    "id": "guide-mount-kalaga-meditation",
+    "title": "Mount Kalaga summit meditation",
+    "category": "collectible",
+    "subcategory": "Meditations",
+    "region": "Mount Kalaga",
+    "x": 0.49258662,
+    "y": 0.21203505,
+    "source": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+    "sourceLabel": "PowerPyx",
+    "details": "The final meditation unlocks when the other meditations are complete.",
+    "steps": [
+      "Wait for the new purple marker to appear on the in-game map.",
+      "Use the stone circle at the summit. Check your meditation total under Collections."
+    ],
+    "confidence": "guide",
+    "landmarkId": "gtadb-L530",
+    "precision": "venue",
+    "landmark": "Mount Kalaga",
+    "locationSource": "https://map.gtadb.org/#VI,L530"
+  },
+  {
+    "id": "guide-starlet-motel-book",
+    "title": "Help Me Help You Help Me",
+    "category": "collectible",
+    "subcategory": "Books & magazines",
+    "region": "Gellhorn",
+    "x": 0.35339482,
+    "y": 0.36154081,
+    "source": "https://www.powerpyx.com/gta-6-all-magazines-books-comics-locations/",
+    "sourceLabel": "PowerPyx",
+    "details": "This copy is on a reception table in the Starlet Motel during Chapter 2.",
+    "steps": [
+      "Visit reception before the end of Chapter 2.",
+      "Read the volume on the table to record it in your collection."
+    ],
+    "confidence": "guide",
+    "landmarkId": "gtadb-L304",
+    "precision": "venue",
+    "landmark": "Starlet Motel",
+    "locationSource": "https://map.gtadb.org/#VI,L304"
+  },
+  {
+    "id": "guide-lab-gear-styles",
+    "title": "Stock 305 streetwear",
+    "category": "reward",
+    "subcategory": "Clothing",
+    "region": "Stockyard",
+    "x": 0.71696557,
+    "y": 0.44869876,
+    "source": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-ultimate-edition-bonuses/",
+    "sourceLabel": "PC Gamer",
+    "details": "Ultimate Edition includes access to the Stock 305 clothing selection.",
+    "steps": [
+      "In the map index, choose Style → Casual & Street.",
+      "Visit Stock 305 and browse the character’s outfits. The bonus requires the Ultimate Edition."
+    ],
+    "confidence": "guide",
+    "landmarkId": "gtadb-L1488",
+    "precision": "venue",
+    "landmark": "Stock 305",
+    "locationSource": "https://map.gtadb.org/#VI,L1488"
+  },
+  {
+    "id": "guide-wonder-gear",
+    "title": "Macca the Gator merchandise",
+    "category": "reward",
+    "subcategory": "Clothing",
+    "region": "Key Lento",
+    "x": 0.52838741,
+    "y": 0.86947237,
+    "source": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-ultimate-edition-bonuses/",
+    "sourceLabel": "PC Gamer",
+    "details": "Ultimate Edition players can browse Macca apparel at the Wonder Whale.",
+    "steps": [
+      "Select the Key Lento souvenir shop using the Style index.",
+      "Browse the shop mannequins for the themed clothing and accessories."
+    ],
+    "confidence": "guide",
+    "landmarkId": "gtadb-L332",
+    "precision": "venue",
+    "landmark": "Wonder Whale",
+    "locationSource": "https://map.gtadb.org/#VI,L332"
+  },
+  {
+    "id": "guide-paradise-garage",
+    "title": "Paradise Garage and Dominator buggy",
+    "category": "reward",
+    "subcategory": "Vehicles & garages",
+    "region": "Watson Bay",
+    "x": 0.4450234,
+    "y": 0.66407477,
+    "source": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-ultimate-edition-bonuses/",
+    "sourceLabel": "PC Gamer",
+    "details": "A Chapter 2 Ultimate Edition reward includes the garage in Watson Bay.",
+    "steps": [
+      "Visit the Mud Club with Wyman during Chapter 2.",
+      "Look under Exploration for the task associated with the buggy and garage."
+    ],
+    "confidence": "guide",
+    "landmarkId": "gtadb-L1495",
+    "precision": "venue",
+    "landmark": "Paradise Garage",
+    "locationSource": "https://map.gtadb.org/#VI,L1495"
+  },
+  {
+    "id": "guide-kalaga-trial",
+    "title": "Ambrosia Raceway gold",
+    "category": "reward",
+    "subcategory": "Race challenges",
+    "region": "Ambrosia",
+    "x": 0.52531343,
+    "y": 0.30074501,
+    "source": "https://games.gg/grand-theft-auto-vi/guides/all-race-challenge-locations-in-gta-6/",
+    "sourceLabel": "GAMES.GG",
+    "details": "The trial lists 15 seconds as its gold target.",
+    "steps": [
+      "Approach Ambrosia Raceway Park to reveal the race icon.",
+      "Start the Ambrosia Raceway Trial and check your medal in Activities → Racing."
+    ],
+    "confidence": "guide",
+    "landmarkId": "gtadb-L590",
+    "precision": "venue",
+    "landmark": "Ambrosia Raceway Park",
+    "locationSource": "https://map.gtadb.org/#VI,L590"
+  },
+  {
+    "id": "guide-gellhorn-race-gold",
+    "title": "Gellhorn Raceway gold",
+    "category": "reward",
+    "subcategory": "Race challenges",
+    "region": "Port Gellhorn",
+    "x": 0.25366685,
+    "y": 0.41995038,
+    "source": "https://games.gg/grand-theft-auto-vi/guides/all-race-challenge-locations-in-gta-6/",
+    "sourceLabel": "GAMES.GG",
+    "details": "The circuit trial has a gold target of 3 minutes 15 seconds.",
+    "steps": [
+      "Approach the circuit and complete Beau’s introductory lap when prompted.",
+      "Select the Raceway Trial. The Dragway Trial has a separate target."
+    ],
+    "confidence": "guide",
+    "landmarkId": "gtadb-L281",
+    "precision": "venue",
+    "landmark": "Gellhorn International Raceway",
+    "locationSource": "https://map.gtadb.org/#VI,L281"
+  },
+  {
+    "id": "guide-boone-trial",
+    "title": "Boone Speedway gold",
+    "category": "reward",
+    "subcategory": "Race challenges",
+    "region": "Hamlet",
+    "x": 0.51709246,
+    "y": 0.71297655,
+    "source": "https://games.gg/grand-theft-auto-vi/guides/all-race-challenge-locations-in-gta-6/",
+    "sourceLabel": "GAMES.GG",
+    "details": "The Boone Speedway Trial lists gold at 21 seconds.",
+    "steps": [
+      "Visit the speedway in southwest Hamlet.",
+      "Choose the time trial and check the race screen for your best medal."
+    ],
+    "confidence": "guide",
+    "landmarkId": "gtadb-L1570",
+    "precision": "venue",
+    "landmark": "Boone Speedway",
+    "locationSource": "https://map.gtadb.org/#VI,L1570"
+  },
+  {
+    "id": "guide-yasmani-tips",
+    "title": "Yasmani’s vault introduction",
+    "category": "heist",
+    "subcategory": "Story jobs",
+    "region": "Ocean Beach",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-thats-where-the-money-is-wait-at-the-cafe-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "details": "The optional Chapter 4 job That’s Where the Money Is… unlocks further vault tips.",
+    "steps": [
+      "Finish VCIA Takedown. Respond to Yasmani’s call and use the Wait at the Cafe mission marker.",
+      "Sit at the café window to start the mission. Complete the in-game objectives with your partner.",
+      "Check Yasmani’s newly available tips after finishing the story job."
+    ],
+    "confidence": "guide",
+    "precision": "area"
+  },
+  {
+    "id": "guide-job-key-lento-fleeca",
+    "title": "Fleeca · Key Lento",
+    "category": "heist",
+    "subcategory": "Small banks",
+    "region": "Key Lento",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "sourceLabel": "PowerPyx",
+    "details": "A small bank job in Key Lento. The branch becomes available after Credit Check in Chapter 3.",
+    "steps": [
+      "Select Bank Jobs in the game’s Robberies map filter.",
+      "Highlight the branch and finish both listed objectives. The icon changes to bright green when the game registers completion."
+    ],
+    "confidence": "guide",
+    "precision": "area",
+    "secondarySource": "https://games.gg/grand-theft-auto-vi/guides/all-bank-locations-gta-6/"
+  },
+  {
+    "id": "guide-job-watson-shorefront",
+    "title": "Shorefront · Watson Bay",
+    "category": "heist",
+    "subcategory": "Small banks",
+    "region": "Watson Bay",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "sourceLabel": "PowerPyx",
+    "details": "A small bank job in Watson Bay. The branch becomes available after Credit Check in Chapter 3.",
+    "steps": [
+      "Select Bank Jobs in the game’s Robberies map filter.",
+      "Highlight the branch and finish both listed objectives. The icon changes to bright green when the game registers completion."
+    ],
+    "confidence": "guide",
+    "precision": "area",
+    "secondarySource": "https://games.gg/grand-theft-auto-vi/guides/all-bank-locations-gta-6/"
+  },
+  {
+    "id": "guide-job-gibson-bank",
+    "title": "Gibson Brothers Bank · Mariana County",
+    "category": "heist",
+    "subcategory": "Small banks",
+    "region": "Mariana County",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "sourceLabel": "PowerPyx",
+    "details": "A small bank job in Mariana County. The branch becomes available after Credit Check in Chapter 3.",
+    "steps": [
+      "Select Bank Jobs in the game’s Robberies map filter.",
+      "Highlight the branch and finish both listed objectives. The icon changes to bright green when the game registers completion."
+    ],
+    "confidence": "guide",
+    "precision": "area",
+    "secondarySource": "https://games.gg/grand-theft-auto-vi/guides/all-bank-locations-gta-6/"
+  },
+  {
+    "id": "guide-job-peacock-lombank",
+    "title": "Lombank · Peacock Bay",
+    "category": "heist",
+    "subcategory": "Small banks",
+    "region": "Peacock Bay",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "sourceLabel": "PowerPyx",
+    "details": "A small bank job in Peacock Bay. The branch becomes available after Credit Check in Chapter 3.",
+    "steps": [
+      "Select Bank Jobs in the game’s Robberies map filter.",
+      "Highlight the branch and finish both listed objectives. The icon changes to bright green when the game registers completion."
+    ],
+    "confidence": "guide",
+    "precision": "area",
+    "secondarySource": "https://games.gg/grand-theft-auto-vi/guides/all-bank-locations-gta-6/"
+  },
+  {
+    "id": "guide-job-peacock-fleeca",
+    "title": "Fleeca · Peacock Bay",
+    "category": "heist",
+    "subcategory": "Small banks",
+    "region": "Peacock Bay",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "sourceLabel": "PowerPyx",
+    "details": "A small bank job in Peacock Bay. The branch becomes available after Credit Check in Chapter 3.",
+    "steps": [
+      "Select Bank Jobs in the game’s Robberies map filter.",
+      "Highlight the branch and finish both listed objectives. The icon changes to bright green when the game registers completion."
+    ],
+    "confidence": "guide",
+    "precision": "area",
+    "secondarySource": "https://games.gg/grand-theft-auto-vi/guides/all-bank-locations-gta-6/"
+  },
+  {
+    "id": "guide-job-downtown-shorefront",
+    "title": "Shorefront · Downtown",
+    "category": "heist",
+    "subcategory": "Small banks",
+    "region": "Downtown",
+    "x": 0.71228284,
+    "y": 0.56490072,
+    "source": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "sourceLabel": "PowerPyx",
+    "details": "A small bank job in Downtown. The branch becomes available after Credit Check in Chapter 3.",
+    "steps": [
+      "Select Bank Jobs in the game’s Robberies map filter.",
+      "Highlight the branch and finish both listed objectives. The icon changes to bright green when the game registers completion."
+    ],
+    "confidence": "guide",
+    "landmarkId": "gtadb-L224",
+    "precision": "venue",
+    "secondarySource": "https://games.gg/grand-theft-auto-vi/guides/all-bank-locations-gta-6/",
+    "landmark": "ShoreFront",
+    "locationSource": "https://map.gtadb.org/#VI,L224"
+  },
+  {
+    "id": "guide-job-rockridge-shorefront",
+    "title": "Shorefront · Rockridge",
+    "category": "heist",
+    "subcategory": "Small banks",
+    "region": "Rockridge",
+    "x": 0.64327091,
+    "y": 0.49828459,
+    "source": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "sourceLabel": "PowerPyx",
+    "details": "A small bank job in Rockridge. The branch becomes available after Credit Check in Chapter 3.",
+    "steps": [
+      "Select Bank Jobs in the game’s Robberies map filter.",
+      "Highlight the branch and finish both listed objectives. The icon changes to bright green when the game registers completion."
+    ],
+    "confidence": "guide",
+    "landmarkId": "gtadb-L1102",
+    "precision": "venue",
+    "secondarySource": "https://games.gg/grand-theft-auto-vi/guides/all-bank-locations-gta-6/",
+    "landmark": "ShoreFront",
+    "locationSource": "https://map.gtadb.org/#VI,L1102"
+  },
+  {
+    "id": "guide-job-bayside-lombank",
+    "title": "Lombank · Bayside",
+    "category": "heist",
+    "subcategory": "Small banks",
+    "region": "Bayside",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "sourceLabel": "PowerPyx",
+    "details": "A small bank job in Bayside. The branch becomes available after Credit Check in Chapter 3.",
+    "steps": [
+      "Select Bank Jobs in the game’s Robberies map filter.",
+      "Highlight the branch and finish both listed objectives. The icon changes to bright green when the game registers completion."
+    ],
+    "confidence": "guide",
+    "precision": "area",
+    "secondarySource": "https://games.gg/grand-theft-auto-vi/guides/all-bank-locations-gta-6/"
+  },
+  {
+    "id": "guide-job-washington-fleeca",
+    "title": "Fleeca · Washington Beach",
+    "category": "heist",
+    "subcategory": "Small banks",
+    "region": "Washington Beach",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "sourceLabel": "PowerPyx",
+    "details": "A small bank job in Washington Beach. The branch becomes available after Credit Check in Chapter 3.",
+    "steps": [
+      "Select Bank Jobs in the game’s Robberies map filter.",
+      "Highlight the branch and finish both listed objectives. The icon changes to bright green when the game registers completion."
+    ],
+    "confidence": "guide",
+    "precision": "area",
+    "secondarySource": "https://games.gg/grand-theft-auto-vi/guides/all-bank-locations-gta-6/"
+  },
+  {
+    "id": "guide-job-ocean-lombank-small",
+    "title": "Lombank · Ocean Beach",
+    "category": "heist",
+    "subcategory": "Small banks",
+    "region": "Ocean Beach",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "sourceLabel": "PowerPyx",
+    "details": "A small bank job in Ocean Beach. The branch becomes available after Credit Check in Chapter 3.",
+    "steps": [
+      "Select Bank Jobs in the game’s Robberies map filter.",
+      "Highlight the branch and finish both listed objectives. The icon changes to bright green when the game registers completion."
+    ],
+    "confidence": "guide",
+    "precision": "area",
+    "secondarySource": "https://games.gg/grand-theft-auto-vi/guides/all-bank-locations-gta-6/"
+  },
+  {
+    "id": "guide-job-ocean-fleeca-small",
+    "title": "Fleeca · Ocean Beach",
+    "category": "heist",
+    "subcategory": "Small banks",
+    "region": "Ocean Beach",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "sourceLabel": "PowerPyx",
+    "details": "A small bank job in Ocean Beach. The branch becomes available after Credit Check in Chapter 3.",
+    "steps": [
+      "Select Bank Jobs in the game’s Robberies map filter.",
+      "Highlight the branch and finish both listed objectives. The icon changes to bright green when the game registers completion."
+    ],
+    "confidence": "guide",
+    "precision": "area",
+    "secondarySource": "https://games.gg/grand-theft-auto-vi/guides/all-bank-locations-gta-6/"
+  },
+  {
+    "id": "guide-job-ocean-shorefront-small",
+    "title": "Shorefront · Ocean Beach",
+    "category": "heist",
+    "subcategory": "Small banks",
+    "region": "Ocean Beach",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "sourceLabel": "PowerPyx",
+    "details": "A small bank job in Ocean Beach. The branch becomes available after Credit Check in Chapter 3.",
+    "steps": [
+      "Select Bank Jobs in the game’s Robberies map filter.",
+      "Highlight the branch and finish both listed objectives. The icon changes to bright green when the game registers completion."
+    ],
+    "confidence": "guide",
+    "precision": "area",
+    "secondarySource": "https://games.gg/grand-theft-auto-vi/guides/all-bank-locations-gta-6/"
+  },
+  {
+    "id": "guide-job-druthers-bank",
+    "title": "Druthers State Bank · Leonard County",
+    "category": "heist",
+    "subcategory": "Small banks",
+    "region": "Leonard County",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "sourceLabel": "PowerPyx",
+    "details": "A small bank job in Leonard County. The branch becomes available after Credit Check in Chapter 3.",
+    "steps": [
+      "Select Bank Jobs in the game’s Robberies map filter.",
+      "Highlight the branch and finish both listed objectives. The icon changes to bright green when the game registers completion."
+    ],
+    "confidence": "guide",
+    "precision": "area",
+    "secondarySource": "https://games.gg/grand-theft-auto-vi/guides/all-bank-locations-gta-6/"
+  },
+  {
+    "id": "guide-job-ambrosia-shorefront",
+    "title": "Shorefront · Ambrosia",
+    "category": "heist",
+    "subcategory": "Small banks",
+    "region": "Ambrosia",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "sourceLabel": "PowerPyx",
+    "details": "A small bank job in Ambrosia. The branch becomes available after Credit Check in Chapter 3.",
+    "steps": [
+      "Select Bank Jobs in the game’s Robberies map filter.",
+      "Highlight the branch and finish both listed objectives. The icon changes to bright green when the game registers completion."
+    ],
+    "confidence": "guide",
+    "precision": "area",
+    "secondarySource": "https://games.gg/grand-theft-auto-vi/guides/all-bank-locations-gta-6/"
+  },
+  {
+    "id": "guide-vault-airport-fleeca",
+    "title": "Fleeca vault · VCIA",
+    "category": "heist",
+    "subcategory": "Bank vaults",
+    "region": "VCIA",
+    "x": null,
+    "y": null,
+    "source": "https://games.gg/grand-theft-auto-vi/guides/all-bank-locations-gta-6/",
+    "sourceLabel": "GAMES.GG",
+    "details": "Reported in-game take of GTA$100,000–150,000. Start with Yasmani’s optional Chapter 4 vault mission.",
+    "steps": [
+      "Complete That’s Where the Money Is… to open vault jobs.",
+      "Select the matching bank in the in-game Robberies index. Check its vault, drawer and safe objectives before marking the branch complete."
+    ],
+    "confidence": "guide",
+    "precision": "area",
+    "secondarySource": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/"
+  },
+  {
+    "id": "guide-vault-tequesta-fleeca",
+    "title": "Fleeca vault · Tequesta",
+    "category": "heist",
+    "subcategory": "Bank vaults",
+    "region": "Tequesta",
+    "x": null,
+    "y": null,
+    "source": "https://games.gg/grand-theft-auto-vi/guides/all-bank-locations-gta-6/",
+    "sourceLabel": "GAMES.GG",
+    "details": "Reported in-game take of GTA$65,000–110,000. Start with Yasmani’s optional Chapter 4 vault mission.",
+    "steps": [
+      "Complete That’s Where the Money Is… to open vault jobs.",
+      "Select the matching bank in the in-game Robberies index. Check its vault, drawer and safe objectives before marking the branch complete."
+    ],
+    "confidence": "guide",
+    "precision": "area",
+    "secondarySource": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/"
+  },
+  {
+    "id": "guide-vault-downtown-lombank",
+    "title": "Lombank vault · Downtown",
+    "category": "heist",
+    "subcategory": "Bank vaults",
+    "region": "Downtown",
+    "x": null,
+    "y": null,
+    "source": "https://games.gg/grand-theft-auto-vi/guides/all-bank-locations-gta-6/",
+    "sourceLabel": "GAMES.GG",
+    "details": "Reported in-game take of GTA$135,000–205,000. Start with Yasmani’s optional Chapter 4 vault mission.",
+    "steps": [
+      "Complete That’s Where the Money Is… to open vault jobs.",
+      "Select the matching bank in the in-game Robberies index. Check its vault, drawer and safe objectives before marking the branch complete."
+    ],
+    "confidence": "guide",
+    "precision": "area",
+    "secondarySource": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/"
+  },
+  {
+    "id": "guide-vault-downtown-fleeca",
+    "title": "Fleeca vault · Downtown",
+    "category": "heist",
+    "subcategory": "Bank vaults",
+    "region": "Downtown",
+    "x": null,
+    "y": null,
+    "source": "https://games.gg/grand-theft-auto-vi/guides/all-bank-locations-gta-6/",
+    "sourceLabel": "GAMES.GG",
+    "details": "Reported in-game take of GTA$100,000–150,000. Start with Yasmani’s optional Chapter 4 vault mission.",
+    "steps": [
+      "Complete That’s Where the Money Is… to open vault jobs.",
+      "Select the matching bank in the in-game Robberies index. Check its vault, drawer and safe objectives before marking the branch complete."
+    ],
+    "confidence": "guide",
+    "precision": "area",
+    "secondarySource": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/"
+  },
+  {
+    "id": "guide-vault-ocean-lombank-high",
+    "title": "Lombank vault · Ocean Beach (high security)",
+    "category": "heist",
+    "subcategory": "Bank vaults",
+    "region": "Ocean Beach",
+    "x": null,
+    "y": null,
+    "source": "https://games.gg/grand-theft-auto-vi/guides/all-bank-locations-gta-6/",
+    "sourceLabel": "GAMES.GG",
+    "details": "Reported in-game take of GTA$135,000–205,000. Start with Yasmani’s optional Chapter 4 vault mission.",
+    "steps": [
+      "Complete That’s Where the Money Is… to open vault jobs.",
+      "Select the matching bank in the in-game Robberies index. Check its vault, drawer and safe objectives before marking the branch complete."
+    ],
+    "confidence": "guide",
+    "precision": "area",
+    "secondarySource": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/"
+  },
+  {
+    "id": "guide-vault-ocean-fleeca-large",
+    "title": "Fleeca vault · Ocean Beach",
+    "category": "heist",
+    "subcategory": "Bank vaults",
+    "region": "Ocean Beach",
+    "x": null,
+    "y": null,
+    "source": "https://games.gg/grand-theft-auto-vi/guides/all-bank-locations-gta-6/",
+    "sourceLabel": "GAMES.GG",
+    "details": "Reported in-game take of GTA$75,000–135,000. Start with Yasmani’s optional Chapter 4 vault mission.",
+    "steps": [
+      "Complete That’s Where the Money Is… to open vault jobs.",
+      "Select the matching bank in the in-game Robberies index. Check its vault, drawer and safe objectives before marking the branch complete."
+    ],
+    "confidence": "guide",
+    "precision": "area",
+    "secondarySource": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/"
+  },
+  {
+    "id": "guide-vault-ocean-lombank-medium",
+    "title": "Lombank vault · Ocean Beach (medium security)",
+    "category": "heist",
+    "subcategory": "Bank vaults",
+    "region": "Ocean Beach",
+    "x": null,
+    "y": null,
+    "source": "https://games.gg/grand-theft-auto-vi/guides/all-bank-locations-gta-6/",
+    "sourceLabel": "GAMES.GG",
+    "details": "Reported in-game take of GTA$75,000–135,000. Start with Yasmani’s optional Chapter 4 vault mission.",
+    "steps": [
+      "Complete That’s Where the Money Is… to open vault jobs.",
+      "Select the matching bank in the in-game Robberies index. Check its vault, drawer and safe objectives before marking the branch complete."
+    ],
+    "confidence": "guide",
+    "precision": "area",
+    "secondarySource": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/"
+  },
+  {
+    "id": "guide-vault-ocean-shorefront-large",
+    "title": "Shorefront vault · Ocean Beach",
+    "category": "heist",
+    "subcategory": "Bank vaults",
+    "region": "Ocean Beach",
+    "x": null,
+    "y": null,
+    "source": "https://games.gg/grand-theft-auto-vi/guides/all-bank-locations-gta-6/",
+    "sourceLabel": "GAMES.GG",
+    "details": "Reported in-game take of GTA$95,000–140,000. Start with Yasmani’s optional Chapter 4 vault mission.",
+    "steps": [
+      "Complete That’s Where the Money Is… to open vault jobs.",
+      "Select the matching bank in the in-game Robberies index. Check its vault, drawer and safe objectives before marking the branch complete."
+    ],
+    "confidence": "guide",
+    "precision": "area",
+    "secondarySource": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/"
+  },
+  {
+    "id": "guide-audio-zekes-gadgets-hamlet",
+    "title": "Zekes Gadgets · Hamlet",
+    "category": "earbuds",
+    "subcategory": "Electronics shops",
+    "region": "Hamlet",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+    "sourceLabel": "PowerPyx",
+    "secondarySource": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-headphones-music-radio-podcasts-how-to-use/",
+    "locationSource": "https://www.gta-xtreme.com/gta-6/locations/electronics-stores",
+    "details": "An electronics shop to check for earbuds or headphones. Inventory and price can vary by store.",
+    "steps": [
+      "Find Zekes Gadgets in the Style → Electronics index. Check the headphone icon in Hamlet.",
+      "Browse the audio display with the character who will wear the item."
+    ],
+    "confidence": "guide",
+    "precision": "area"
+  },
+  {
+    "id": "guide-audio-tech-point-tequesta",
+    "title": "Tech Point · Tequesta",
+    "category": "earbuds",
+    "subcategory": "Electronics shops",
+    "region": "Tequesta",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+    "sourceLabel": "PowerPyx",
+    "secondarySource": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-headphones-music-radio-podcasts-how-to-use/",
+    "locationSource": "https://www.gta-xtreme.com/gta-6/locations/electronics-stores",
+    "details": "An electronics shop to check for earbuds or headphones. Inventory and price can vary by store.",
+    "steps": [
+      "Find Tech Point in the Style → Electronics index. Check the headphone icon in Tequesta.",
+      "Browse the audio display with the character who will wear the item."
+    ],
+    "confidence": "guide",
+    "precision": "area"
+  },
+  {
+    "id": "guide-audio-electronick-downtown",
+    "title": "Electronick · Downtown",
+    "category": "earbuds",
+    "subcategory": "Electronics shops",
+    "region": "Downtown",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+    "sourceLabel": "PowerPyx",
+    "secondarySource": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-headphones-music-radio-podcasts-how-to-use/",
+    "locationSource": "https://www.gta-xtreme.com/gta-6/locations/electronics-stores",
+    "details": "An electronics shop to check for earbuds or headphones. Inventory and price can vary by store.",
+    "steps": [
+      "Find Electronick in the Style → Electronics index. Check the headphone icon in Downtown.",
+      "Browse the audio display with the character who will wear the item."
+    ],
+    "confidence": "guide",
+    "precision": "area"
+  },
+  {
+    "id": "guide-audio-simply-sound-vice-city",
+    "title": "Simply Sound · Vice City",
+    "category": "earbuds",
+    "subcategory": "Electronics shops",
+    "region": "Vice City",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+    "sourceLabel": "PowerPyx",
+    "secondarySource": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-headphones-music-radio-podcasts-how-to-use/",
+    "locationSource": "https://www.gta-xtreme.com/gta-6/locations/electronics-stores",
+    "details": "An electronics shop to check for earbuds or headphones. Inventory and price can vary by store.",
+    "steps": [
+      "Find Simply Sound in the Style → Electronics index. Check the headphone icon in Vice City.",
+      "Browse the audio display with the character who will wear the item."
+    ],
+    "confidence": "guide",
+    "precision": "area"
+  },
+  {
+    "id": "guide-audio-super-friki-inc-little-cuba",
+    "title": "Super Friki Inc. · Little Cuba",
+    "category": "earbuds",
+    "subcategory": "Electronics shops",
+    "region": "Little Cuba",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+    "sourceLabel": "PowerPyx",
+    "secondarySource": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-headphones-music-radio-podcasts-how-to-use/",
+    "locationSource": "https://www.gta-xtreme.com/gta-6/locations/electronics-stores",
+    "details": "An electronics shop to check for earbuds or headphones. Inventory and price can vary by store.",
+    "steps": [
+      "Find Super Friki Inc. in the Style → Electronics index. Check the headphone icon in Little Cuba.",
+      "Browse the audio display with the character who will wear the item."
+    ],
+    "confidence": "guide",
+    "precision": "area"
+  },
+  {
+    "id": "guide-audio-cell-phone-zone-crosstown",
+    "title": "Cell Phone Zone · Crosstown",
+    "category": "earbuds",
+    "subcategory": "Electronics shops",
+    "region": "Crosstown",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+    "sourceLabel": "PowerPyx",
+    "secondarySource": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-headphones-music-radio-podcasts-how-to-use/",
+    "locationSource": "https://www.gta-xtreme.com/gta-6/locations/electronics-stores",
+    "details": "An electronics shop to check for earbuds or headphones. Inventory and price can vary by store.",
+    "steps": [
+      "Find Cell Phone Zone in the Style → Electronics index. Check the headphone icon in Crosstown.",
+      "Browse the audio display with the character who will wear the item."
+    ],
+    "confidence": "guide",
+    "precision": "area"
+  },
+  {
+    "id": "guide-audio-electric-boulevard-bayside",
+    "title": "Electric Boulevard · Bayside",
+    "category": "earbuds",
+    "subcategory": "Electronics shops",
+    "region": "Bayside",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+    "sourceLabel": "PowerPyx",
+    "secondarySource": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-headphones-music-radio-podcasts-how-to-use/",
+    "locationSource": "https://www.gta-xtreme.com/gta-6/locations/electronics-stores",
+    "details": "An electronics shop to check for earbuds or headphones. Inventory and price can vary by store.",
+    "steps": [
+      "Find Electric Boulevard in the Style → Electronics index. Check the headphone icon in Bayside.",
+      "Browse the audio display with the character who will wear the item."
+    ],
+    "confidence": "guide",
+    "precision": "area"
+  },
+  {
+    "id": "guide-audio-best-priced-electrical-supplies-la-perle",
+    "title": "Best Priced Electrical Supplies · La Perle",
+    "category": "earbuds",
+    "subcategory": "Electronics shops",
+    "region": "La Perle",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+    "sourceLabel": "PowerPyx",
+    "secondarySource": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-headphones-music-radio-podcasts-how-to-use/",
+    "locationSource": "https://www.gta-xtreme.com/gta-6/locations/electronics-stores",
+    "details": "An electronics shop to check for earbuds or headphones. Inventory and price can vary by store.",
+    "steps": [
+      "Find Best Priced Electrical Supplies in the Style → Electronics index. Check the headphone icon in La Perle.",
+      "Browse the audio display with the character who will wear the item."
+    ],
+    "confidence": "guide",
+    "precision": "area"
+  },
+  {
+    "id": "guide-audio-tech-point-ocean-beach",
+    "title": "Tech Point · Ocean Beach",
+    "category": "earbuds",
+    "subcategory": "Electronics shops",
+    "region": "Ocean Beach",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+    "sourceLabel": "PowerPyx",
+    "secondarySource": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-headphones-music-radio-podcasts-how-to-use/",
+    "locationSource": "https://www.gta-xtreme.com/gta-6/locations/electronics-stores",
+    "details": "An electronics shop to check for earbuds or headphones. Inventory and price can vary by store.",
+    "steps": [
+      "Find Tech Point in the Style → Electronics index. Check the headphone icon in Ocean Beach.",
+      "Browse the audio display with the character who will wear the item."
+    ],
+    "confidence": "guide",
+    "precision": "area"
+  },
+  {
+    "id": "guide-audio-beta-audio-and-electronics-vice-beach",
+    "title": "Beta Audio and Electronics · Vice Beach",
+    "category": "earbuds",
+    "subcategory": "Electronics shops",
+    "region": "Vice Beach",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+    "sourceLabel": "PowerPyx",
+    "secondarySource": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-headphones-music-radio-podcasts-how-to-use/",
+    "locationSource": "https://www.gta-xtreme.com/gta-6/locations/electronics-stores",
+    "details": "An electronics shop to check for earbuds or headphones. Inventory and price can vary by store.",
+    "steps": [
+      "Find Beta Audio and Electronics in the Style → Electronics index. Check the headphone icon in Vice Beach.",
+      "Browse the audio display with the character who will wear the item."
+    ],
+    "confidence": "guide",
+    "precision": "area"
+  },
+  {
+    "id": "guide-audio-easy-electronics-vice-beach",
+    "title": "Easy Electronics · Vice Beach",
+    "category": "earbuds",
+    "subcategory": "Electronics shops",
+    "region": "Vice Beach",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+    "sourceLabel": "PowerPyx",
+    "secondarySource": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-headphones-music-radio-podcasts-how-to-use/",
+    "locationSource": "https://www.gta-xtreme.com/gta-6/locations/electronics-stores",
+    "details": "An electronics shop to check for earbuds or headphones. Inventory and price can vary by store.",
+    "steps": [
+      "Find Easy Electronics in the Style → Electronics index. Check the headphone icon in Vice Beach.",
+      "Browse the audio display with the character who will wear the item."
+    ],
+    "confidence": "guide",
+    "precision": "area"
+  },
+  {
+    "id": "guide-audio-acpc-vice-beach",
+    "title": "ACPC · Vice Beach",
+    "category": "earbuds",
+    "subcategory": "Electronics shops",
+    "region": "Vice Beach",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+    "sourceLabel": "PowerPyx",
+    "secondarySource": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-headphones-music-radio-podcasts-how-to-use/",
+    "locationSource": "https://www.gta-xtreme.com/gta-6/locations/electronics-stores",
+    "details": "An electronics shop to check for earbuds or headphones. Inventory and price can vary by store.",
+    "steps": [
+      "Find ACPC in the Style → Electronics index. Check the headphone icon in Vice Beach.",
+      "Browse the audio display with the character who will wear the item."
+    ],
+    "confidence": "guide",
+    "precision": "area"
+  },
+  {
+    "id": "guide-audio-aural-expert-ocean-beach",
+    "title": "Aural Expert · Ocean Beach",
+    "category": "earbuds",
+    "subcategory": "Electronics shops",
+    "region": "Ocean Beach",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+    "sourceLabel": "PowerPyx",
+    "secondarySource": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-headphones-music-radio-podcasts-how-to-use/",
+    "locationSource": "https://www.gta-xtreme.com/gta-6/locations/electronics-stores",
+    "details": "An electronics shop to check for earbuds or headphones. Inventory and price can vary by store.",
+    "steps": [
+      "Find Aural Expert in the Style → Electronics index. Check the headphone icon in Ocean Beach.",
+      "Browse the audio display with the character who will wear the item."
+    ],
+    "confidence": "guide",
+    "precision": "area"
+  },
+  {
+    "id": "guide-audio-empowered-electronics-belville",
+    "title": "Empowered Electronics · Belville",
+    "category": "earbuds",
+    "subcategory": "Electronics shops",
+    "region": "Belville",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-electronics-stores-locations/",
+    "sourceLabel": "PowerPyx",
+    "secondarySource": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-headphones-music-radio-podcasts-how-to-use/",
+    "locationSource": "https://www.gta-xtreme.com/gta-6/locations/electronics-stores",
+    "details": "An electronics shop to check for earbuds or headphones. Inventory and price can vary by store.",
+    "steps": [
+      "Find Empowered Electronics in the Style → Electronics index. Check the headphone icon in Belville.",
+      "Browse the audio display with the character who will wear the item."
+    ],
+    "confidence": "guide",
+    "precision": "area"
+  },
+  {
+    "id": "guide-loan-quick-buck-hamlet",
+    "title": "Quick Buck · Hamlet",
+    "category": "heist",
+    "subcategory": "Payday loans",
+    "region": "Hamlet",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-payday-loans-jobs-locations/",
+    "sourceLabel": "PowerPyx",
+    "details": "Reported in-game take of GTA$5,000–15,000 from this Chapter 3 payday loan job.",
+    "steps": [
+      "Finish Credit Check and explore the area until the green hand icon appears.",
+      "Use Robberies → Payday Loans on the in-game map. Complete the counter and safe objectives, then verify the bright green icon."
+    ],
+    "confidence": "guide",
+    "precision": "area"
+  },
+  {
+    "id": "guide-loan-payline-loans-247-vice-dale-county",
+    "title": "Payline Loans 247 · Vice-Dale County",
+    "category": "heist",
+    "subcategory": "Payday loans",
+    "region": "Vice-Dale County",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-payday-loans-jobs-locations/",
+    "sourceLabel": "PowerPyx",
+    "details": "Reported in-game take of GTA$5,000–15,000 from this Chapter 3 payday loan job.",
+    "steps": [
+      "Finish Credit Check and explore the area until the green hand icon appears.",
+      "Use Robberies → Payday Loans on the in-game map. Complete the counter and safe objectives, then verify the bright green icon."
+    ],
+    "confidence": "guide",
+    "precision": "area"
+  },
+  {
+    "id": "guide-loan-payday-loans-store-southside",
+    "title": "Payday Loans Store · Southside",
+    "category": "heist",
+    "subcategory": "Payday loans",
+    "region": "Southside",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-payday-loans-jobs-locations/",
+    "sourceLabel": "PowerPyx",
+    "details": "Reported in-game take of GTA$5,000–15,000 from this Chapter 3 payday loan job.",
+    "steps": [
+      "Finish Credit Check and explore the area until the green hand icon appears.",
+      "Use Robberies → Payday Loans on the in-game map. Complete the counter and safe objectives, then verify the bright green icon."
+    ],
+    "confidence": "guide",
+    "precision": "area"
+  },
+  {
+    "id": "guide-loan-payday-loans-store-little-cuba",
+    "title": "Payday Loans Store · Little Cuba",
+    "category": "heist",
+    "subcategory": "Payday loans",
+    "region": "Little Cuba",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-payday-loans-jobs-locations/",
+    "sourceLabel": "PowerPyx",
+    "details": "Reported in-game take of GTA$15,000–25,000 from this Chapter 3 payday loan job.",
+    "steps": [
+      "Finish Credit Check and explore the area until the green hand icon appears.",
+      "Use Robberies → Payday Loans on the in-game map. Complete the counter and safe objectives, then verify the bright green icon."
+    ],
+    "confidence": "guide",
+    "precision": "area"
+  },
+  {
+    "id": "guide-loan-payday-loans-store-rockridge",
+    "title": "Payday Loans Store · Rockridge",
+    "category": "heist",
+    "subcategory": "Payday loans",
+    "region": "Rockridge",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-payday-loans-jobs-locations/",
+    "sourceLabel": "PowerPyx",
+    "details": "Reported in-game take of GTA$5,000–15,000 from this Chapter 3 payday loan job.",
+    "steps": [
+      "Finish Credit Check and explore the area until the green hand icon appears.",
+      "Use Robberies → Payday Loans on the in-game map. Complete the counter and safe objectives, then verify the bright green icon."
+    ],
+    "confidence": "guide",
+    "precision": "area"
+  },
+  {
+    "id": "guide-loan-quick-buck-la-perle",
+    "title": "Quick Buck · La Perle",
+    "category": "heist",
+    "subcategory": "Payday loans",
+    "region": "La Perle",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-payday-loans-jobs-locations/",
+    "sourceLabel": "PowerPyx",
+    "details": "Reported in-game take of GTA$5,000–15,000 from this Chapter 3 payday loan job.",
+    "steps": [
+      "Finish Credit Check and explore the area until the green hand icon appears.",
+      "Use Robberies → Payday Loans on the in-game map. Complete the counter and safe objectives, then verify the bright green icon."
+    ],
+    "confidence": "guide",
+    "precision": "area"
+  },
+  {
+    "id": "guide-loan-cash-flow-kelly-county",
+    "title": "Cash Flow · Kelly County",
+    "category": "heist",
+    "subcategory": "Payday loans",
+    "region": "Kelly County",
+    "x": null,
+    "y": null,
+    "source": "https://www.powerpyx.com/gta-6-all-payday-loans-jobs-locations/",
+    "sourceLabel": "PowerPyx",
+    "details": "Reported in-game take of GTA$2,000–10,000 from this Chapter 3 payday loan job.",
+    "steps": [
+      "Finish Credit Check and explore the area until the green hand icon appears.",
+      "Use Robberies → Payday Loans on the in-game map. Complete the counter and safe objectives, then verify the bright green icon."
+    ],
+    "confidence": "guide",
+    "precision": "area"
+  },
+  {
+    "id": "guide-pool-rusty-anchor",
+    "title": "Pool · The Rusty Anchor",
+    "category": "leisure",
+    "subcategory": "Pool",
+    "region": "Key Lento",
+    "x": 0.57641999,
+    "y": 0.80966864,
+    "source": "https://www.powerpyx.com/gta-6-all-pool-opponent-locations/",
+    "sourceLabel": "PowerPyx",
+    "details": "Challenge the pool opponent at The Rusty Anchor in Key Lento. A win against a distinct opponent counts toward the five needed for 100% completion.",
+    "steps": [
+      "Enter the bar and find the table used during Chapter 1.",
+      "Challenge the opponent if present. If the table is unattended, revisit later."
+    ],
+    "confidence": "guide",
+    "landmarkId": "gtadb-L325",
+    "precision": "venue",
+    "landmark": "The Rusty Anchor",
+    "locationSource": "https://map.gtadb.org/#VI,L325",
+    "evidenceNote": "PowerPyx identifies the bar and story table. GTADB supplies the bar coordinate."
+  },
+  {
+    "id": "guide-pool-delights",
+    "title": "Pool · Delights Cabaret",
+    "category": "leisure",
+    "subcategory": "Pool",
+    "region": "Interstate 404, Port Gellhorn",
+    "x": 0.2806597,
+    "y": 0.35491098,
+    "source": "https://www.powerpyx.com/gta-6-all-pool-opponent-locations/",
+    "sourceLabel": "PowerPyx",
+    "details": "Delights in Port Gellhorn has a pool opponent. If the club has closed after Chapter 2, return when it reopens later in the story.",
+    "steps": [
+      "Enter Delights when it is open.",
+      "Look for the pool table near the middle of the club and challenge the opponent."
+    ],
+    "confidence": "guide",
+    "landmarkId": "gtadb-L629",
+    "precision": "venue",
+    "landmark": "Delights",
+    "locationSource": "https://map.gtadb.org/#VI,L629",
+    "evidenceNote": "PowerPyx identifies the club and pool table. The linked GTADB venue coordinate is marked unconfirmed by GTADB."
+  },
+  {
+    "id": "guide-pool-jacobs-tavern",
+    "title": "Pool · Jacob’s Tavern",
+    "category": "leisure",
+    "subcategory": "Pool",
+    "region": "Millport",
+    "x": 0.66410333,
+    "y": 0.20592,
+    "source": "https://www.powerpyx.com/gta-6-all-pool-opponent-locations/",
+    "sourceLabel": "PowerPyx",
+    "details": "The pool table is on the north side of Jacob’s Tavern in eastern Millport.",
+    "steps": [
+      "Find Jacob’s Tavern near the Millport Pay ’n’ Spray.",
+      "Go to the north side of the tavern and challenge the pool opponent."
+    ],
+    "confidence": "guide",
+    "landmarkId": "gtadb-L3398",
+    "precision": "venue",
+    "landmark": "Jacob's Tavern Bar",
+    "locationSource": "https://map.gtadb.org/#VI,L3398",
+    "evidenceNote": "PowerPyx identifies the tavern and table. GTADB supplies the tavern coordinate and spells the town Millport."
+  },
+  {
+    "id": "guide-golf-leaf-links",
+    "title": "Golf · Leaf Links Golf Challenge",
+    "category": "leisure",
+    "subcategory": "Golf",
+    "region": "Vice-Dale County",
+    "x": 0.78253935,
+    "y": 0.41166051,
+    "source": "https://www.powerpyx.com/gta-6-all-golf-course-locations/",
+    "sourceLabel": "PowerPyx",
+    "details": "Play the regular golf challenge at Leaf Links. The 100% checklist's two-course requirement applies to mini golf.",
+    "steps": [
+      "Head to the Leaf Links Golf Club grounds.",
+      "Find the Leaf Links Golf Challenge on the in-game map. Check your result under Activities → Sports in the Progress menu."
+    ],
+    "confidence": "guide",
+    "landmarkId": "gtadb-L533",
+    "precision": "venue",
+    "landmark": "Leaf Links Golf Club",
+    "locationSource": "https://map.gtadb.org/#VI,L533",
+    "evidenceNote": "PowerPyx places the challenge at Leaf Links. GTADB supplies the golf club location. Pin covers the club grounds."
+  },
+  {
+    "id": "guide-fitness-ajax-gym",
+    "title": "Fitness · Ajax Gym",
+    "category": "leisure",
+    "subcategory": "Fitness",
+    "region": "SW 4th St, Vice Beach",
+    "x": 0.84347381,
+    "y": 0.44869881,
+    "source": "https://www.powerpyx.com/gta-6-all-gym-locations-fitness-centers/",
+    "sourceLabel": "PowerPyx",
+    "details": "Ajax Gym in Vice Beach offers strength and cardio workouts with a one-time in-game membership.",
+    "steps": [
+      "Find Ajax Gym on SW 4th St in Vice Beach.",
+      "Join the gym if needed and choose an exercise from the equipment prompts."
+    ],
+    "confidence": "guide",
+    "landmarkId": "gtadb-L1869",
+    "precision": "venue",
+    "landmark": "Ajax Gym",
+    "locationSource": "https://map.gtadb.org/#VI,L1869",
+    "evidenceNote": "PowerPyx lists Ajax Gym and GTADB supplies the named gym coordinate."
+  },
+  {
+    "id": "guide-fitness-muscle-sands",
+    "title": "Fitness · Muscle Sands",
+    "category": "leisure",
+    "subcategory": "Fitness",
+    "region": "Ocean Beach, Vice Beach",
+    "x": 0.88698497,
+    "y": 0.51952587,
+    "source": "https://www.powerpyx.com/gta-6-all-gym-locations-fitness-centers/",
+    "sourceLabel": "PowerPyx",
+    "details": "Muscle Sands is a free workout venue at Ocean Beach in Vice Beach.",
+    "steps": [
+      "Find Muscle Sands at Ocean Beach.",
+      "Use the workout equipment available at the venue."
+    ],
+    "confidence": "guide",
+    "landmarkId": "gtadb-L1015",
+    "precision": "venue",
+    "landmark": "Muscle Sands",
+    "locationSource": "https://map.gtadb.org/#VI,L1015",
+    "evidenceNote": "PowerPyx lists Muscle Sands as a free gym and GTADB supplies the named venue coordinate."
+  },
+  {
+    "id": "guide-fitness-grand-majestic",
+    "title": "Fitness · Grand Majestic Gym",
+    "category": "leisure",
+    "subcategory": "Fitness",
+    "region": "Tequesta, Vice City",
+    "x": 0.66368585,
+    "y": 0.6071791,
+    "source": "https://www.powerpyx.com/gta-6-all-gym-locations-fitness-centers/",
+    "sourceLabel": "PowerPyx",
+    "details": "The Grand Majestic in Tequesta has a gym with a one-time in-game membership.",
+    "steps": [
+      "Travel to the Grand Majestic in Tequesta.",
+      "Use the in-game Fitness → Gyms map filter to locate the gym at the property."
+    ],
+    "confidence": "guide",
+    "landmarkId": "gtadb-L240",
+    "precision": "venue",
+    "landmark": "Grand Majestic",
+    "locationSource": "https://map.gtadb.org/#VI,L240",
+    "evidenceNote": "PowerPyx lists the gym. GTADB supplies the Grand Majestic property coordinate, with entry-level precision unresolved."
+  },
+  {
+    "id": "guide-arcade-jasons-house",
+    "title": "Arcade · Jason’s home console",
+    "category": "leisure",
+    "subcategory": "Arcade",
+    "region": "Key Lento",
+    "x": 0.5704911,
+    "y": 0.82382067,
+    "source": "https://www.powerpyx.com/gta-6-all-video-game-locations/",
+    "sourceLabel": "PowerPyx",
+    "details": "In Chapter 1, the home JoySystem plays Tenebrae Lux, Street Trash III and Time Jackers Rewind. Later home consoles are at different story locations.",
+    "steps": [
+      "In Chapter 1, use the controller by the TV at Jason’s house in Key Lento.",
+      "Select one of the three available games. Each game launch can count toward the completion checklist."
+    ],
+    "confidence": "guide",
+    "landmarkId": "gtadb-L266",
+    "precision": "venue",
+    "landmark": "Jason's House",
+    "locationSource": "https://map.gtadb.org/#VI,L266",
+    "evidenceNote": "PowerPyx's video game guide identifies the home console library. Its Feng Shui walkthrough places the Chapter 1 console at Jason’s house in Key Lento. GTADB supplies the house coordinate."
+  }
+]

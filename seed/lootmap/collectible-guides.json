@@ -1,0 +1,306 @@
+[
+  {
+    "id": "guide-meditation-jasons-house",
+    "title": "Jason’s House meditation",
+    "category": "collectible",
+    "region": "Key Lento, Mariana County",
+    "x": 0.5704911,
+    "y": 0.82382067,
+    "source": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+    "sourceLabel": "PowerPyx",
+    "confidence": "guide",
+    "precision": "venue",
+    "landmark": "Jason's House",
+    "landmarkId": "gtadb-L266",
+    "locationSource": "https://map.gtadb.org/#VI,L266",
+    "details": "Chapter 1 only. Lucia can offer a meditation lesson at Jason’s house. It adds one to the meditation counter. Its requirement for the Positive Mental Attitude trophy is still unconfirmed.",
+    "steps": [
+      "During Chapter 1, speak with Lucia in the kitchen when the optional interaction becomes available.",
+      "Follow her to the balcony and accept the meditation lesson before leaving Chapter 1."
+    ],
+    "evidenceNote": "The guide shows the lesson on the balcony. The pin uses the named house venue from GTADB.",
+    "collectibleSet": "Meditations",
+    "collectibleIndex": 1,
+    "setSize": 10,
+    "meditations": 1
+  },
+  {
+    "id": "guide-meditation-smooth-sand",
+    "title": "Smooth Sand meditation",
+    "category": "collectible",
+    "region": "Capri, Mariana County",
+    "x": 0.11217374,
+    "y": 0.48243115,
+    "source": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+    "sourceLabel": "PowerPyx",
+    "details": "Use the spot once as Jason and once as Lucia. Character switching becomes available after Coffee Break in Chapter 2.",
+    "steps": [
+      "Cross to the sandbar off the west side of Capri.",
+      "Look for the mat on the sand."
+    ],
+    "confidence": "guide",
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/wp-content/uploads/gta-6-meditation-spot-1-1.jpg",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-meditation-spot-1-1.jpg",
+    "sourceMarkerPixel": [
+      948,
+      549.5
+    ],
+    "sourceImageSha256": "9fbe702b997ad0099bcf01b566bd6fd44d32c2ba9644f03bcf427a7ddde5b2eb",
+    "registrationInliers": 330,
+    "registrationP90Pixels": 3.04,
+    "evidenceNote": "The selected game map marker aligns to the atlas using 330 inliers. The held-out p90 residual is 3.04 atlas pixels. Use the in-game prompt for the exact interaction.",
+    "collectibleSet": "Meditations",
+    "collectibleIndex": 2,
+    "setSize": 10,
+    "meditations": 2
+  },
+  {
+    "id": "guide-meditation-swamp",
+    "title": "Swamp meditation",
+    "category": "collectible",
+    "region": "Buckskin Swamp, Kelly County",
+    "x": 0.46534726,
+    "y": 0.45395609,
+    "source": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+    "sourceLabel": "PowerPyx",
+    "details": "Use the spot once as Jason and once as Lucia. Character switching becomes available after Coffee Break in Chapter 2.",
+    "steps": [
+      "Find the lookout tower in Buckskin Swamp.",
+      "Go to the nearby wooden dock for the meditation."
+    ],
+    "confidence": "guide",
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/wp-content/uploads/gta-6-meditation-spot-2-1.jpg",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-meditation-spot-2-1.jpg",
+    "sourceMarkerPixel": [
+      952.5,
+      555
+    ],
+    "sourceImageSha256": "cf966819b3f08b783d2dcecf010018a87d895309bff9ac695a7cc8edc61a7d86",
+    "registrationInliers": 741,
+    "registrationP90Pixels": 1.96,
+    "evidenceNote": "The selected game map marker aligns to the atlas using 741 inliers. The held-out p90 residual is 1.96 atlas pixels. Use the in-game prompt for the exact interaction.",
+    "collectibleSet": "Meditations",
+    "collectibleIndex": 3,
+    "setSize": 10,
+    "meditations": 2
+  },
+  {
+    "id": "guide-meditation-worn-stone",
+    "title": "Worn Stone meditation",
+    "category": "collectible",
+    "region": "Camp Moonflower, Kelly County",
+    "x": 0.4259842,
+    "y": 0.43675943,
+    "source": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+    "sourceLabel": "PowerPyx",
+    "details": "Use the spot once as Jason and once as Lucia. Character switching becomes available after Coffee Break in Chapter 2.",
+    "steps": [
+      "Go to Camp Moonflower on the Emerald River.",
+      "Look for the riverside deck shown in the guide."
+    ],
+    "confidence": "guide",
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/wp-content/uploads/gta-6-meditation-spot-3-1.jpg",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-meditation-spot-3-1.jpg",
+    "sourceMarkerPixel": [
+      960,
+      536
+    ],
+    "sourceImageSha256": "b6cfff38ebc1703c6ce96e78c9654cfd4d89c31a777a2f978ddb44133c8f493a",
+    "registrationInliers": 737,
+    "registrationP90Pixels": 2.1,
+    "evidenceNote": "The selected game map marker aligns to the atlas using 737 inliers. The held-out p90 residual is 2.10 atlas pixels. Use the in-game prompt for the exact interaction.",
+    "collectibleSet": "Meditations",
+    "collectibleIndex": 4,
+    "setSize": 10,
+    "meditations": 2
+  },
+  {
+    "id": "guide-meditation-red-rocks",
+    "title": "Red Rocks meditation",
+    "category": "collectible",
+    "region": "Manifest Canyon, Kelly County",
+    "x": 0.36649254,
+    "y": 0.27624689,
+    "source": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+    "sourceLabel": "PowerPyx",
+    "details": "Use the spot once as Jason and once as Lucia. Character switching becomes available after Coffee Break in Chapter 2.",
+    "steps": [
+      "Look where the railway crosses the highway in Manifest Canyon.",
+      "Find the ring of stones near the crossing."
+    ],
+    "confidence": "guide",
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/wp-content/uploads/gta-6-meditation-spot-4-1.jpg",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-meditation-spot-4-1.jpg",
+    "sourceMarkerPixel": [
+      971,
+      549
+    ],
+    "sourceImageSha256": "8e803c7d07e3ade46a1b234c6f65531a10cb523a5c91150645b8253a362ac4bb",
+    "registrationInliers": 545,
+    "registrationP90Pixels": 3.24,
+    "evidenceNote": "The selected game map marker aligns to the atlas using 545 inliers. The held-out p90 residual is 3.24 atlas pixels. Use the in-game prompt for the exact interaction.",
+    "collectibleSet": "Meditations",
+    "collectibleIndex": 5,
+    "setSize": 10,
+    "meditations": 2
+  },
+  {
+    "id": "guide-meditation-water-wheel",
+    "title": "Water Wheel meditation",
+    "category": "collectible",
+    "region": "Moreau, Lummox County",
+    "x": 0.44763908,
+    "y": 0.15777016,
+    "source": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+    "sourceLabel": "PowerPyx",
+    "details": "Use the spot once as Jason and once as Lucia. Character switching becomes available after Coffee Break in Chapter 2.",
+    "steps": [
+      "Find the ruined paper mill on the river in southern Moreau.",
+      "Look for the meditation by the waterwheel."
+    ],
+    "confidence": "guide",
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/wp-content/uploads/gta-6-meditation-spot-7-1.jpg",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-meditation-spot-7-1.jpg",
+    "sourceMarkerPixel": [
+      955.5,
+      551.5
+    ],
+    "sourceImageSha256": "7871fc27eef892948ac609b9a82c942551e2dd41934ad4ac9fecb3c88fdb3139",
+    "registrationInliers": 323,
+    "registrationP90Pixels": 3.98,
+    "evidenceNote": "The selected game map marker aligns to the atlas using 323 inliers. The held-out p90 residual is 3.98 atlas pixels. Use the in-game prompt for the exact interaction.",
+    "collectibleSet": "Meditations",
+    "collectibleIndex": 6,
+    "setSize": 10,
+    "meditations": 2
+  },
+  {
+    "id": "guide-meditation-jutting-cliff",
+    "title": "Jutting Cliff meditation",
+    "category": "collectible",
+    "region": "Mount Kalaga National Park, Lummox County",
+    "x": 0.51924477,
+    "y": 0.17127454,
+    "source": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+    "sourceLabel": "PowerPyx",
+    "details": "Use the spot once as Jason and once as Lucia. Character switching becomes available after Coffee Break in Chapter 2.",
+    "steps": [
+      "Find the tower above the mine in Mount Kalaga National Park.",
+      "Look for the cliffside prompt near the tower."
+    ],
+    "confidence": "guide",
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/wp-content/uploads/gta-6-meditation-spot-5-1.jpg",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-meditation-spot-5-1.jpg",
+    "sourceMarkerPixel": [
+      962,
+      548
+    ],
+    "sourceImageSha256": "853d8b877de04289d3879795418b8eefd60d7a4c903ff1c3d46175714da8e267",
+    "registrationInliers": 351,
+    "registrationP90Pixels": 4.11,
+    "evidenceNote": "The selected game map marker aligns to the atlas using 351 inliers. The held-out p90 residual is 4.11 atlas pixels. Use the in-game prompt for the exact interaction.",
+    "collectibleSet": "Meditations",
+    "collectibleIndex": 7,
+    "setSize": 10,
+    "meditations": 2
+  },
+  {
+    "id": "guide-meditation-waterfall",
+    "title": "Waterfall meditation",
+    "category": "collectible",
+    "region": "Tallaloko, Lummox County",
+    "x": 0.5763068,
+    "y": 0.14581443,
+    "source": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+    "sourceLabel": "PowerPyx",
+    "details": "Use the spot once as Jason and once as Lucia. Character switching becomes available after Coffee Break in Chapter 2.",
+    "steps": [
+      "Head northwest of Tallaloko to the east-flowing river.",
+      "Look for the meditation spot overlooking the waterfall."
+    ],
+    "confidence": "guide",
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/wp-content/uploads/gta-6-meditation-spot-6-1.jpg",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-meditation-spot-6-1.jpg",
+    "sourceMarkerPixel": [
+      960.5,
+      535.5
+    ],
+    "sourceImageSha256": "d3f9bbad35af3a3bf0b8070d1d8acc7a7005105a67d5a8d20902a2da2c887ed2",
+    "registrationInliers": 343,
+    "registrationP90Pixels": 4.93,
+    "evidenceNote": "The selected game map marker aligns to the atlas using 343 inliers. The held-out p90 residual is 4.93 atlas pixels. Use the in-game prompt for the exact interaction.",
+    "collectibleSet": "Meditations",
+    "collectibleIndex": 8,
+    "setSize": 10,
+    "meditations": 2
+  },
+  {
+    "id": "guide-meditation-seaside",
+    "title": "Seaside meditation",
+    "category": "collectible",
+    "region": "Waning Sands, Leonard County",
+    "x": 0.77044122,
+    "y": 0.28710402,
+    "source": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+    "sourceLabel": "PowerPyx",
+    "details": "Use the spot once as Jason and once as Lucia. Character switching becomes available after Coffee Break in Chapter 2.",
+    "steps": [
+      "Head east from Waning Sands to the shoreline.",
+      "Look for the prompt on the rocky point by the beach."
+    ],
+    "confidence": "guide",
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/wp-content/uploads/gta-6-meditation-spot-8-1.jpg",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-meditation-spot-8-1.jpg",
+    "sourceMarkerPixel": [
+      959.5,
+      550
+    ],
+    "sourceImageSha256": "50d48511d7d2381f5d596301c18dacfdf179d79b3c01e176d687038f6c1d3fb4",
+    "registrationInliers": 493,
+    "registrationP90Pixels": 4.27,
+    "evidenceNote": "The selected game map marker aligns to the atlas using 493 inliers. The held-out p90 residual is 4.27 atlas pixels. Use the in-game prompt for the exact interaction.",
+    "collectibleSet": "Meditations",
+    "collectibleIndex": 9,
+    "setSize": 10,
+    "meditations": 2
+  },
+  {
+    "id": "guide-mount-kalaga-meditation",
+    "title": "Ascent Mountain meditation",
+    "category": "collectible",
+    "region": "Mount Kalaga, Lummox County",
+    "x": 0.49436174,
+    "y": 0.21368322,
+    "source": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+    "sourceLabel": "PowerPyx",
+    "details": "The final marker unlocks after the other meditations. Check Collections for the last entry.",
+    "steps": [
+      "Complete the preceding meditations and watch for a new purple map icon.",
+      "Use the stone circle at the summit of Mount Kalaga."
+    ],
+    "confidence": "guide",
+    "precision": "map-marker",
+    "locationSource": "https://www.powerpyx.com/wp-content/uploads/gta-6-meditation-spot-9-1.jpg",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-meditation-spot-9-1.jpg",
+    "sourceMarkerPixel": [
+      954.5,
+      546.5
+    ],
+    "sourceImageSha256": "a26a5cd560ae3f038501baed870484b6a097f855088b605ca4c98840e95f8642",
+    "registrationInliers": 458,
+    "registrationP90Pixels": 3.11,
+    "evidenceNote": "The selected game map marker aligns to the atlas using 458 inliers. The held-out p90 residual is 3.11 atlas pixels. Use the in-game prompt for the exact interaction.",
+    "collectibleSet": "Meditations",
+    "collectibleIndex": 10,
+    "setSize": 10,
+    "meditations": 1
+  }
+]

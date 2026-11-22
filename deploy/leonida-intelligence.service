@@ -1,0 +1,26 @@
+# systemd unit for running Leonida Intelligence on a Linux home server (bare metal).
+# Install:
+#   sudo cp deploy/leonida-intelligence.service /etc/systemd/system/
+#   sudo systemctl edit leonida-intelligence   # set User= and WorkingDirectory= if different
+#   sudo systemctl daemon-reload && sudo systemctl enable --now leonida-intelligence
+[Unit]
+Description=Leonida Intelligence (personal GTA VI map companion)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=leonida
+WorkingDirectory=/opt/leonida-intelligence
+ExecStart=/usr/bin/env node --disable-warning=ExperimentalWarning server/main.ts
+Restart=always
+RestartSec=5
+Environment=NODE_ENV=production
+# Hardening
+NoNewPrivileges=true
+ProtectSystem=strict
+ReadWritePaths=/opt/leonida-intelligence/data
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

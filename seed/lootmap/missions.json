@@ -1,0 +1,3254 @@
+[
+  {
+    "id": "mission-prologue",
+    "title": "Prologue",
+    "chapter": 0,
+    "kind": "story",
+    "character": "Lucia",
+    "area": "Hamlet Prison",
+    "contact": "Lucia",
+    "prerequisite": "Start a new story.",
+    "steps": [
+      "Use Lucia’s conversation prompt in the cell, then accompany the guard.",
+      "Play through the flashback until control returns to the story."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-prologue-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startVenue": "Hamlet Prison",
+    "startMode": "automatic"
+  },
+  {
+    "id": "mission-gone-fishing",
+    "title": "Gone Fishing",
+    "chapter": 1,
+    "kind": "story",
+    "character": "Jason",
+    "area": "Mariana County",
+    "contact": "Cal",
+    "prerequisite": "After Prologue.",
+    "steps": [
+      "Collect the marked packages along the plane’s route.",
+      "Locate Donnie at the camp, then take the seaplane back to Brian’s Marina."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-gone-fishing-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startMode": "automatic"
+  },
+  {
+    "id": "mission-gear-up",
+    "title": "Gear Up",
+    "chapter": 1,
+    "kind": "story",
+    "character": "Jason",
+    "area": "Mariana County · Key Lento",
+    "contact": "Jason",
+    "prerequisite": "After Gone Fishing.",
+    "steps": [
+      "Speak with Andrew inside the weapon shop. Choose a longarm in the shop menu to finish Jason’s equipment errand."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-gear-up-pick-up-another-gun-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Pick Up Another Gun",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-gear-up-1.jpg"
+  },
+  {
+    "id": "mission-lab-fees",
+    "title": "Lab Fees",
+    "chapter": 1,
+    "kind": "story",
+    "character": "Jason",
+    "area": "Mariana County · Key Lento",
+    "contact": "Jason",
+    "prerequisite": "After Gone Fishing.",
+    "steps": [
+      "Find the clerk and complete the package pickup in the back room.",
+      "Use Jason’s phone to contact Brian and finish the delivery at his lockup."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-lab-fees-collect-brians-rent-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Collect Brian’s Rent",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-lab-fees-1.jpg",
+    "guideId": "guide-duffel-bag"
+  },
+  {
+    "id": "mission-just-a-scratch",
+    "title": "Just a Scratch",
+    "chapter": 1,
+    "kind": "story",
+    "character": "Jason",
+    "area": "Mariana County · Key Lento",
+    "contact": "Jason",
+    "prerequisite": "After Gone Fishing.",
+    "steps": [
+      "Bring Jason’s Ganado to Joey at Coastal Auto Care.",
+      "Select the engine repair and a paint finish in the garage menu."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-just-a-scratch-fix-your-car-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Fix Your Car",
+    "startVenue": "Coastal Auto Care",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-just-a-scratch-1.jpg"
+  },
+  {
+    "id": "mission-unwanted-attention",
+    "title": "Unwanted Attention",
+    "chapter": 1,
+    "kind": "story",
+    "character": "Jason",
+    "area": "Mariana County · Key Lento",
+    "contact": "Cal",
+    "prerequisite": "After Gone Fishing.",
+    "steps": [
+      "Accompany Cal to Hamlet’s impound and look for the Imponte Phoenix.",
+      "Complete the vehicle markers and return to Brian’s garage for the payment."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-unwanted-attention-go-see-cal-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Go See Cal",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-unwanted-attention-1.jpg"
+  },
+  {
+    "id": "mission-pipework",
+    "title": "Pipework",
+    "chapter": 1,
+    "kind": "story",
+    "character": "Jason",
+    "area": "Mariana County · Key Lento",
+    "contact": "Brian, Mandy",
+    "prerequisite": "After Gear Up, Lab Fees, Just a Scratch, Unwanted Attention.",
+    "steps": [
+      "Visit Mandy for the rent. At the sink, collect the plunger and complete the repair prompt."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-pipework-collect-mandys-rent-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Collect Mandy’s Rent",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-pipework-1.jpg"
+  },
+  {
+    "id": "mission-get-shirleys-rum",
+    "title": "Get Shirley’s Rum",
+    "chapter": 1,
+    "kind": "stranger",
+    "character": "Jason",
+    "area": "Mariana County · Key Lento",
+    "contact": "Shirley",
+    "prerequisite": "After Gear Up, Lab Fees, Just a Scratch, Unwanted Attention.",
+    "steps": [
+      "Ask the shop clerk about Shirley’s order and bring it home before Tourist Trap closes this errand."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-get-shirleys-rum-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-get-shirleys-rum-4.jpg",
+    "strand": "Shirley",
+    "strandStartChapter": 1,
+    "notes": "Time-sensitive. Make a separate save before advancing the story."
+  },
+  {
+    "id": "mission-steal-the-scooter",
+    "title": "Steal the Scooter",
+    "chapter": 1,
+    "kind": "stranger",
+    "character": "Jason",
+    "area": "Mariana County · Key Lento",
+    "contact": "Shirley",
+    "prerequisite": "After Get Shirley’s Rum.",
+    "steps": [
+      "Return the marked scooter to Shirley and park it inside her house. Finish this before starting Tourist Trap."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-steal-the-scooter-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-get-shirleys-rum-4.jpg",
+    "strand": "Shirley",
+    "strandStartChapter": 1,
+    "notes": "Time-sensitive. Make a separate save before advancing the story."
+  },
+  {
+    "id": "mission-hey-arnold",
+    "title": "Hey Arnold!",
+    "chapter": 1,
+    "kind": "story",
+    "character": "Jason",
+    "area": "Mariana County · Key Lento",
+    "contact": "Brian",
+    "prerequisite": "After Pipework.",
+    "steps": [
+      "Follow Brian’s lead to the liquor shop, then continue to the radar station.",
+      "The last encounter offers a choice about Arnold’s fate."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-hey-arnold-meet-brian-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Meet Brian",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-hey-arnold-1.jpg"
+  },
+  {
+    "id": "mission-island-dreams",
+    "title": "Island Dreams",
+    "chapter": 1,
+    "kind": "story",
+    "character": "Jason",
+    "area": "Mariana County · Key Lento",
+    "contact": "Kenton Rees",
+    "prerequisite": "After Hey Arnold!.",
+    "steps": [
+      "Equip the dive gear and keep the group together through the trench.",
+      "At the wreck, follow the treasure signal and finish the rescue."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-island-dreams-work-for-kenton-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Work for Kenton",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-island-dreams-1.jpg"
+  },
+  {
+    "id": "mission-feng-shui",
+    "title": "Feng Shui",
+    "chapter": 1,
+    "kind": "story",
+    "character": "Jason",
+    "area": "Mariana County · Key Lento · Jason’s House",
+    "contact": "Cal (via phone message)",
+    "prerequisite": "After Island Dreams.",
+    "steps": [
+      "Sit down with Cal, then use the prompts to rearrange the furniture.",
+      "Try both games on the new setup."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-feng-shui-meet-cal-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Meet Cal",
+    "startVenue": "Jason’s House",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-feng-shui-1.jpg"
+  },
+  {
+    "id": "mission-pick-up-groceries-drop-off-groceries",
+    "title": "Pick up Groceries & Drop Off Groceries",
+    "chapter": 1,
+    "kind": "optional",
+    "character": "Jason",
+    "area": "Mariana County · Key Lento",
+    "contact": "Lucia",
+    "prerequisite": "After Feng Shui.",
+    "steps": [
+      "Purchase the groceries requested on Jason’s shopping list and return them to the house."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-pick-up-groceries-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-pick-up-groceries-1.jpg"
+  },
+  {
+    "id": "mission-buy-flowers",
+    "title": "Buy Flowers",
+    "chapter": 1,
+    "kind": "optional",
+    "character": "Jason",
+    "area": "Mariana County · Key Lento",
+    "contact": "Lucia",
+    "prerequisite": "After Feng Shui.",
+    "steps": [
+      "Place a flower order for delivery to Lucia at home."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-buy-flowers-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-buy-flowers-1.jpg"
+  },
+  {
+    "id": "mission-buy-lucia-a-necklace",
+    "title": "Buy Lucia a Necklace",
+    "chapter": 1,
+    "kind": "optional",
+    "character": "Jason",
+    "area": "Mariana County · Key Lento",
+    "contact": "Lucia",
+    "prerequisite": "After Feng Shui.",
+    "steps": [
+      "Visit The Siren’s Chest and choose a necklace for Lucia from its shop menu."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-buy-lucia-a-necklace-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startVenue": "The Siren’s Chest",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-buy-lucia-a-necklace-1.jpg"
+  },
+  {
+    "id": "mission-get-the-chop",
+    "title": "Get The Chop",
+    "chapter": 1,
+    "kind": "optional",
+    "character": "Jason",
+    "area": "Mariana County · Key Lento",
+    "contact": "Lucia",
+    "prerequisite": "After Feng Shui.",
+    "steps": [
+      "Visit Barnacle Beauties and confirm a haircut or beard change in the styling menu."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-get-the-chop-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startVenue": "Barnacle Beauties",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-get-the-chop-1.jpg"
+  },
+  {
+    "id": "mission-get-lucias-clothes",
+    "title": "Get Lucia’s Clothes",
+    "chapter": 1,
+    "kind": "optional",
+    "character": "Jason",
+    "area": "Mariana County · Key Lento",
+    "contact": "Lucia",
+    "prerequisite": "After Feng Shui.",
+    "steps": [
+      "Find Andy at the Manatee’s Rest bar. Walk with her and collect Lucia’s belongings."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-get-lucias-clothes-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startVenue": "Manatee’s Rest",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-get-lucias-clothes-1.jpg"
+  },
+  {
+    "id": "mission-coming-home",
+    "title": "Coming Home",
+    "chapter": 1,
+    "kind": "story",
+    "character": "Jason",
+    "area": "Vice Dale County · Hamlet",
+    "contact": "Lucia",
+    "prerequisite": "After Feng Shui.",
+    "steps": [
+      "Finish any homecoming errands you want to keep, then wait for the release call.",
+      "Collect Lucia from Hamlet Correctional."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-coming-home-lucias-release-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Lucia’s Release",
+    "startVenue": "Hamlet Correctional"
+  },
+  {
+    "id": "mission-clean-up-after-donnie",
+    "title": "Clean Up After Donnie",
+    "chapter": 1,
+    "kind": "story",
+    "character": "Jason",
+    "area": "Vice Dale County · Hamlet",
+    "contact": "Donnie (via phone call)",
+    "prerequisite": "After Coming Home.",
+    "steps": [
+      "Check the marked fishing spot in Hamlet for Donnie’s missing package.",
+      "Inspect what Jason finds and follow the delivery marker to Donnie’s trailer."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-clean-up-after-donnie-donnies-drop-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Donnie’s Drop",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-clean-up-after-donnie-1.jpg"
+  },
+  {
+    "id": "mission-buck-me",
+    "title": "Buck Me",
+    "chapter": 1,
+    "kind": "story",
+    "character": "Jason",
+    "area": "Mariana County · Key Lento",
+    "contact": "Lucia (via phone call)",
+    "prerequisite": "After Coming Home.",
+    "steps": [
+      "Meet Lucia at the bank and talk to the manager.",
+      "Open BuckMe on the in-game phone and make the requested family savings transfer."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-buck-me-set-up-bank-account-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Set Up Bank Account",
+    "startVenue": "Fleeca Bank, Key Lento",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-buck-me-1.jpg"
+  },
+  {
+    "id": "mission-down-to-earth",
+    "title": "Down to Earth",
+    "chapter": 1,
+    "kind": "story",
+    "character": "Jason",
+    "area": "Mariana County · Key Lento",
+    "contact": "Brian",
+    "prerequisite": "After Clean Up After Donnie, Buck Me.",
+    "steps": [
+      "Meet Brian at the marina and clean the boat with the prompted tool.",
+      "Take the aircraft to Bobcat Bay and complete the marked water landings."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-down-to-earth-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Meet Brian",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-down-to-earth-1.jpg"
+  },
+  {
+    "id": "mission-deposit-cash-into-buckme",
+    "title": "Deposit Cash Into BuckMe",
+    "chapter": 1,
+    "kind": "story",
+    "character": "Jason",
+    "area": "Mariana County · Key Lento",
+    "contact": "BuckMe App (Banking App)",
+    "prerequisite": "After Buck Me.",
+    "steps": [
+      "Use the in-game index or BuckMe to locate an ATM, then deposit cash into checking."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-deposit-cash-into-buckme-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startMode": "remote"
+  },
+  {
+    "id": "mission-save-for-the-future",
+    "title": "Save for the Future",
+    "chapter": 1,
+    "kind": "story",
+    "character": "Jason",
+    "area": "Mariana County · Key Lento",
+    "contact": "BuckMe App (Banking App)",
+    "prerequisite": "After Buck Me.",
+    "steps": [
+      "Open Family Savings in BuckMe and transfer funds from checking. The Gold milestone is $100,000 in savings."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-save-for-the-future-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startMode": "remote"
+  },
+  {
+    "id": "mission-find-the-lost-drugs",
+    "title": "Find the Lost Drugs",
+    "chapter": 1,
+    "kind": "optional",
+    "character": "Jason",
+    "area": "Mariana County",
+    "contact": "Donnie / Brian (via phone call)",
+    "prerequisite": "After Down to Earth.",
+    "steps": [
+      "Follow the four separate search signals. Check the recreation area, burned houses, Pelican Valley and Thorpe Adventures."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-find-the-lost-drugs-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough"
+  },
+  {
+    "id": "mission-day-release",
+    "title": "Day Release",
+    "chapter": 1,
+    "kind": "story",
+    "character": "Jason",
+    "area": "Mariana County · Key Lento",
+    "contact": "Mattia",
+    "prerequisite": "After Down to Earth.",
+    "steps": [
+      "Meet Kat and Mattia at the Rusty Anchor for the boat outing.",
+      "Finish the marked jetski race and follow Mattia during the evening sequence."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-day-release-meet-mattia-kat-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Meet Mattia & Kat",
+    "startVenue": "Rusty Anchor",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-day-release-1.jpg"
+  },
+  {
+    "id": "mission-clock-out",
+    "title": "Clock Out",
+    "chapter": 1,
+    "kind": "optional",
+    "character": "Jason",
+    "area": "Mariana County · Key Lento",
+    "contact": "Lucia",
+    "prerequisite": null,
+    "steps": [
+      "Accept Lucia’s ride request when she calls. Reach her before 4 p.m. on the in-game clock."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-clock-out-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startMode": "remote"
+  },
+  {
+    "id": "mission-clear-skies",
+    "title": "Clear Skies",
+    "chapter": 1,
+    "kind": "story",
+    "character": "Jason",
+    "area": "Mariana County · Southwind",
+    "contact": "Brian (via phone call), then Donnie in person",
+    "prerequisite": "After Down to Earth.",
+    "steps": [
+      "Speak with Brian in Southwind and use the seaplane.",
+      "Meet Pete’s aircraft in the air and follow the escort route to the runway."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-clear-skies-join-donnie-on-a-job-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Join Donnie On A Job",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-clear-skies-1.jpg"
+  },
+  {
+    "id": "mission-building-a-life",
+    "title": "Building a Life",
+    "chapter": 1,
+    "kind": "story",
+    "character": "Jason",
+    "area": "Key Lento",
+    "contact": "Jason/Lucia",
+    "prerequisite": "After Clear Skies.",
+    "steps": [
+      "At home, help Lucia assemble the coffee table and place its glass top when prompted."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-building-a-life-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startVenue": "Jason’s House",
+    "startMode": "automatic"
+  },
+  {
+    "id": "mission-swamped",
+    "title": "Swamped",
+    "chapter": 1,
+    "kind": "story",
+    "character": "Jason",
+    "area": "Mariana County · Key Lento",
+    "contact": "Brian",
+    "prerequisite": "After Day Release, Clear Skies, Building a Life.",
+    "steps": [
+      "Take Brian to the marked camp. Continue through the rescue sequence until you reunite with Lori."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-swamped-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Meet Brian",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-swamped-1.jpg"
+  },
+  {
+    "id": "mission-don-gone",
+    "title": "Don Gone",
+    "chapter": 1,
+    "kind": "story",
+    "character": "Jason",
+    "area": "Mariana County · Key Lento",
+    "contact": "Brian",
+    "prerequisite": "After Swamped.",
+    "steps": [
+      "Find Donnie’s bag at the trailer and pack his belongings.",
+      "Use the mission car for the next sequence as Jason leaves Key Lento."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-don-gone-head-to-donnies-trailer-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Head to Donnie’s Trailer",
+    "startMode": "automatic",
+    "notes": "The task activates after Swamped. Its first activity is at Donnie’s trailer."
+  },
+  {
+    "id": "mission-donnies-lost-drugs",
+    "title": "Donnie’s Lost Drugs",
+    "chapter": 1,
+    "kind": "story",
+    "character": "Jason",
+    "area": "Leonida Straits Ocean in north-east of Mariana County",
+    "contact": "Brian",
+    "prerequisite": "After Swamped.",
+    "steps": [
+      "Dive near Donnie’s sunken boat off Corsair Key and collect the marked underwater item."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-donnies-lost-drugs-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startMode": "automatic"
+  },
+  {
+    "id": "mission-recalibration",
+    "title": "Recalibration",
+    "chapter": 1,
+    "kind": "story",
+    "character": "Jason",
+    "area": "Mariana County · Key Lento · Jason’s House",
+    "contact": "Lucia",
+    "prerequisite": null,
+    "steps": [
+      "Buy something for Cal at the liquor shop, then visit his house.",
+      "Use the boat to reach the fishing marker and bring it back to Cal’s dock."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-recalibration-talk-to-lucia-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Talk to Lucia",
+    "startVenue": "Jason’s House",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-recalibration-1.jpg"
+  },
+  {
+    "id": "mission-tourist-trap",
+    "title": "Tourist Trap",
+    "chapter": 1,
+    "kind": "story",
+    "character": "Jason",
+    "area": "Mariana County · Key Lento",
+    "contact": "Lucia, Mattia",
+    "prerequisite": "After Recalibration.",
+    "steps": [
+      "Check the visitor centre locker for the bag.",
+      "Stay with your partner and complete the escape sequence after collecting it."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-tourist-trap-take-up-mattias-offer-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Take Up Mattia’s Offer",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-tourist-trap-1.jpg"
+  },
+  {
+    "id": "mission-home-sweet-home",
+    "title": "Home Sweet Home",
+    "chapter": 1,
+    "kind": "story",
+    "character": "Lucia",
+    "area": "Mariana County · Key Lento · Jason’s House",
+    "contact": "Lucia",
+    "prerequisite": "After Tourist Trap.",
+    "steps": [
+      "At Jason’s house, pick up his marked personal stash before leaving with Lucia."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-home-sweet-home-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startVenue": "Jason’s House",
+    "startMode": "automatic"
+  },
+  {
+    "id": "mission-discharge-time",
+    "title": "Discharge Time",
+    "chapter": 1,
+    "kind": "story",
+    "character": "Lucia",
+    "area": "Vice City Hospital",
+    "contact": "Lucia",
+    "prerequisite": "After Home Sweet Home.",
+    "steps": [
+      "In Vice City Hospital, go upstairs to Jason’s room.",
+      "Complete the hospital and ambulance sequences to reach the chapter transition."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-discharge-time-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startVenue": "Vice City Hospital",
+    "startMode": "automatic"
+  },
+  {
+    "id": "mission-search-the-dive-sites",
+    "title": "Search the Dive Sites",
+    "chapter": 1,
+    "kind": "side",
+    "character": null,
+    "area": null,
+    "contact": "Kenton",
+    "prerequisite": "Complete Island Dreams.",
+    "steps": [
+      "Use the treasure icons Kenton marks after Island Dreams. Return completed sets at his shop and check his character-progress page for the next set."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "secondarySource": "https://www.powerpyx.com/gta-6-all-contacts/",
+    "strand": "Kenton",
+    "strandStartChapter": 1
+  },
+  {
+    "id": "mission-catch-a-bigger-fish",
+    "title": "Catch a Bigger Fish",
+    "chapter": 1,
+    "kind": "stranger",
+    "character": "Jason",
+    "area": "Mariana County · Gambit Bay",
+    "contact": "Cal",
+    "prerequisite": "After Feng Shui.",
+    "steps": [
+      "Take Cal’s fishing challenge in Gambit Bay. The target is a stoplight parrotfish weighing more than two pounds."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-catch-a-bigger-fish-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-cal-catch-a-bigger-fish-parrotfish-1.jpg",
+    "strand": "Cal",
+    "strandStartChapter": 1
+  },
+  {
+    "id": "mission-search-for-the-skunk-ape",
+    "title": "Search for the Skunk Ape",
+    "chapter": 1,
+    "kind": "stranger",
+    "character": "Jason or Lucia (night)",
+    "area": null,
+    "contact": "Kirk",
+    "prerequisite": null,
+    "steps": [
+      "Read a Skunk Ape flyer and find Kirk near Pelican Valley at night. Check the drone route and inspect the tree during the search."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-search-for-the-skunk-ape-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Skunk Apeology 101",
+    "strand": "Kirk",
+    "strandStartChapter": 1,
+    "notes": "Available at night."
+  },
+  {
+    "id": "mission-search-for-tree-effigies",
+    "title": "Search for Tree Effigies",
+    "chapter": 1,
+    "kind": "stranger",
+    "character": "Jason or Lucia",
+    "area": "Mariana County · Pelican Valley",
+    "contact": "Kirk",
+    "prerequisite": "After Search for the Skunk Ape.",
+    "steps": [
+      "Search Pelican Valley for three carved tree effigies and send Kirk the discoveries."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-search-for-tree-effigies-locations-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-search-for-tree-effigies-start-location-1.jpg",
+    "strand": "Kirk",
+    "strandStartChapter": 1
+  },
+  {
+    "id": "mission-whats-in-the-bag",
+    "title": "What’s in the Bag?",
+    "chapter": 2,
+    "kind": "story",
+    "character": "Lucia",
+    "area": "Kelly County · Starlet Motel",
+    "contact": "Lucia",
+    "prerequisite": "After Discharge Time.",
+    "steps": [
+      "Examine the note in the bag inside the Starlet Motel room."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-whats-in-the-bag-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startVenue": "Starlet Motel",
+    "startMode": "automatic"
+  },
+  {
+    "id": "mission-take-care-of-jason",
+    "title": "Take Care of Jason",
+    "chapter": 2,
+    "kind": "story",
+    "character": "Lucia",
+    "area": "Kelly County · Starlet Motel",
+    "contact": "Jason",
+    "prerequisite": "After What’s in the Bag?.",
+    "steps": [
+      "Return to Jason’s motel room between errands and use the bedside interaction when he needs help."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-take-care-of-jason-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Play Nurse",
+    "startVenue": "Starlet Motel",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-take-care-of-jason-1.jpg",
+    "startMode": "unmarked"
+  },
+  {
+    "id": "mission-overnight-charges",
+    "title": "Overnight Charges",
+    "chapter": 2,
+    "kind": "story",
+    "character": "Lucia",
+    "area": "Kelly County · Starlet Motel",
+    "contact": "Linda",
+    "prerequisite": "After What’s in the Bag?.",
+    "steps": [
+      "At the Starlet Motel desk, ask Linda how much the room costs."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-overnight-charges-see-linda-the-manager-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "See Linda, The Manager",
+    "startVenue": "Starlet Motel",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-overnight-charges-1.jpg"
+  },
+  {
+    "id": "mission-just-moved-in",
+    "title": "Just Moved In",
+    "chapter": 2,
+    "kind": "story",
+    "character": "Lucia",
+    "area": "Kelly County · Starlet Motel",
+    "contact": "Lucia/Jason",
+    "prerequisite": "After What’s in the Bag?.",
+    "steps": [
+      "Visit the nearby Alpha store for supplies requested by the motel objective."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-just-moved-in-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-just-moved-in-1.jpg"
+  },
+  {
+    "id": "mission-girls-trip",
+    "title": "Girl’s Trip",
+    "chapter": 2,
+    "kind": "story",
+    "character": "Lucia",
+    "area": "Kelly County · Starlet Motel",
+    "contact": "Vicki",
+    "prerequisite": "After Overnight Charges, Just Moved In.",
+    "steps": [
+      "Ask the motel residents about Jason’s medication.",
+      "Check Vicki’s room and return to Jason before following the next prompt."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-girls-trip-find-painkillers-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Find Painkillers",
+    "startVenue": "Starlet Motel",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-girls-trip-location-1.jpg"
+  },
+  {
+    "id": "mission-pick-up-a-gun",
+    "title": "Pick Up A Gun",
+    "chapter": 2,
+    "kind": "optional",
+    "character": "Lucia",
+    "area": "Kelly County · Port Gellhorn · Gellhorn Outfitters (Ammu-Nation Gun Shop)",
+    "contact": "Lucia",
+    "prerequisite": "After Girl’s Trip.",
+    "steps": [
+      "Use Gellhorn Outfitters’ shop menu or retrieve a previously owned weapon from its locker."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-pick-up-a-gun-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startVenue": "Gellhorn Outfitters",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-pick-up-a-gun-1.jpg"
+  },
+  {
+    "id": "mission-moses",
+    "title": "Moses",
+    "chapter": 2,
+    "kind": "story",
+    "character": "Lucia",
+    "area": "Kelly County · Port Gellhorn",
+    "contact": "Moses",
+    "prerequisite": "After Girl’s Trip.",
+    "steps": [
+      "Take a suitable car to Moses’s shop. Follow the Waink app tutorial and complete the in-game registration."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-moses-take-a-vehicle-to-moses-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Take A Vehicle to Moses",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-moses-location-1.jpg"
+  },
+  {
+    "id": "mission-new-look",
+    "title": "New Look",
+    "chapter": 2,
+    "kind": "story",
+    "character": "Lucia",
+    "area": "Kelly County · Port Gellhorn",
+    "contact": "Lucia",
+    "prerequisite": "After Girl’s Trip.",
+    "steps": [
+      "Visit the clerk at Pearl House Hair Salon and select a new style for Lucia."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-new-look-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startVenue": "Pearl House Hair Salon",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-new-look-1.jpg"
+  },
+  {
+    "id": "mission-how-do-i-look",
+    "title": "How Do I Look?",
+    "chapter": 2,
+    "kind": "story",
+    "character": "Lucia",
+    "area": "Kelly County · Port Gellhorn",
+    "contact": "Lucia",
+    "prerequisite": "After Girl’s Trip.",
+    "steps": [
+      "Shop for both a top and trousers for Lucia. Bargain World is one option."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-how-do-i-look-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-how-do-i-look-1.jpg"
+  },
+  {
+    "id": "mission-painkiller-supplier",
+    "title": "Painkiller Supplier",
+    "chapter": 2,
+    "kind": "story",
+    "character": "Lucia",
+    "area": "Kelly County · Port Gellhorn",
+    "contact": "Dunk",
+    "prerequisite": "After Girl’s Trip.",
+    "steps": [
+      "Continue other available tasks until Dunk calls with news about Jason’s medication."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-painkiller-supplier-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startMode": "remote"
+  },
+  {
+    "id": "mission-ambulance-chaser",
+    "title": "Ambulance Chaser",
+    "chapter": 2,
+    "kind": "story",
+    "character": "Lucia",
+    "area": "Kelly County · Starlet Motel",
+    "contact": "Lucia",
+    "prerequisite": "After What’s in the Bag?.",
+    "steps": [
+      "Follow the lingering ambulance objective outside the motel and complete the game’s vehicle encounter."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-ambulance-chaser-move-the-ambulance-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Move the Ambulance",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-ambulance-chaser-location-1.jpg"
+  },
+  {
+    "id": "mission-check-out-mckittrick-farm",
+    "title": "Check Out McKittrick Farm",
+    "chapter": 2,
+    "kind": "stranger",
+    "character": "Jason or Lucia",
+    "area": "Kelly County",
+    "contact": "Kyle",
+    "prerequisite": null,
+    "steps": [
+      "Read Kyle’s flyer outside the motel, then visit McKittrick Farm.",
+      "Fly the marked crop-duster route and report back to Kyle after landing."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-check-out-mckittrick-farm-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startVenue": "Starlet Motel",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-check-out-mckittrick-farm-start-location-1.jpg",
+    "strand": "Kyle",
+    "strandStartChapter": 2
+  },
+  {
+    "id": "mission-behind-on-payments",
+    "title": "Behind on Payments",
+    "chapter": 2,
+    "kind": "story",
+    "character": "Lucia",
+    "area": "Kelly County · Starlet Motel",
+    "contact": "Linda",
+    "prerequisite": "After Overnight Charges.",
+    "steps": [
+      "Bring Linda $900 in game currency to settle the motel balance and recover the necklace."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-behind-on-payments-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startVenue": "Starlet Motel",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-behind-on-payments-1.jpg"
+  },
+  {
+    "id": "mission-slam-dunk",
+    "title": "Slam Dunk",
+    "chapter": 2,
+    "kind": "story",
+    "character": "Lucia",
+    "area": "Kelly County · Port Gellhorn · Dunk’s Trailer",
+    "contact": "Dunk",
+    "prerequisite": null,
+    "steps": [
+      "Visit Dunk’s trailer for the next lead, then follow his trip to the docks.",
+      "Complete Dr. Bill’s pickup and return with Dunk."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-slam-dunk-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Find Painkillers",
+    "startVenue": "Dunk’s Trailer",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-slam-dunk-1.jpg"
+  },
+  {
+    "id": "mission-collect-chemicals-for-kyle",
+    "title": "Collect Chemicals for Kyle",
+    "chapter": 2,
+    "kind": "stranger",
+    "character": "Jason or Lucia",
+    "area": "Leonard County",
+    "contact": "Kyle",
+    "prerequisite": "After Check Out McKittrick Farm.",
+    "steps": [
+      "Visit the warehouse Kyle marked and inspect the quest van.",
+      "Complete the in-game transaction or alternate encounter, then return the vehicle to Kyle."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-collect-chemicals-for-kyle-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-collect-chemicals-for-kyle-1.jpg",
+    "strand": "Kyle",
+    "strandStartChapter": 2
+  },
+  {
+    "id": "mission-daily-driver",
+    "title": "Daily Driver",
+    "chapter": 2,
+    "kind": "story",
+    "character": "Lucia",
+    "area": "Kelly County · Port Gellhorn",
+    "contact": "Moses",
+    "prerequisite": "After Moses.",
+    "steps": [
+      "Look for the 1982 Canis Crawler around the marked search area and return it to Moses."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-daily-driver-steal-the-crawler-for-moses-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Steal the Crawler for Moses",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-daily-driver-1.jpg"
+  },
+  {
+    "id": "mission-breakfast-run",
+    "title": "Breakfast Run",
+    "chapter": 2,
+    "kind": "story",
+    "character": "Lucia",
+    "area": "Kelly County · Starlet Motel",
+    "contact": "Jason/Lucia",
+    "prerequisite": "After Slam Dunk.",
+    "steps": [
+      "Check on Jason and head to Hank’s Waffles. Complete the linked venue objectives until the escape sequence ends."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-breakfast-run-check-on-jason-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Check on Jason",
+    "startVenue": "Starlet Motel",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-breakfast-run-1.jpg"
+  },
+  {
+    "id": "mission-coffee-break",
+    "title": "Coffee Break",
+    "chapter": 2,
+    "kind": "story",
+    "character": "Jason and Lucia",
+    "area": "Kelly County · Starlet Motel",
+    "contact": "Jason/Lucia",
+    "prerequisite": "After Breakfast Run.",
+    "steps": [
+      "Buy Lucia a coffee at the motel kitchen.",
+      "Outside, complete the tutorial for interacting with your partner."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-coffee-break-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startVenue": "Starlet Motel",
+    "startMode": "automatic"
+  },
+  {
+    "id": "mission-thrillbillies",
+    "title": "Thrillbillies",
+    "chapter": 2,
+    "kind": "stranger",
+    "character": "Jason or Lucia",
+    "area": "Kelly County · Thrillbilly Mud Club",
+    "contact": "Billy",
+    "prerequisite": "After Coffee Break.",
+    "steps": [
+      "Use the mud club’s merchandise stall and vehicle rental.",
+      "Register with the race organizer and beat Billy’s crew member."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-thrillbillies-check-out-the-mud-club-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Check Out the Mud Club",
+    "startVenue": "Thrillbilly Mud Club",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-thrillbillies-1.jpg",
+    "strand": "Billy",
+    "strandStartChapter": 2
+  },
+  {
+    "id": "mission-twist-wrist-smash-grab",
+    "title": "Twist Wrist, Smash, Grab",
+    "chapter": 2,
+    "kind": "stranger",
+    "character": "Jason or Lucia",
+    "area": "Kelly County · Port Gellhorn",
+    "contact": "Billy",
+    "prerequisite": "After Thrillbillies.",
+    "steps": [
+      "Meet Billy’s crew and ride the marked dirt-bike route. Follow Billy through the crash-site encounter."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-twist-wrist-smash-grab-join-billy-on-a-job-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Join Billy on a Job",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-twist-wrist-smash-grab-1.jpg",
+    "strand": "Billy",
+    "strandStartChapter": 2
+  },
+  {
+    "id": "mission-hit-avery-pawn",
+    "title": "Hit Avery Pawn",
+    "chapter": 2,
+    "kind": "optional",
+    "character": "Jason or Lucia",
+    "area": "Kelly County · Port Gellhorn",
+    "contact": "Lucia",
+    "prerequisite": "After Coffee Break.",
+    "steps": [
+      "Bring your partner to Avery Pawn and complete the shop’s activity objectives.",
+      "Follow the escape and fence prompts to finish the outing."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-hit-avery-pawn-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-hit-avery-pawn-1.jpg"
+  },
+  {
+    "id": "mission-hit-kingpin-bowling",
+    "title": "Hit Kingpin Bowling",
+    "chapter": 2,
+    "kind": "optional",
+    "character": "Jason or Lucia",
+    "area": "Kelly County · Port Gellhorn",
+    "contact": "Lucia",
+    "prerequisite": "After Coffee Break.",
+    "steps": [
+      "Start the bowling-alley activity with your partner. Check the venue’s objectives before leaving if you are also tracking its watch or trophy."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-hit-kingpin-bowling-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-hit-kingpin-bowling-1.jpg",
+    "guideId": "guide-kingpin-watch"
+  },
+  {
+    "id": "mission-impounded-vehicle",
+    "title": "Impounded Vehicle",
+    "chapter": 2,
+    "kind": "optional",
+    "character": "Jason or Lucia",
+    "area": "Kelly County · Port Gellhorn",
+    "contact": "Lucia",
+    "prerequisite": "After Coffee Break.",
+    "steps": [
+      "Recover Lucia’s personal car from the marked impound in Port Gellhorn."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-impounded-vehicle-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-impounded-vehicle-1.jpg"
+  },
+  {
+    "id": "mission-prepare-for-vice-city",
+    "title": "Prepare for Vice City",
+    "chapter": 2,
+    "kind": "story",
+    "character": "Jason and Lucia",
+    "area": "Kelly County · Coffee room of Starlet Motel",
+    "contact": "Lucia",
+    "prerequisite": "After Coffee Break.",
+    "steps": [
+      "Partner up and earn at least $15,000 while Dre’Quan works on housing. Check the cash total before moving on."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-prepare-for-vice-city-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startMode": "remote"
+  },
+  {
+    "id": "mission-veteran-hunted",
+    "title": "Veteran Hunted",
+    "chapter": 2,
+    "kind": "stranger",
+    "character": "Jason",
+    "area": "Lummox County",
+    "contact": "Bret Vogel",
+    "prerequisite": "After Coffee Break, while working toward the cash target for Prepare for Vice City.",
+    "steps": [
+      "Join Bret for the hunting tutorial.",
+      "Use the tracking and wildlife-study prompts before completing the marked return."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-veteran-hunted-meet-bret-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Meet Bret",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-veteran-hunted-1.jpg",
+    "strand": "Bret Vogel",
+    "strandStartChapter": 2
+  },
+  {
+    "id": "mission-afternoon-delight",
+    "title": "Afternoon Delight",
+    "chapter": 2,
+    "kind": "story",
+    "character": "Jason or Lucia",
+    "area": "Kelly County · Port Gellhorn",
+    "contact": "Vicki",
+    "prerequisite": "After Coffee Break.",
+    "steps": [
+      "Meet Vicki at Delights. Get backstage, watch the performance and follow the safe objective before leaving."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-afternoon-delight-rob-vickis-boss-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Rob Vicki’s Boss",
+    "startVenue": "Delights",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-afternoon-delights-1.jpg"
+  },
+  {
+    "id": "mission-checking-out",
+    "title": "Checking Out",
+    "chapter": 2,
+    "kind": "story",
+    "character": "Jason and Lucia",
+    "area": "Kelly County",
+    "contact": "Lucia & Jason",
+    "prerequisite": null,
+    "steps": [
+      "Regroup at the motel when you are ready to move. Stay with your partner through the departure sequence."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-checking-out-move-to-vice-city-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Move to Vice City",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-checking-out-1.jpg",
+    "startVenue": "Starlet Motel"
+  },
+  {
+    "id": "mission-help-kirk-find-mr-mangrove",
+    "title": "Help Kirk Find Mr. Mangrove",
+    "chapter": 2,
+    "kind": "stranger",
+    "character": "Lucia (night)",
+    "area": "Mariana County · Cottonmouth Lake",
+    "contact": "Kirk",
+    "prerequisite": "After Search for Tree Effigies.",
+    "steps": [
+      "Return to Kirk near Cottonmouth Lake as Lucia at night. Follow the search and choose how to resolve the final encounter."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-help-kirk-find-mr-mangrove-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Advanced Skunk Apeonomics",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-help-kirk-find-mr-mangrove-1.jpg",
+    "strand": "Kirk",
+    "strandStartChapter": 1,
+    "notes": "Kirk’s strand can begin in Chapter 1. This step requires Lucia and nightfall."
+  },
+  {
+    "id": "mission-steal-vehicles-for-moses",
+    "title": "Steal Vehicles for Moses",
+    "chapter": 2,
+    "kind": "side",
+    "character": "Jason or Lucia",
+    "area": null,
+    "contact": "Moses",
+    "prerequisite": "After Daily Driver.",
+    "steps": [
+      "Use Moses’s requested-vehicle list to identify the current model. Return each matching vehicle to his auto shop."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-steal-vehicles-for-moses-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "strand": "Moses",
+    "strandStartChapter": 2
+  },
+  {
+    "id": "mission-collect-moses-gift",
+    "title": "Collect Moses’ Gift",
+    "chapter": 2,
+    "kind": "stranger",
+    "character": "Jason or Lucia",
+    "area": "Kelly County · Port Gellhorn",
+    "contact": "Moses",
+    "prerequisite": "After Steal Vehicles for Moses.",
+    "steps": [
+      "Once Moses offers his reward, head back to the auto shop in Port Gellhorn to claim it."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-collect-moses-gift-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-collect-moses-gift-1.jpg",
+    "strand": "Moses",
+    "strandStartChapter": 2
+  },
+  {
+    "id": "mission-brets-hunting-decks",
+    "title": "Bret’s Hunting Decks",
+    "chapter": 2,
+    "kind": "side",
+    "character": "Jason",
+    "area": null,
+    "contact": "Bret Vogel",
+    "prerequisite": null,
+    "steps": [
+      "Open the hunting decks after meeting Bret. Work through the 15 assignments, starting with the deck titled Adrenal Glands and Venison."
+    ],
+    "source": "https://www.pushsquare.com/guides/gta-6-brets-hunting-target-deck-locations",
+    "sourceLabel": "Push Square",
+    "coverage": "walkthrough",
+    "secondarySource": "https://www.powerpyx.com/gta-6-all-contacts/",
+    "strand": "Bret Vogel",
+    "strandStartChapter": 2
+  },
+  {
+    "id": "mission-welcome-to-vice-city",
+    "title": "Welcome to Vice City",
+    "chapter": 3,
+    "kind": "story",
+    "character": null,
+    "area": null,
+    "contact": null,
+    "prerequisite": "After Checking Out.",
+    "steps": [
+      "Meet Dre’Quan inside Jack of Hearts and finish the club interactions.",
+      "Follow the apartment marker to see your new place."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-welcome-to-vice-city-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startMode": "automatic"
+  },
+  {
+    "id": "mission-dealers-choice",
+    "title": "Dealer’s Choice",
+    "chapter": 3,
+    "kind": "story",
+    "character": "Jason",
+    "area": "Vice City · Crosstown",
+    "contact": "Dre’Quan",
+    "prerequisite": "After Welcome to Vice City.",
+    "steps": [
+      "Join Dre’Quan and make the product selection offered by the mission.",
+      "Complete the meeting and take him to Southside."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-dealers-choice-go-see-drequan-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Go See Dre’Quan",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-dealers-choice-1.jpg"
+  },
+  {
+    "id": "mission-dubious-provenance",
+    "title": "Dubious Provenance",
+    "chapter": 3,
+    "kind": "story",
+    "character": "Jason or Lucia",
+    "area": "Vice City · Bayside (Part 1), Mariana County · Capri (Parts 2 & 3)",
+    "contact": "Jason/Lucia",
+    "prerequisite": "After Dealer’s Choice.",
+    "steps": [
+      "Visit the antique dealer in Capri to identify the statue.",
+      "Consult the optional Halifax phone objective before deciding what to do with it."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-dubious-provenance-visit-the-antique-store-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Visit the Antique Store",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-dubious-provenance-22.jpg"
+  },
+  {
+    "id": "mission-mami-knows-best",
+    "title": "Mami Knows Best",
+    "chapter": 3,
+    "kind": "story",
+    "character": "Lucia",
+    "area": "Vice City · Peacock Bay",
+    "contact": "Mia Caminos",
+    "prerequisite": "After Dealer’s Choice.",
+    "steps": [
+      "Meet Mia and help clear the property she is visiting.",
+      "Follow her through the encounter that interrupts the house tour."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-mami-knows-best-catch-up-with-mia-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Catch Up With Mia",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-mami-knows-best-1.jpg"
+  },
+  {
+    "id": "mission-get-your-wheels",
+    "title": "Get Your Wheels",
+    "chapter": 3,
+    "kind": "optional",
+    "character": "Jason or Lucia",
+    "area": "Vice City",
+    "contact": null,
+    "prerequisite": "After Dealer’s Choice.",
+    "steps": [
+      "Register a vehicle at a Pay ’n’ Spray or recover an impounded car to establish a ride in Vice City."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-get-your-wheels-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-get-your-wheels-1.jpg"
+  },
+  {
+    "id": "mission-join-a-street-race",
+    "title": "Join a Street Race",
+    "chapter": 3,
+    "kind": "stranger",
+    "character": "Jason",
+    "area": "Vice City · Salton",
+    "contact": "Yago",
+    "prerequisite": "After Dealer’s Choice.",
+    "steps": [
+      "Pick a vehicle at the Salton race marker and finish the street circuit."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-join-a-street-race-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-join-a-street-race-1.jpg",
+    "strand": "Yago",
+    "strandStartChapter": 3
+  },
+  {
+    "id": "mission-here-kitty-kitty",
+    "title": "Here, Kitty Kitty",
+    "chapter": 3,
+    "kind": "story",
+    "character": "Jason",
+    "area": "Vice City · La Perle",
+    "contact": "Tyrone",
+    "prerequisite": "After Dubious Provenance.",
+    "steps": [
+      "Look for Charles at his apartment before checking the La Perle camp. Follow the character marker when it moves."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-here-kitty-kitty-speak-with-tyrone-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Speak with Tyrone",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-here-kitty-kitty-1.jpg"
+  },
+  {
+    "id": "mission-send-money-to-lorena",
+    "title": "Send Money to Lorena",
+    "chapter": 3,
+    "kind": "story",
+    "character": "Lucia",
+    "area": null,
+    "contact": "Lorena",
+    "prerequisite": "After Mami Knows Best.",
+    "steps": [
+      "Use the in-game BuckMe transfer to send money to Lucia’s aunt Lorena."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-send-money-to-lorena-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startMode": "remote"
+  },
+  {
+    "id": "mission-encrypted-hard-drive",
+    "title": "Encrypted Hard Drive",
+    "chapter": 3,
+    "kind": "story",
+    "character": "Jason",
+    "area": "Vice City",
+    "contact": "Cal/Brian",
+    "prerequisite": null,
+    "steps": [
+      "Continue the available story errands while waiting for Brian’s call about the encrypted drive."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-encrypted-hard-drive-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startVenue": "Bayside apartment",
+    "startMode": "unmarked"
+  },
+  {
+    "id": "mission-boobie-time",
+    "title": "Boobie Time",
+    "chapter": 3,
+    "kind": "story",
+    "character": "Jason",
+    "area": "Vice City · Crosstown",
+    "contact": "Boobie",
+    "prerequisite": "After Dubious Provenance.",
+    "steps": [
+      "Drive Boobie between the marked stops and rejoin him after visiting the club. The route introduces another contact at the smoke shop."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-boobie-time-talk-to-boobie-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Talk to Boobie",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-boobie-time-1.jpg"
+  },
+  {
+    "id": "mission-buddy",
+    "title": "Buddy?",
+    "chapter": 3,
+    "kind": "stranger",
+    "character": "Jason or Lucia",
+    "area": "Kelly County · McKittrick Farm",
+    "contact": "Kyle",
+    "prerequisite": "After Collect Chemicals for Kyle.",
+    "steps": [
+      "Read Kyle’s message and return to his farm. The encounter branches according to whom you approach."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-buddy-check-on-kyle-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Check on Kyle",
+    "startVenue": "McKittrick Farm",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-buddy-1.jpg",
+    "strand": "Kyle",
+    "strandStartChapter": 2
+  },
+  {
+    "id": "mission-meet-the-heders",
+    "title": "Meet the Heders",
+    "chapter": 3,
+    "kind": "story",
+    "character": "Jason or Lucia",
+    "area": "Vice City · Bayside",
+    "contact": "Brian",
+    "prerequisite": "After Dealer’s Choice.",
+    "steps": [
+      "Meet Brian and Lori at the restaurant, then continue to the dockyard. Look for the marked Scoop container during the search."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-meet-the-heders-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Meet Brian & Lori",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-meet-the-heders-1.jpg"
+  },
+  {
+    "id": "mission-yasmanis-jewelry-jobs",
+    "title": "Yasmani’s Jewelry Jobs",
+    "chapter": 3,
+    "kind": "story",
+    "character": "Jason or Lucia",
+    "area": null,
+    "contact": "Yasmani",
+    "prerequisite": "After Boobie Time.",
+    "steps": [
+      "Use Yasmani’s task list for the three named jewelry venues. Return the requested in-game valuables to him."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-yasmanis-jewelry-jobs-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "secondarySource": "https://www.gtabase.com/gta-6/missions/",
+    "coverage": "walkthrough",
+    "actionLabel": "Hit Richardson Jewelry, Hit Donovan Banks & Co, Hit Casa de Empeno, Sell Jewelry to Yasmani",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/vlcsnap-2026-11-16-21h50m38s591.png",
+    "strand": "Yasmani",
+    "strandStartChapter": 3,
+    "notes": "PowerPyx includes this in the Chapter 3 story sequence and Yasmani’s side strand. GTA Base lists it as optional."
+  },
+  {
+    "id": "mission-bumper-to-bumper",
+    "title": "Bumper to Bumper",
+    "chapter": 3,
+    "kind": "stranger",
+    "character": "Jason",
+    "area": "Vice City · Little Cuba",
+    "contact": "Yago",
+    "prerequisite": "After Join a Street Race.",
+    "steps": [
+      "Visit Yago at his restaurant, then fit the requested upgrades in the mod shop.",
+      "Follow Yago to the race and finish the course."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-bumper-to-bumper-mentor-yago-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Mentor Yago",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-bumper-to-bumper-1.jpg",
+    "strand": "Yago",
+    "strandStartChapter": 3
+  },
+  {
+    "id": "mission-car-service",
+    "title": "Car Service",
+    "chapter": 3,
+    "kind": "story",
+    "character": "Lucia",
+    "area": "Vice City · Salton",
+    "contact": "Raul",
+    "prerequisite": "After Meet the Heders.",
+    "steps": [
+      "Find the Schafter V12 in the marked search area and bring it to Leonida Auto World for Raul."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-car-service-steal-the-car-for-raul-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Steal The Car for Raul",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-car-service-1.jpg"
+  },
+  {
+    "id": "mission-send-more-money-to-lorena",
+    "title": "Send More Money to Lorena",
+    "chapter": 3,
+    "kind": "story",
+    "character": "Jason or Lucia",
+    "area": null,
+    "contact": "Lorena",
+    "prerequisite": "After Send Money to Lorena.",
+    "steps": [
+      "Send Lorena her follow-up payment from the BuckMe app."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-send-more-money-to-lorena-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startMode": "remote"
+  },
+  {
+    "id": "mission-top-billing",
+    "title": "Top Billing",
+    "chapter": 3,
+    "kind": "story",
+    "character": "Jason or Lucia",
+    "area": "Vice City · Crosstown",
+    "contact": "Dre’Quan",
+    "prerequisite": "After Car Service.",
+    "steps": [
+      "Join Dre’Quan backstage, meet the Real Dimez and follow Roxy through the evening’s stops."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-top-billing-watch-the-real-dimez-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Watch the Real Dimez",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-top-billing-1.jpg"
+  },
+  {
+    "id": "mission-first-impressions",
+    "title": "First Impressions",
+    "chapter": 3,
+    "kind": "story",
+    "character": "Jason or Lucia",
+    "area": "Vice Beach · Waxman Island",
+    "contact": "Raul",
+    "prerequisite": "After Car Service.",
+    "steps": [
+      "Meet Raul on Waxman Island and stay with the route as the vehicle changes. Deliver him to the final marker."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-first-impressions-meeting-with-raul-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Meeting with Raul",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-first-impressions-1.jpg"
+  },
+  {
+    "id": "mission-crosstown-traffic",
+    "title": "Crosstown Traffic",
+    "chapter": 3,
+    "kind": "story",
+    "character": "Jason or Lucia (different starts)",
+    "area": "Lucia – Vice City · Stockyard / Jason – Vice City · La Perle",
+    "contact": "Raul",
+    "prerequisite": "After Car Service.",
+    "steps": [
+      "Choose a start for the current character. Lucia’s marker is in Stockyard and Jason’s is in La Perle.",
+      "Follow the river and metro objectives as the viewpoints change."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-crosstown-traffic-meet-raul-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Meet Raul (Lucia) / Meet Karim (Jason)",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-crosstown-traffic-21.jpg"
+  },
+  {
+    "id": "mission-credit-check",
+    "title": "Credit Check",
+    "chapter": 3,
+    "kind": "story",
+    "character": "Jason and Lucia",
+    "area": "Vice City · Crosstown",
+    "contact": "Raul",
+    "prerequisite": "After Crosstown Traffic.",
+    "steps": [
+      "Visit Raul’s planning room and speak with Andrea and Karim. Follow the crew’s outfit and bank-sequence prompts."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-credit-check-meet-rauls-crew-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Meet Raul’s Crew",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-credit-check-1.jpg"
+  },
+  {
+    "id": "mission-clonin-keys-makin-gs",
+    "title": "Clonin’ Keys, Makin’ GS",
+    "chapter": 3,
+    "kind": "story",
+    "character": "Jason or Lucia",
+    "area": "Vice Beach · Ocean Beach",
+    "contact": "Randy",
+    "prerequisite": "After Crosstown Traffic.",
+    "steps": [
+      "Locate the Zorrusso requested by Randy in Ocean Beach and deliver it to him. This introduces his vehicle list."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-clonin-keys-makin-gs-steal-the-zorrusso-for-randy-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Steal the Zorrusso for Randy",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-clonin-keys-makin-gs-1.jpg"
+  },
+  {
+    "id": "mission-ride-or-die",
+    "title": "Ride Or Die",
+    "chapter": 3,
+    "kind": "story",
+    "character": "Jason",
+    "area": "Vice City · Crosstown",
+    "contact": "Dre’Quan",
+    "prerequisite": "After Credit Check.",
+    "steps": [
+      "Visit the Eris store with Dre’Quan and find the DWNPLY shoes. Take them to the marked VIP encounter."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-ride-or-die-meet-drequan-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Meet Dre’Quan",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-ride-or-die-1.jpg"
+  },
+  {
+    "id": "mission-rauls-next-job",
+    "title": "Raul’s Next Job",
+    "chapter": 3,
+    "kind": "story",
+    "character": "Jason or Lucia",
+    "area": "Vice City",
+    "contact": "Raul",
+    "prerequisite": "After Credit Check.",
+    "steps": [
+      "Continue available tasks until Raul calls about his next job."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-rauls-next-job-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startMode": "remote"
+  },
+  {
+    "id": "mission-race-against-yago",
+    "title": "Race Against Yago",
+    "chapter": 3,
+    "kind": "stranger",
+    "character": "Jason",
+    "area": "Vice City · Salton",
+    "contact": "Yago",
+    "prerequisite": "After Bumper to Bumper.",
+    "steps": [
+      "Join Yago’s race while the time-sensitive invitation is active and follow the course to the finish."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-race-against-yago-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-race-against-yago-1.jpg",
+    "strand": "Yago",
+    "strandStartChapter": 3,
+    "notes": "Time-sensitive. Make a separate save before advancing the story."
+  },
+  {
+    "id": "mission-sinfrontera-national-bank",
+    "title": "Sinfrontera National Bank",
+    "chapter": 3,
+    "kind": "story",
+    "character": "Jason or Lucia",
+    "area": "Vice City · Tequesta",
+    "contact": "Raul",
+    "prerequisite": "After Credit Check.",
+    "steps": [
+      "Visit Sinfrontera National Bank with the crew. Follow the in-game survey prompts before regrouping with Raul."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-sinfrontera-national-bank-scope-out-the-bank-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Scope Out the Bank",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-sinfrontera-national-bank-1.jpg"
+  },
+  {
+    "id": "mission-security-expert",
+    "title": "Security Expert",
+    "chapter": 3,
+    "kind": "story",
+    "character": "Jason or Lucia",
+    "area": "Leonard County · Waning Sands",
+    "contact": "Raul",
+    "prerequisite": "After Sinfrontera National Bank.",
+    "steps": [
+      "Locate Nicole in Waning Sands, then escort her through the encounter to the planning room."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-security-expert-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough"
+  },
+  {
+    "id": "mission-caught-slipping",
+    "title": "Caught Slipping",
+    "chapter": 3,
+    "kind": "story",
+    "character": "Jason or Lucia",
+    "area": "Vice City · Bayside",
+    "contact": "Jason/Lucia",
+    "prerequisite": "After Boobie Time, First Impressions.",
+    "steps": [
+      "Investigate the incident at the apartment. Check the quest bag and continue with Jason to Big House Storage."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-caught-slipping-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough"
+  },
+  {
+    "id": "mission-heist-planning",
+    "title": "Heist Planning",
+    "chapter": 3,
+    "kind": "story",
+    "character": "Jason or Lucia",
+    "area": "Vice City",
+    "contact": "Raul",
+    "prerequisite": "After Security Expert.",
+    "steps": [
+      "Open the heist plan and complete its outstanding preparation missions."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-heist-planning-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startMode": "remote"
+  },
+  {
+    "id": "mission-company-property",
+    "title": "Company Property",
+    "chapter": 3,
+    "kind": "story",
+    "character": "Jason or Lucia",
+    "area": "Vice-Dale County · Hamlet",
+    "contact": "Brian",
+    "prerequisite": "After Security Expert.",
+    "steps": [
+      "Meet Brian in Hamlet and follow the mission to the airfield. Bring the marked delivery back to the planning room."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-company-property-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Meet Brian",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-company-property-1.jpg"
+  },
+  {
+    "id": "mission-safe-word",
+    "title": "Safe Word",
+    "chapter": 3,
+    "kind": "story",
+    "character": "Jason or Lucia",
+    "area": "Vice City · Stockyard",
+    "contact": "Nicole",
+    "prerequisite": "After Company Property.",
+    "steps": [
+      "Travel to Gil’s mansion and play through the poolside sequence. Complete Nicole’s practice objective when it appears."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-safe-word-steal-the-practice-safe-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Steal the Practice Safe",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-safe-word-1.jpg"
+  },
+  {
+    "id": "mission-the-missing-link",
+    "title": "The Missing Link",
+    "chapter": 3,
+    "kind": "story",
+    "character": "Lucia",
+    "area": "Mariana County · Watson Bay",
+    "contact": "Andrea",
+    "prerequisite": "After Company Property.",
+    "steps": [
+      "Meet Andrea in Watson Bay and stay with her through the marked rendezvous. Rejoin Lucia when the viewpoint changes."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-the-missing-link-meet-andrea-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Meet Andrea",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-the-missing-link-1.jpg"
+  },
+  {
+    "id": "mission-mall-rats",
+    "title": "Mall Rats",
+    "chapter": 3,
+    "kind": "stranger",
+    "character": "Jason or Lucia (solo)",
+    "area": "Vice City · Ocean Beach",
+    "contact": "Billy",
+    "prerequisite": "After Twist Wrist, Smash, Grab.",
+    "steps": [
+      "Meet Billy behind the Malibu in Ocean Beach while playing solo. Follow his crew through the shop and back to the van."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-mall-rats-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Join Billy on a Job",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-mall-rats-1.jpg",
+    "strand": "Billy",
+    "strandStartChapter": 2
+  },
+  {
+    "id": "mission-brother-to-brother",
+    "title": "Brother To Brother",
+    "chapter": 3,
+    "kind": "stranger",
+    "character": "Jason",
+    "area": "Vice City · Little Cuba",
+    "contact": "Yago",
+    "prerequisite": null,
+    "steps": [
+      "Find Yago at the restaurant and accompany him and Manuel to the meeting. Follow the character markers through its aftermath."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-brother-to-brother-back-up-yago-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Back up Yago",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-brother-to-brother-1.jpg",
+    "strand": "Yago",
+    "strandStartChapter": 3
+  },
+  {
+    "id": "mission-cooties",
+    "title": "Cooties",
+    "chapter": 3,
+    "kind": "story",
+    "character": "Jason or Lucia",
+    "area": "Vice City · Crosstown",
+    "contact": "Dre’Quan",
+    "prerequisite": null,
+    "steps": [
+      "Join Dre’Quan and the Dimez for the music-video shoot. Finish the car sequence and return to the studio."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-cooties-shoot-the-music-video-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Shoot the Music Video",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-cooties-1.jpg"
+  },
+  {
+    "id": "mission-hidden-charges",
+    "title": "Hidden Charges",
+    "chapter": 3,
+    "kind": "story",
+    "character": "Jason or Lucia",
+    "area": "Vice City · Stockyard",
+    "contact": "Karim",
+    "prerequisite": "After Company Property, Cooties.",
+    "steps": [
+      "Start at the planning room. Complete Karim’s marked preparation objectives and return to the crew."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-hidden-charges-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Meet at the Planning Room / Prepping the Explosives",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-hidden-charges-1.jpg"
+  },
+  {
+    "id": "mission-bricked-up",
+    "title": "Bricked Up",
+    "chapter": 3,
+    "kind": "story",
+    "character": "Jason or Lucia",
+    "area": "Vice City · Bayside",
+    "contact": "Boobie",
+    "prerequisite": "After Hidden Charges.",
+    "steps": [
+      "Visit Venture Apartments and ask for Raymond in the lobby. Regroup with your partner to finish the escape."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-bricked-up-return-to-the-apartment-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Return to the Apartment",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-bricked-up-1.jpg"
+  },
+  {
+    "id": "mission-south-leonida-real-estate",
+    "title": "South Leonida Real Estate",
+    "chapter": 3,
+    "kind": "story",
+    "character": "Lucia",
+    "area": "Mariana County · Hamlet",
+    "contact": "Mia",
+    "prerequisite": "After Mami Knows Best.",
+    "steps": [
+      "Check Mia’s property in Hamlet and search for her at the mission markers. Stay with her through the later property visits."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-south-leonida-real-estate-meet-mia-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Meet Mia",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-south-leonida-real-estate-1.jpg"
+  },
+  {
+    "id": "mission-the-cartel-heist",
+    "title": "The Cartel Heist",
+    "chapter": 3,
+    "kind": "story",
+    "character": "Jason or Lucia",
+    "area": "Vice City · Stockyard",
+    "contact": "Raul",
+    "prerequisite": "After Hidden Charges.",
+    "steps": [
+      "Start the prepared mission with Raul’s crew. Follow the character-switch and signal prompts during the bank sequence."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-the-cartel-heist-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Start the Heist / Wait for Raul to get in Touch",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-the-cartel-heist-1.jpg"
+  },
+  {
+    "id": "mission-the-impaler",
+    "title": "The Impaler",
+    "chapter": 3,
+    "kind": "stranger",
+    "character": "Jason or Lucia",
+    "area": "Kelly County · Ambrosia",
+    "contact": "Billy",
+    "prerequisite": "After Mall Rats.",
+    "steps": [
+      "Find the marked Police Impaler in Ambrosia. Take it to Billy’s designated tunnel drop-off to finish the assignment."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-the-impaler-steal-the-impaler-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Steal the Impaler",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-the-impaler-1.jpg",
+    "strand": "Billy",
+    "strandStartChapter": 2
+  },
+  {
+    "id": "mission-hometown-heroes",
+    "title": "Hometown Heroes",
+    "chapter": 3,
+    "kind": "stranger",
+    "character": "Jason or Lucia",
+    "area": "Kelly County · Thrillbilly Mud Club",
+    "contact": "Billy",
+    "prerequisite": "After The Impaler.",
+    "steps": [
+      "Rejoin Billy at the mud club and follow his raceway route. Stay with the crew through the job’s closing sequence."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-hometown-heroes-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Join Billy on a Job",
+    "startVenue": "Thrillbilly Mud Club",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-hometown-heroes-1.jpg",
+    "strand": "Billy",
+    "strandStartChapter": 2
+  },
+  {
+    "id": "mission-climbing-the-cellerichain-parts-13",
+    "title": "Climbing the Cellerichain (Parts 1–3)",
+    "chapter": 3,
+    "kind": "stranger",
+    "character": "Lucia",
+    "area": "Leonard County · Belville · Andy’s house",
+    "contact": "Andy",
+    "prerequisite": null,
+    "steps": [
+      "Visit Andy at her new place in Belville. Open the essentials kit and complete the successive product deliveries."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-climbing-the-cellerichain-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startVenue": "Andy’s house",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-climbing-the-cellerichain-1.jpg",
+    "strand": "Andy",
+    "strandStartChapter": 3
+  },
+  {
+    "id": "mission-pay-the-cellerica-fee",
+    "title": "Pay the Cellerica Fee",
+    "chapter": 3,
+    "kind": "stranger",
+    "character": "Lucia",
+    "area": null,
+    "contact": "Andy",
+    "prerequisite": "After Climbing the Cellerichain.",
+    "steps": [
+      "Use the transfer requested in Andy’s phone message to pay the Cellerica initiation fee through BuckMe."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-pay-the-cellerica-fee-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startMode": "remote",
+    "strand": "Andy",
+    "strandStartChapter": 3
+  },
+  {
+    "id": "mission-peach",
+    "title": "Peach!",
+    "chapter": 3,
+    "kind": "stranger",
+    "character": "Lucia",
+    "area": "Leonard County · Belville",
+    "contact": "Andy",
+    "prerequisite": "After Pay the Cellerica Fee.",
+    "steps": [
+      "Join Andy at the Cellerica campus. Use the changing-room prompt, finish the initiation and continue to Cecilia’s mansion."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-peach-join-the-cellerica-initiation-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Join the Cellerica Initiation",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-peach-1.jpg",
+    "strand": "Andy",
+    "strandStartChapter": 3
+  },
+  {
+    "id": "mission-read-the-label",
+    "title": "Read the Label",
+    "chapter": 3,
+    "kind": "stranger",
+    "character": "Lucia",
+    "area": "Vice City",
+    "contact": "Andy",
+    "prerequisite": "After Peach!.",
+    "steps": [
+      "Recover the Cellerica quest van and take it to the assigned warehouse."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-read-the-label-retrieve-the-cellerica-van-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Retrieve the Cellerica Van",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-read-the-label-1.jpg",
+    "strand": "Andy",
+    "strandStartChapter": 3
+  },
+  {
+    "id": "mission-puff-puff-pass",
+    "title": "Puff Puff Pass",
+    "chapter": 3,
+    "kind": "stranger",
+    "character": "Lucia",
+    "area": "Paper Boys warehouse (meeting) · Cecilia’s Mansion (later objective)",
+    "contact": "Andy",
+    "prerequisite": "After Read the Label.",
+    "steps": [
+      "Meet the group at the Paper Boys warehouse. Follow Felix, leave the warehouse sequence and find Cecilia at her mansion."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-puff-puff-pass-meet-at-the-warehouse-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Meet at the Warehouse",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-puff-puff-1.jpg",
+    "strand": "Andy",
+    "strandStartChapter": 3
+  },
+  {
+    "id": "mission-yasmanis-atm-jobs",
+    "title": "Yasmani’s ATM Jobs",
+    "chapter": 3,
+    "kind": "side",
+    "character": null,
+    "area": null,
+    "contact": "Yasmani",
+    "prerequisite": null,
+    "steps": [
+      "Check Yasmani’s unlocked ATM assignments under the robbery activities and complete the requested game objectives."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-all-contacts/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "reference",
+    "secondarySource": "https://www.gtabase.com/gta-6/strangers/yasmanis-atm-jobs",
+    "strand": "Yasmani",
+    "strandStartChapter": 3
+  },
+  {
+    "id": "mission-yasmanis-payday-loans-jobs",
+    "title": "Yasmani’s Payday Loans Jobs",
+    "chapter": 3,
+    "kind": "side",
+    "character": null,
+    "area": null,
+    "contact": "Yasmani",
+    "prerequisite": null,
+    "steps": [
+      "Select the payday-loan activities offered by Yasmani and finish the locations requested for his strand."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-all-payday-loans-jobs-locations/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "secondarySource": "https://www.powerpyx.com/gta-6-all-contacts/",
+    "strand": "Yasmani",
+    "strandStartChapter": 3
+  },
+  {
+    "id": "mission-tail-the-security-van",
+    "title": "Tail the Security Van",
+    "chapter": 3,
+    "kind": "side",
+    "character": null,
+    "area": null,
+    "contact": "Yasmani",
+    "prerequisite": null,
+    "steps": [
+      "Use Yasmani’s security-van tip to start the marked vehicle encounter. Complete the route given by the game."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-thats-where-the-money-is-wait-at-the-cafe-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "secondarySource": "https://www.powerpyx.com/gta-6-all-contacts/",
+    "strand": "Yasmani",
+    "strandStartChapter": 3
+  },
+  {
+    "id": "mission-randys-wish-list",
+    "title": "Randy’s Wish List",
+    "chapter": 3,
+    "kind": "side",
+    "character": null,
+    "area": null,
+    "contact": "Randy",
+    "prerequisite": "Complete Clonin’ Keys, Makin’ GS.",
+    "steps": [
+      "Check Randy’s vehicle requests in the robbery menu. Use the Waink app to identify a matching model and bring it to the marked delivery point."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-money-guide-how-to-get-money-fast/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "secondarySource": "https://www.powerpyx.com/gta-6-all-contacts/",
+    "strand": "Randy",
+    "strandStartChapter": 3
+  },
+  {
+    "id": "mission-take-out-kitty-litter",
+    "title": "Take Out Kitty Litter",
+    "chapter": 3,
+    "kind": "side",
+    "character": "Jason",
+    "area": null,
+    "contact": "Tyrone",
+    "prerequisite": "Meet Tyrone in Here, Kitty Kitty.",
+    "steps": [
+      "Continue Tyrone’s lab objectives and track completed locations. His final quest becomes available after enough marked labs are cleared."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-all-kitty-litter-lab-locations/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "secondarySource": "https://www.powerpyx.com/gta-6-all-contacts/",
+    "strand": "Tyrone",
+    "strandStartChapter": 3
+  },
+  {
+    "id": "mission-spin-on-this",
+    "title": "Spin On This",
+    "chapter": 3,
+    "kind": "stranger",
+    "character": "Jason",
+    "area": "Lummox County · Grayson",
+    "contact": "Tyrone",
+    "prerequisite": null,
+    "steps": [
+      "Meet Tyrone for the final synthetic-lab assignment in Grayson. Follow the motel search markers and finish the game’s lab encounter."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-spin-on-this-shut-down-the-labs-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Shut Down the Labs",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-spin-on-this-1.jpg",
+    "strand": "Tyrone",
+    "strandStartChapter": 3
+  },
+  {
+    "id": "mission-dunks-robbery-tips",
+    "title": "Dunk’s Robbery Tips",
+    "chapter": 3,
+    "kind": "side",
+    "character": null,
+    "area": null,
+    "contact": "Dunk",
+    "prerequisite": null,
+    "steps": [
+      "In Chapter 3, look under Robberies on the in-game map for Dunk’s purple tip markers. Each tip points to a separate activity."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-all-contacts/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "reference",
+    "strand": "Dunk",
+    "strandStartChapter": 3
+  },
+  {
+    "id": "mission-ocean-beach",
+    "title": "Ocean Beach",
+    "chapter": 4,
+    "kind": "story",
+    "character": "Jason or Lucia",
+    "area": "Vice City · Bayside",
+    "contact": "Jason/Lucia",
+    "prerequisite": "After The Cartel Heist.",
+    "steps": [
+      "Check in with Valentina at the Y Hotel. Take the lift to floor seven and explore suite 701 with Lucia."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-ocean-beach-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-ocean-beach-1.jpg",
+    "startVenue": "Bayside apartment"
+  },
+  {
+    "id": "mission-another-life",
+    "title": "Another Life",
+    "chapter": 4,
+    "kind": "story",
+    "character": "Jason or Lucia",
+    "area": "Vice Beach · Washington Beach",
+    "contact": "Lucia",
+    "prerequisite": "After Ocean Beach.",
+    "steps": [
+      "Answer the phone in Lucia’s flashback. Use the care prompts with Tomás and follow the radio and dance sequence."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-another-life-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startMode": "automatic"
+  },
+  {
+    "id": "mission-pool-day",
+    "title": "Pool Day",
+    "chapter": 4,
+    "kind": "story",
+    "character": "Jason or Lucia",
+    "area": "Vice Beach · Washington Beach",
+    "contact": "Lucia/Jason",
+    "prerequisite": "After Another Life.",
+    "steps": [
+      "Pick up Lucia’s cocktail at the pool bar. Return to her and follow the walk prompt."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-pool-day-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-pool-day-1.jpg"
+  },
+  {
+    "id": "mission-company-cars",
+    "title": "Company Cars",
+    "chapter": 4,
+    "kind": "story",
+    "character": "Jason or Lucia",
+    "area": "Vice Beach · Washington Beach",
+    "contact": "Santino",
+    "prerequisite": "After Pool Day.",
+    "steps": [
+      "Speak with the salesman and pick a car for each protagonist.",
+      "Follow Lucia in the race back to the Y Hotel."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-company-cars-speak-to-the-concierge-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Speak to the Concierge",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-company-cars-1.jpg"
+  },
+  {
+    "id": "mission-lawyer-up",
+    "title": "Lawyer Up",
+    "chapter": 4,
+    "kind": "story",
+    "character": "Jason or Lucia",
+    "area": "Vice City · Downtown",
+    "contact": "Valentina",
+    "prerequisite": "After Pool Day.",
+    "steps": [
+      "Check in with Sandy, then meet Abe Gonzalez for the consultation."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-lawyer-up-meet-abe-gonzalez-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Meet Abe Gonzalez",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-lawyer-up-1.jpg"
+  },
+  {
+    "id": "mission-heavy-lifting",
+    "title": "Heavy Lifting",
+    "chapter": 4,
+    "kind": "story",
+    "character": "Jason or Lucia",
+    "area": "Vice City · Crosstown",
+    "contact": "Raul",
+    "prerequisite": "After Lawyer Up.",
+    "steps": [
+      "Bring the drive to Raul. Follow the houseboat and gym objectives to meet the staff at Ajax Gym."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-heavy-lifting-bring-raul-the-hard-drive-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Bring Raul the Hard Drive",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-heavy-lifting-1.jpg"
+  },
+  {
+    "id": "mission-its-a-date",
+    "title": "It’s A Date!",
+    "chapter": 4,
+    "kind": "optional",
+    "character": "Jason and Lucia",
+    "area": "Vice City",
+    "contact": null,
+    "prerequisite": "After Heavy Lifting.",
+    "steps": [
+      "Order a drink at the Courtyard Bar in Stockyard during the date activity."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-its-a-date-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startVenue": "Courtyard Bar",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-its-a-date-1.jpg"
+  },
+  {
+    "id": "mission-party-hard",
+    "title": "Party Hard",
+    "chapter": 4,
+    "kind": "story",
+    "character": "Jason or Lucia",
+    "area": "Vice-Dale County · VCIA",
+    "contact": "Valentina",
+    "prerequisite": "After Lawyer Up.",
+    "steps": [
+      "Accompany Andrés through his order pickup and Megamundo visit. Use the radio and protection prompts when the job changes."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-party-hard-work-personal-security-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Work Personal Security",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-party-hard-1.jpg"
+  },
+  {
+    "id": "mission-pay-abes-fee-ch4",
+    "title": "Pay Abe’s Fee",
+    "chapter": 4,
+    "kind": "story",
+    "character": "Jason or Lucia",
+    "area": "Vice City",
+    "contact": "Abe Gonzalez",
+    "prerequisite": "After Party Hard.",
+    "steps": [
+      "Pay the $75,000 legal fee shown by the Chapter 4 task to advance Abe’s identity paperwork."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-pay-abes-fee-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-pay-abes-fee-1.jpg",
+    "notes": "The walkthrough index lists this title in Chapters 4 and 5."
+  },
+  {
+    "id": "mission-photo-shoot",
+    "title": "Photo/Shoot",
+    "chapter": 4,
+    "kind": "story",
+    "character": "Jason or Lucia",
+    "area": "Vice City · Tequesta",
+    "contact": "Dre’Quan",
+    "prerequisite": "After Party Hard.",
+    "steps": [
+      "Photograph the Dimez at the marked shoot. Follow the vehicle sequence when Dre’Quan needs help."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-photoshoot-shoot-a-promo-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Shoot a Promo",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-party-hard-1-1.jpg"
+  },
+  {
+    "id": "mission-bad-driver",
+    "title": "Bad Driver!",
+    "chapter": 4,
+    "kind": "optional",
+    "character": "Jason or Lucia",
+    "area": "Lummox County · Millport",
+    "contact": "Andrea",
+    "prerequisite": "After Party Hard.",
+    "steps": [
+      "Search Millport for Felipe and follow his marker to the resolution of Andrea’s tip."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-bad-driver-find-felipe-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Find Felipe",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-bad-driver-1.jpg"
+  },
+  {
+    "id": "mission-attend-eddie-acostas-party",
+    "title": "Attend Eddie Acosta’s Party",
+    "chapter": 4,
+    "kind": "stranger",
+    "character": "Jason or Lucia (solo)",
+    "area": "Vice City · Ocean Beach · Y Hotel",
+    "contact": "Eddie Acosta",
+    "prerequisite": null,
+    "steps": [
+      "Go solo to the party appointment. Meet Eddie at the lift to continue to the event."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-attend-eddie-acostas-party-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-attend-eddie-acostas-party-1.jpg",
+    "strand": "Eddie Acosta",
+    "strandStartChapter": 4
+  },
+  {
+    "id": "mission-making-gainz",
+    "title": "Making Gainz",
+    "chapter": 4,
+    "kind": "story",
+    "character": "Lucia",
+    "area": "Vice City · Stockyard",
+    "contact": "Raul",
+    "prerequisite": "After Heavy Lifting.",
+    "steps": [
+      "Find Nate in the workout area and use the exercise stations alongside him. Regroup with Jason before returning to planning."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-making-gainz-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Meet Raul / Raul’s Plan",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-making-gainz-1.jpg"
+  },
+  {
+    "id": "mission-blood-sweat-and-gear",
+    "title": "Blood Sweat and Gear",
+    "chapter": 4,
+    "kind": "story",
+    "character": "Lucia",
+    "area": "Vice Beach · Washington Beach (Oldby Island)",
+    "contact": "Nate",
+    "prerequisite": "After Making Gainz.",
+    "steps": [
+      "Visit the Trauma Floor at Ajax Gym. Use the locker, talk to Nate and complete the crew workout."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-blood-sweat-and-gear-work-out-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Work Out",
+    "startVenue": "Ajax Gym",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-blood-sweat-and-gear-1.jpg"
+  },
+  {
+    "id": "mission-too-much-baggage",
+    "title": "Too Much Baggage",
+    "chapter": 4,
+    "kind": "story",
+    "character": "Jason",
+    "area": "Vice-Dale County · VCIA",
+    "contact": "Andrea",
+    "prerequisite": "After Making Gainz.",
+    "steps": [
+      "Report to Omar at the airport and follow the baggage-handling tutorial. Bring the marked bags to the loading bay."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-too-much-baggage-scope-out-the-airport-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Scope Out the Airport",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-too-much-baggage-1.jpg"
+  },
+  {
+    "id": "mission-watch-it",
+    "title": "Watch It",
+    "chapter": 4,
+    "kind": "story",
+    "character": "Jason",
+    "area": "Vice Beach · Washington Beach (Washington Island)",
+    "contact": "Dre’Quan",
+    "prerequisite": "After Making Gainz.",
+    "steps": [
+      "Meet Dre’Quan and visit the Cruda car park with him. Continue to the appointments leading to the club-owner meeting."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-watch-it-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Meet Dre’Quan",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-watch-it-1.jpg"
+  },
+  {
+    "id": "mission-amateur-hour",
+    "title": "Amateur Hour",
+    "chapter": 4,
+    "kind": "story",
+    "character": "Lucia",
+    "area": "Vice Beach · Washington Beach (Oldby Island)",
+    "contact": "Francisco",
+    "prerequisite": "After Blood Sweat and Gear.",
+    "steps": [
+      "Change at the gym locker and join Cisco’s outing. Stay with his vehicle and meeting objectives."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-amateur-hour-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Workout",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-amateur-hour-1.jpg"
+  },
+  {
+    "id": "mission-call-nate",
+    "title": "Call Nate",
+    "chapter": 4,
+    "kind": "story",
+    "character": "Lucia",
+    "area": null,
+    "contact": "Nate",
+    "prerequisite": "After Amateur Hour.",
+    "steps": [
+      "As Lucia, answer Nate’s text after Amateur Hour by calling him. The guide also reports that he can ring after about an in-game day."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-cash-injections-hang-out-with-nate-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "startMode": "remote",
+    "secondarySource": "https://www.gtabase.com/gta-6/missions/call-nate"
+  },
+  {
+    "id": "mission-cash-injections",
+    "title": "Cash Injections",
+    "chapter": 4,
+    "kind": "story",
+    "character": "Lucia",
+    "area": "Vice Beach · Ocean Beach",
+    "contact": "Nate",
+    "prerequisite": "After Amateur Hour, Call Nate.",
+    "steps": [
+      "Join Nate in Ocean Beach and ride with him to the meeting. Recover the marked car before leaving the area."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-cash-injections-hang-out-with-nate-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Hang Out With Nate",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-cash-injections-1.jpg"
+  },
+  {
+    "id": "mission-dirty-work",
+    "title": "Dirty Work",
+    "chapter": 4,
+    "kind": "story",
+    "character": "Jason or Lucia",
+    "area": "Vice City · Stockyard",
+    "contact": "Andrea",
+    "prerequisite": "After Too Much Baggage, Cash Injections.",
+    "steps": [
+      "Visit the Velvet Palm Motel and complete the mission’s photo objective. Check back with your partner and meet Nate by the pool."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-dirty-work-deal-with-raina-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Deal with Raina",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-dirty-work-1.jpg"
+  },
+  {
+    "id": "mission-nate-will-be-in-touch",
+    "title": "Nate Will Be in Touch",
+    "chapter": 4,
+    "kind": "story",
+    "character": null,
+    "area": null,
+    "contact": null,
+    "prerequisite": null,
+    "steps": [
+      "Wait for Nate’s message about Kordell’s crew and use its mission prompt when it appears."
+    ],
+    "source": "https://www.gtabase.com/gta-6/missions/nate-will-be-in-touch",
+    "sourceLabel": "GTA Base",
+    "coverage": "reference",
+    "actionLabel": "Help Kordell’s Crew",
+    "startMode": "remote"
+  },
+  {
+    "id": "mission-adventures-in-babysitting",
+    "title": "Adventures in Babysitting",
+    "chapter": 4,
+    "kind": "story",
+    "character": "Jason",
+    "area": "Vice Beach · Starfish Island",
+    "contact": "Andrés",
+    "prerequisite": "After Making Gainz.",
+    "steps": [
+      "Accompany Andrés to The Vault. Use the bar, photo and conversation prompts while on security duty."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-adventures-in-babysitting-work-security-for-andres-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Work Security for Andrés",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-adventures-in-babystting-1.jpg"
+  },
+  {
+    "id": "mission-rafas-kidnapping",
+    "title": "Rafa’s Kidnapping",
+    "chapter": 4,
+    "kind": "story",
+    "character": "Jason",
+    "area": null,
+    "contact": null,
+    "prerequisite": null,
+    "steps": [
+      "Look for Jason’s Chapter 4 task under this title in the in-game mission list."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "reference"
+  },
+  {
+    "id": "mission-fresh-evidence",
+    "title": "Fresh Evidence",
+    "chapter": 4,
+    "kind": "story",
+    "character": "Jason",
+    "area": "Vice City · Crosstown",
+    "contact": "Dre’Quan",
+    "prerequisite": "After Watch It, Adventures in Babysitting.",
+    "steps": [
+      "Accompany Dre’Quan to Starfish Island. Follow his search through the mansion for the requested evidence."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-fresh-evidence-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Meet Dre’Quan",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-fresh-evidence-1.jpg"
+  },
+  {
+    "id": "mission-childs-play",
+    "title": "Child’s Play",
+    "chapter": 4,
+    "kind": "story",
+    "character": "Jason or Lucia",
+    "area": "Vice City · Downtown",
+    "contact": "Andrés",
+    "prerequisite": "After Fresh Evidence.",
+    "steps": [
+      "Travel to the quarry and use the game’s binocular prompt to find Rafa. Complete the partner switch during the rescue."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-childs-play-rescue-rafa-from-kidnappers-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Rescue Rafa from Kidnappers",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-childs-play-1.jpg"
+  },
+  {
+    "id": "mission-this-is-a-free-call-from",
+    "title": "This is a Free Call From…",
+    "chapter": 4,
+    "kind": "optional",
+    "character": "Lucia",
+    "area": "Vice-Dale County · Hamlet",
+    "contact": "Shayna",
+    "prerequisite": "After Lawyer Up.",
+    "steps": [
+      "Accept Shayna’s time-sensitive release task as Lucia. Give her a ride and finish the meeting at Raph’s house."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-this-is-a-free-call-from-pick-up-shayna-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Pick up Shayna",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-this-is-a-free-call-from-1.jpg",
+    "notes": "Time-sensitive. Make a separate save before advancing the story."
+  },
+  {
+    "id": "mission-power-play",
+    "title": "Power Play",
+    "chapter": 4,
+    "kind": "story",
+    "character": "Lucia",
+    "area": "Vice City · Salton",
+    "contact": "Kordell",
+    "prerequisite": "After Child’s Play.",
+    "steps": [
+      "Ask about Kordell at reception. Work through the two protagonists’ objectives until the planning-room sequence resolves."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-power-play-help-kordells-crew-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Help Kordell’s Crew",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-power-play-1.jpg"
+  },
+  {
+    "id": "mission-close-surveillance",
+    "title": "Close Surveillance",
+    "chapter": 4,
+    "kind": "story",
+    "character": "Jason",
+    "area": null,
+    "contact": null,
+    "prerequisite": null,
+    "steps": [
+      "Meet Karim as Jason and use the mission drone. Follow the on-screen objectives from the rooftop bar to apartment 405."
+    ],
+    "source": "https://outputlag.com/guides/gta-6-close-surveillance-mission/",
+    "sourceLabel": "Output Lag",
+    "secondarySource": "https://www.gtabase.com/gta-6/missions/close-surveillance",
+    "coverage": "walkthrough",
+    "actionLabel": "Spy on the Bodybuilders"
+  },
+  {
+    "id": "mission-delivery-method",
+    "title": "Delivery Method",
+    "chapter": 4,
+    "kind": "story",
+    "character": "Jason",
+    "area": null,
+    "contact": null,
+    "prerequisite": null,
+    "steps": [
+      "Take Andrea’s assignment as Jason. Follow the delivery role to TSS and use the mission interaction at the marked office computer."
+    ],
+    "source": "https://outputlag.com/guides/gta-6-delivery-method-mission/",
+    "sourceLabel": "Output Lag",
+    "secondarySource": "https://www.gtabase.com/gta-6/missions/delivery-method",
+    "coverage": "walkthrough",
+    "actionLabel": "Help Andrea"
+  },
+  {
+    "id": "mission-team-building",
+    "title": "Team Building",
+    "chapter": 4,
+    "kind": "story",
+    "character": "Lucia",
+    "area": null,
+    "contact": null,
+    "prerequisite": null,
+    "steps": [
+      "Take Kordell to see Arlo. Finish the arena challenge and continue with Kordell to Riverbank in Little Cuba."
+    ],
+    "source": "https://outputlag.com/guides/gta-6-team-building-mission/",
+    "sourceLabel": "Output Lag",
+    "secondarySource": "https://www.gtabase.com/gta-6/missions/team-building",
+    "coverage": "walkthrough",
+    "actionLabel": "Meet Kordell"
+  },
+  {
+    "id": "mission-fully-catered",
+    "title": "Fully Catered",
+    "chapter": 4,
+    "kind": "story",
+    "character": "Jason and Lucia",
+    "area": null,
+    "contact": null,
+    "prerequisite": null,
+    "steps": [
+      "Deliver the Plane & Simple quest truck. At Raul’s base, use Jason’s packing prompts to finish the preparation."
+    ],
+    "source": "https://outputlag.com/guides/gta-6-fully-catered-mission/",
+    "sourceLabel": "Output Lag",
+    "secondarySource": "https://www.gtabase.com/gta-6/missions/fully-catered",
+    "coverage": "walkthrough",
+    "actionLabel": "Steal a Catering Truck"
+  },
+  {
+    "id": "mission-heist-plans-in-place",
+    "title": "Heist Plans in Place",
+    "chapter": 4,
+    "kind": "story",
+    "character": null,
+    "area": null,
+    "contact": null,
+    "prerequisite": null,
+    "steps": [
+      "Check the VCIA preparation list for the objective showing that the heist plans are in place."
+    ],
+    "source": "https://www.gtabase.com/gta-6/missions/heist-plans-in-place",
+    "sourceLabel": "GTA Base",
+    "coverage": "reference",
+    "startMode": "remote"
+  },
+  {
+    "id": "mission-headliners",
+    "title": "Headliners",
+    "chapter": 4,
+    "kind": "story",
+    "character": "Jason and Lucia",
+    "area": null,
+    "contact": null,
+    "prerequisite": null,
+    "steps": [
+      "Run the light show from Lucia’s DJ station during the reopening. Switch to Jason for Royce’s guest list and VIP tables."
+    ],
+    "source": "https://outputlag.com/guides/gta-6-headliners-mission/",
+    "sourceLabel": "Output Lag",
+    "secondarySource": "https://www.gtabase.com/gta-6/missions/headliners",
+    "coverage": "walkthrough",
+    "actionLabel": "Help With The Launch Party"
+  },
+  {
+    "id": "mission-vcia-takedown",
+    "title": "VCIA Takedown",
+    "chapter": 4,
+    "kind": "story",
+    "character": "Jason and Lucia",
+    "area": null,
+    "contact": null,
+    "prerequisite": null,
+    "steps": [
+      "Start the prepared airport job. Follow Lucia’s vault sequence and Jason’s baggage assignment as the game switches viewpoints."
+    ],
+    "source": "https://outputlag.com/guides/gta-6-vcia-takedown-mission/",
+    "sourceLabel": "Output Lag",
+    "secondarySource": "https://www.gtabase.com/gta-6/missions/vcia-takedown",
+    "coverage": "walkthrough",
+    "actionLabel": "Start the Airport Heist"
+  },
+  {
+    "id": "mission-tie-up-loose-ends",
+    "title": "Tie Up Loose Ends",
+    "chapter": 4,
+    "kind": "story",
+    "character": "Jason and Lucia",
+    "area": null,
+    "contact": null,
+    "prerequisite": "After VCIA Takedown.",
+    "steps": [
+      "Keep playing during the wait for Raul. Answer the other incoming call and return it to continue the story."
+    ],
+    "source": "https://www.gtabase.com/gta-6/missions/tie-up-loose-ends",
+    "sourceLabel": "GTA Base",
+    "coverage": "walkthrough",
+    "startMode": "remote"
+  },
+  {
+    "id": "mission-thats-where-the-money-is",
+    "title": "That’s Where The Money Is…",
+    "chapter": 4,
+    "kind": "optional",
+    "character": "Jason or Lucia",
+    "area": "Vice Beach · Ocean Beach",
+    "contact": "Yasmani",
+    "prerequisite": "After VCIA Takedown.",
+    "steps": [
+      "Wait at Cafe Orquidea for Yasmani’s optional security-van encounter. Follow its mission markers through the bank sequence."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-thats-where-the-money-is-wait-at-the-cafe-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Wait at the Cafe",
+    "startVenue": "Cafe Orquidea",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-thats-where-the-money-is-1.jpg",
+    "guideId": "guide-yasmani-tips"
+  },
+  {
+    "id": "mission-call-valentina-back",
+    "title": "Call Valentina Back",
+    "chapter": 4,
+    "kind": "story",
+    "character": null,
+    "area": null,
+    "contact": null,
+    "prerequisite": null,
+    "steps": [
+      "Use Valentina’s contact to return the call during the transition into Sunset."
+    ],
+    "source": "https://www.gtabase.com/gta-6/missions/sunset",
+    "sourceLabel": "GTA Base",
+    "coverage": "walkthrough",
+    "startMode": "remote"
+  },
+  {
+    "id": "mission-sunset",
+    "title": "Sunset",
+    "chapter": 4,
+    "kind": "story",
+    "character": "Jason and Lucia",
+    "area": "Y Hotel",
+    "contact": null,
+    "prerequisite": null,
+    "steps": [
+      "Talk with Valentina and pick up the note. Search the marina for Raul, then finish the boat sequence with Lucia."
+    ],
+    "source": "https://www.gtabase.com/gta-6/missions/sunset",
+    "sourceLabel": "GTA Base",
+    "coverage": "walkthrough",
+    "actionLabel": "Stop by the Front Desk",
+    "startVenue": "Y Hotel"
+  },
+  {
+    "id": "mission-starting-from-zero",
+    "title": "Starting From Zero",
+    "chapter": 4,
+    "kind": "story",
+    "character": null,
+    "area": null,
+    "contact": null,
+    "prerequisite": "After Sunset.",
+    "steps": [
+      "Look for Andrea in the Aqua Stadium stands and collect the statue from Big House Storage.",
+      "Ride the lift to the terrace at Acai Dreams for Mattia’s meeting."
+    ],
+    "source": "https://outputlag.com/guides/gta-6-starting-from-zero-mission/",
+    "sourceLabel": "Output Lag",
+    "secondarySource": "https://www.gtabase.com/gta-6/missions/chapter-4-finale",
+    "coverage": "walkthrough",
+    "startMode": "automatic"
+  },
+  {
+    "id": "mission-the-last-mile-passing-the-torch",
+    "title": "The Last Mile: Passing the Torch",
+    "chapter": 4,
+    "kind": "stranger",
+    "character": "Jason",
+    "area": "Leonard County · Sundown Private Airfield",
+    "contact": "Pilot Pete",
+    "prerequisite": "After Pool Day.",
+    "steps": [
+      "Visit Sundown Private Airfield and check the hangar for Pete’s stash. Use his aircraft for the marked deliveries, then bring it back."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-the-last-mile-passing-the-torch-recover-petes-plane-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Recover Pete’s Plane",
+    "startMode": "remote",
+    "strand": "Pilot Pete",
+    "strandStartChapter": 4
+  },
+  {
+    "id": "mission-the-last-mile-backseat-pilot",
+    "title": "The Last Mile: Backseat Pilot",
+    "chapter": 4,
+    "kind": "stranger",
+    "character": "Jason",
+    "area": "Kelly County · Wild Hog Airfield",
+    "contact": "Pilot Pete",
+    "prerequisite": "After The Last Mile: Passing the Torch.",
+    "steps": [
+      "Report to Wild Hog Airfield. Use the aircraft to reach the supplier and the marked buyers."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-the-last-mile-backseat-pilot-deliver-packages-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "actionLabel": "Deliver Packages",
+    "startVenue": "Wild Hog Airfield",
+    "startImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-the-last-mile-backseat-pilot-3.jpg",
+    "strand": "Pilot Pete",
+    "strandStartChapter": 4
+  },
+  {
+    "id": "mission-petes-deliveries-southpoint-airfield",
+    "title": "Pete’s Deliveries: Southpoint Airfield",
+    "chapter": 4,
+    "kind": "side",
+    "character": "Jason",
+    "area": "Mariana County",
+    "contact": "Pilot Pete",
+    "prerequisite": "Finish The Last Mile: Backseat Pilot and wait for Pete to get in touch.",
+    "steps": [
+      "Choose the Southpoint Airfield assignment from Pete’s delivery list and fly its marked supply and drop-off route."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-petes-deliveries-southpoint-airfield-avery-allen-co-walkthrough/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "strand": "Pilot Pete",
+    "strandStartChapter": 4
+  },
+  {
+    "id": "mission-petes-deliveries-avery-allen-co",
+    "title": "Pete’s Deliveries: Avery Allen & Co.",
+    "chapter": 4,
+    "kind": "side",
+    "character": "Jason",
+    "area": "Kelly County",
+    "contact": "Pilot Pete",
+    "prerequisite": "Finish The Last Mile: Backseat Pilot and wait for Pete to get in touch.",
+    "steps": [
+      "Choose the Avery Allen & Co. assignment for Pete. Complete the supplier landing and buyer markers for that run."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-petes-deliveries-southpoint-airfield-avery-allen-co-walkthrough/#avery-allen",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "strand": "Pilot Pete",
+    "strandStartChapter": 4
+  },
+  {
+    "id": "mission-deliver-packages",
+    "title": "Deliver Packages",
+    "chapter": 4,
+    "kind": "side",
+    "character": "Jason",
+    "area": null,
+    "contact": "Pilot Pete",
+    "prerequisite": "Finish The Last Mile: Backseat Pilot and wait for Pete to get in touch.",
+    "steps": [
+      "Follow the delivery run that Pete assigns after the named airfield jobs. Use its current supplier and buyer markers."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-petes-deliveries-southpoint-airfield-avery-allen-co-walkthrough/#deliver-packages",
+    "sourceLabel": "PowerPyx",
+    "coverage": "walkthrough",
+    "strand": "Pilot Pete",
+    "strandStartChapter": 4
+  },
+  {
+    "id": "mission-bird-in-the-hand",
+    "title": "Bird in the Hand",
+    "chapter": 5,
+    "kind": "story",
+    "character": "Jason and Lucia",
+    "area": null,
+    "contact": null,
+    "prerequisite": "After Starting From Zero.",
+    "steps": [
+      "Join Gallo’s training sequence. Use the assigned aircraft and switch between Jason and Lucia during the cargo-helicopter encounter."
+    ],
+    "source": "https://outputlag.com/guides/gta-6-bird-in-the-hand-mission/",
+    "sourceLabel": "Output Lag",
+    "secondarySource": "https://www.gtabase.com/gta-6/missions/bird-in-the-hand",
+    "coverage": "walkthrough",
+    "startMode": "automatic"
+  },
+  {
+    "id": "mission-taking-liberties",
+    "title": "Taking Liberties",
+    "chapter": 5,
+    "kind": "story",
+    "character": "Jason and Lucia",
+    "area": null,
+    "contact": null,
+    "prerequisite": "After Bird in the Hand.",
+    "steps": [
+      "At Gallo’s penthouse, look for the spa on the gym floor. Walk there with your partner for Giorgio’s meeting."
+    ],
+    "source": "https://outputlag.com/guides/gta-6-taking-liberties-mission/",
+    "sourceLabel": "Output Lag",
+    "secondarySource": "https://www.gtabase.com/gta-6/missions/taking-liberties",
+    "coverage": "walkthrough"
+  },
+  {
+    "id": "mission-doggie-bag",
+    "title": "Doggie Bag",
+    "chapter": 5,
+    "kind": "story",
+    "character": null,
+    "area": null,
+    "contact": null,
+    "prerequisite": null,
+    "steps": [
+      "Check in with Vinny, then search the cruise ship’s top deck for Rocco as Lucia. Follow the retrieval prompt to the marked pickup."
+    ],
+    "source": "https://outputlag.com/guides/gta-6-doggie-bag-mission/",
+    "sourceLabel": "Output Lag",
+    "secondarySource": "https://www.gtabase.com/gta-6/missions/doggie-bag",
+    "coverage": "walkthrough",
+    "actionLabel": "Meet Vinny"
+  },
+  {
+    "id": "mission-vc-baby",
+    "title": "VC Baby",
+    "chapter": 5,
+    "kind": "story",
+    "character": "Jason and Lucia",
+    "area": null,
+    "contact": null,
+    "prerequisite": null,
+    "steps": [
+      "Follow Mattia after Kat goes into labour. The game lets you decline his request or accept the extra trip to the hospital."
+    ],
+    "source": "https://outputlag.com/guides/gta-6-vc-baby-mission/",
+    "sourceLabel": "Output Lag",
+    "secondarySource": "https://www.gtabase.com/gta-6/missions/vc-baby",
+    "coverage": "walkthrough",
+    "actionLabel": "Talk to Mattia"
+  },
+  {
+    "id": "mission-operation-savage-glory",
+    "title": "Operation Savage Glory",
+    "chapter": 5,
+    "kind": "story",
+    "character": "Jason and Lucia",
+    "area": null,
+    "contact": null,
+    "prerequisite": "After VC Baby.",
+    "steps": [
+      "Join Vinny’s crew and follow the alternating protagonist objectives. Finish the cargo pickup and helicopter sequence."
+    ],
+    "source": "https://outputlag.com/guides/gta-6-operation-savage-glory-mission/",
+    "sourceLabel": "Output Lag",
+    "secondarySource": "https://www.gtabase.com/gta-6/missions/operation-savage-glory",
+    "coverage": "walkthrough"
+  },
+  {
+    "id": "mission-honest-abe",
+    "title": "Honest Abe",
+    "chapter": 5,
+    "kind": "story",
+    "character": "Jason and Lucia",
+    "area": null,
+    "contact": null,
+    "prerequisite": "After Operation Savage Glory.",
+    "steps": [
+      "Leave Gallo’s penthouse for Abe’s office. Before signing later, check BuckMe and transfer any checking balance you want to retain into Family Savings."
+    ],
+    "source": "https://outputlag.com/guides/gta-6-honest-abe-mission/",
+    "sourceLabel": "Output Lag",
+    "secondarySource": "https://www.gtabase.com/gta-6/missions/honest-abe",
+    "coverage": "walkthrough",
+    "actionLabel": "Negotiate a Deal with Abe"
+  },
+  {
+    "id": "mission-unfinished-business",
+    "title": "Unfinished Business",
+    "chapter": 5,
+    "kind": "story",
+    "character": "Jason and Lucia",
+    "area": null,
+    "contact": "Abe Gonzalez",
+    "prerequisite": null,
+    "steps": [
+      "Meet Abe, then play through the penthouse conversation and Lucia’s pool-table sequence. Watch the security feed with Giorgio and follow the subsequent story prompts."
+    ],
+    "source": "https://www.gta6heists.com/missions/unfinished-business",
+    "sourceLabel": "GTA6Heists",
+    "coverage": "walkthrough",
+    "secondarySource": "https://www.gtabase.com/gta-6/missions/unfinished-business"
+  },
+  {
+    "id": "mission-pay-abes-fee-ch5",
+    "title": "Pay Abe’s Fee",
+    "chapter": 5,
+    "kind": "story",
+    "character": null,
+    "area": null,
+    "contact": null,
+    "prerequisite": null,
+    "steps": [
+      "Check Abe’s fee entry in your current chapter. The index also lists an earlier payment under the same name."
+    ],
+    "source": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/",
+    "sourceLabel": "PowerPyx",
+    "coverage": "reference",
+    "notes": "The walkthrough index lists this title in Chapters 4 and 5."
+  },
+  {
+    "id": "mission-protective-custody",
+    "title": "Protective Custody",
+    "chapter": 5,
+    "kind": "story",
+    "character": "Jason and Lucia",
+    "area": null,
+    "contact": null,
+    "prerequisite": null,
+    "steps": [
+      "Make a separate save before confirming the finale prompt.",
+      "Complete Jason’s rescue and choose a response to Méndez when the game offers it."
+    ],
+    "source": "https://www.gtabase.com/gta-6/missions/protective-custody",
+    "sourceLabel": "GTA Base",
+    "coverage": "walkthrough",
+    "actionLabel": "Meet with Abe",
+    "notes": "This mission includes an ending choice."
+  },
+  {
+    "id": "mission-the-end-of-the-road",
+    "title": "The End of the Road",
+    "chapter": 5,
+    "kind": "story",
+    "character": "Jason and Lucia",
+    "area": null,
+    "contact": null,
+    "prerequisite": null,
+    "steps": [
+      "Start at Cal’s place in the Keys. Follow the high-rise and airfield objectives through to the choice on the bridge."
+    ],
+    "source": "https://www.gtabase.com/gta-6/missions/the-end-of-the-road",
+    "sourceLabel": "GTA Base",
+    "coverage": "walkthrough",
+    "notes": "This mission includes an ending choice."
+  }
+]

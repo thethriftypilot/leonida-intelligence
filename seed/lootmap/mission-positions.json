@@ -1,0 +1,1642 @@
+{
+  "mission-lab-fees": {
+    "x": 0.5279762,
+    "y": 0.85980769,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-lab-fees-collect-brians-rent-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-lab-fees-1.jpg",
+    "sourceMarkerPixel": [
+      956,
+      517
+    ],
+    "sourceImageSha256": "eda512d1269e4ef0348431ca6225ba2ecf8a945d05c1ae986aae8659da9cce02",
+    "markerAlignment": {
+      "inliers": 85,
+      "heldOutMatches": 19,
+      "nearbyControls": 82,
+      "p90ImagePixels": 1.056,
+      "referenceScale": 1.00153
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-unwanted-attention": {
+    "x": 0.63429832,
+    "y": 0.77586222,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-unwanted-attention-go-see-cal-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-unwanted-attention-1.jpg",
+    "sourceMarkerPixel": [
+      960,
+      543
+    ],
+    "sourceImageSha256": "8154307b9ed7d1bb21ed35526334a82f24dcf96943857a78d7be0ffcdccda8ba",
+    "markerAlignment": {
+      "inliers": 80,
+      "heldOutMatches": 20,
+      "nearbyControls": 38,
+      "p90ImagePixels": 1.299,
+      "referenceScale": 1.00081
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-pipework": {
+    "x": 0.58074188,
+    "y": 0.81213206,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-pipework-collect-mandys-rent-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-pipework-1.jpg",
+    "sourceMarkerPixel": [
+      953,
+      531
+    ],
+    "sourceImageSha256": "f89deb15dbfc8b4464f7364ffc1aeea3fbbd171991032a8425ef06358a825f75",
+    "markerAlignment": {
+      "inliers": 112,
+      "heldOutMatches": 24,
+      "nearbyControls": 87,
+      "p90ImagePixels": 1.253,
+      "referenceScale": 1.00055
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-hey-arnold": {
+    "x": 0.54297828,
+    "y": 0.86208941,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-hey-arnold-meet-brian-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-hey-arnold-1.jpg",
+    "sourceMarkerPixel": [
+      981,
+      521
+    ],
+    "sourceImageSha256": "47499ca69ff88faa48901eef43e9fa3acf6652190785646b59f5e0771063459b",
+    "markerAlignment": {
+      "inliers": 106,
+      "heldOutMatches": 26,
+      "nearbyControls": 87,
+      "p90ImagePixels": 0.952,
+      "referenceScale": 1.00125
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-island-dreams": {
+    "x": 0.59594678,
+    "y": 0.82562934,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-island-dreams-work-for-kenton-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-island-dreams-1.jpg",
+    "sourceMarkerPixel": [
+      961,
+      534
+    ],
+    "sourceImageSha256": "a2a7df4724176ee429abb4a59cb0ed296f06a2bd52bb9c0a2d7f024c88f4bc0d",
+    "markerAlignment": {
+      "inliers": 115,
+      "heldOutMatches": 25,
+      "nearbyControls": 77,
+      "p90ImagePixels": 0.942,
+      "referenceScale": 1.00024
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-feng-shui": {
+    "x": 0.57126567,
+    "y": 0.81649801,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-feng-shui-meet-cal-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-feng-shui-1.jpg",
+    "sourceMarkerPixel": [
+      961,
+      514
+    ],
+    "sourceImageSha256": "b4eb89549eb089e805e83ef1de169b027b80f3e0cda6285af83f4decd115ba5e",
+    "markerAlignment": {
+      "inliers": 97,
+      "heldOutMatches": 29,
+      "nearbyControls": 77,
+      "p90ImagePixels": 1.256,
+      "referenceScale": 1.00074
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-pick-up-groceries-drop-off-groceries": {
+    "x": 0.53885348,
+    "y": 0.85562314,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-pick-up-groceries-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-pick-up-groceries-1.jpg",
+    "sourceMarkerPixel": [
+      961,
+      514
+    ],
+    "sourceImageSha256": "2556ce9f5d7f899090fb5b90edc2d47f133a9dee4c904e0df8d398ee7d29f063",
+    "markerAlignment": {
+      "inliers": 94,
+      "heldOutMatches": 19,
+      "nearbyControls": 79,
+      "p90ImagePixels": 1.233,
+      "referenceScale": 1.00123
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-buy-flowers": {
+    "x": 0.52947625,
+    "y": 0.85912826,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-buy-flowers-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-buy-flowers-1.jpg",
+    "sourceMarkerPixel": [
+      961,
+      501
+    ],
+    "sourceImageSha256": "1491ccff4151c831977db90f7e703f4c71da34ab85e395e8b1b05819f6dbfc2b",
+    "markerAlignment": {
+      "inliers": 103,
+      "heldOutMatches": 28,
+      "nearbyControls": 83,
+      "p90ImagePixels": 1.053,
+      "referenceScale": 1.00178
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-buy-lucia-a-necklace": {
+    "x": 0.50947359,
+    "y": 0.87609692,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-buy-lucia-a-necklace-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-buy-lucia-a-necklace-1.jpg",
+    "sourceMarkerPixel": [
+      973,
+      532
+    ],
+    "sourceImageSha256": "a51b31043bf0b05817394a2fd594f1fa28e1d240bc7ba40388b4270d143a55b9",
+    "markerAlignment": {
+      "inliers": 80,
+      "heldOutMatches": 19,
+      "nearbyControls": 17,
+      "p90ImagePixels": 0.871,
+      "referenceScale": 0.84136
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-get-the-chop": {
+    "x": 0.50946431,
+    "y": 0.87544664,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-get-the-chop-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-get-the-chop-1.jpg",
+    "sourceMarkerPixel": [
+      961,
+      514
+    ],
+    "sourceImageSha256": "901e5d100edf6661afc7d405c09b1a56695f04cd9ac2ad6d29b1e22979148403",
+    "markerAlignment": {
+      "inliers": 84,
+      "heldOutMatches": 30,
+      "nearbyControls": 44,
+      "p90ImagePixels": 1.133,
+      "referenceScale": 1.00077
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-get-lucias-clothes": {
+    "x": 0.60422176,
+    "y": 0.81398704,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-get-lucias-clothes-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-get-lucias-clothes-1.jpg",
+    "sourceMarkerPixel": [
+      976,
+      534
+    ],
+    "sourceImageSha256": "27573fd589b5202cd6859b88071075a189dcf1b88d13bd1274aadbf5b0c803c3",
+    "markerAlignment": {
+      "inliers": 90,
+      "heldOutMatches": 25,
+      "nearbyControls": 73,
+      "p90ImagePixels": 1.3,
+      "referenceScale": 1.00116
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-buck-me": {
+    "x": 0.54683525,
+    "y": 0.84835761,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-buck-me-set-up-bank-account-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-buck-me-1.jpg",
+    "sourceMarkerPixel": [
+      960,
+      527
+    ],
+    "sourceImageSha256": "7533153c4a1778eaeff756833daa9988e6091d358ff78390dfe8e3f7c191ed92",
+    "markerAlignment": {
+      "inliers": 88,
+      "heldOutMatches": 19,
+      "nearbyControls": 76,
+      "p90ImagePixels": 1.565,
+      "referenceScale": 1.00149
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-day-release": {
+    "x": 0.57900331,
+    "y": 0.80316667,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-day-release-meet-mattia-kat-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-day-release-1.jpg",
+    "sourceMarkerPixel": [
+      963,
+      540
+    ],
+    "sourceImageSha256": "7761fe5b0c9c2cdb88f1d9df36e31e6691f02e10944e7717632ac33986f0b40c",
+    "markerAlignment": {
+      "inliers": 187,
+      "heldOutMatches": 49,
+      "nearbyControls": 84,
+      "p90ImagePixels": 0.884,
+      "referenceScale": 1.00081
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-clear-skies": {
+    "x": 0.28194884,
+    "y": 0.87535961,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-clear-skies-join-donnie-on-a-job-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-clear-skies-1.jpg",
+    "sourceMarkerPixel": [
+      968,
+      531
+    ],
+    "sourceImageSha256": "49d6fcff1aa63af68e8c1885f6f958696d18330e36a5532dd81f5bd29872b2db",
+    "markerAlignment": {
+      "inliers": 152,
+      "heldOutMatches": 37,
+      "nearbyControls": 54,
+      "p90ImagePixels": 1.132,
+      "referenceScale": 1.00064
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-swamped": {
+    "x": 0.55725011,
+    "y": 0.83150119,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-swamped-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-swamped-1.jpg",
+    "sourceMarkerPixel": [
+      961,
+      514
+    ],
+    "sourceImageSha256": "fa0926d99d9317927518c50780ab77a352d28c472982add889b736940d47b17e",
+    "markerAlignment": {
+      "inliers": 276,
+      "heldOutMatches": 72,
+      "nearbyControls": 89,
+      "p90ImagePixels": 1.45,
+      "referenceScale": 1.00009
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-recalibration": {
+    "x": 0.57123773,
+    "y": 0.81646353,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-recalibration-talk-to-lucia-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-recalibration-1.jpg",
+    "sourceMarkerPixel": [
+      961,
+      514
+    ],
+    "sourceImageSha256": "dc61e9db55d7fadd5a09e3d6503a5ea39c055cc26a4e1a743a9a04610c35035f",
+    "markerAlignment": {
+      "inliers": 136,
+      "heldOutMatches": 39,
+      "nearbyControls": 79,
+      "p90ImagePixels": 1.524,
+      "referenceScale": 1.00099
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-tourist-trap": {
+    "x": 0.49477654,
+    "y": 0.8837109,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-tourist-trap-take-up-mattias-offer-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-tourist-trap-1.jpg",
+    "sourceMarkerPixel": [
+      961,
+      514
+    ],
+    "sourceImageSha256": "5001ec20dcf998b3e979d137569765e8a85750e4c97ac87830a29e483aee85d0",
+    "markerAlignment": {
+      "inliers": 184,
+      "heldOutMatches": 45,
+      "nearbyControls": 36,
+      "p90ImagePixels": 1.048,
+      "referenceScale": 1.00061
+    },
+    "evidenceNote": "The selected mission marker shows the beach in southern Key Lento where Jason talks to Lucia after Recalibration."
+  },
+  "mission-moses": {
+    "x": 0.27546332,
+    "y": 0.36337612,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-moses-take-a-vehicle-to-moses-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-moses-location-1.jpg",
+    "sourceMarkerPixel": [
+      983,
+      518
+    ],
+    "sourceImageSha256": "0a75414076311ec189cca21d3988159ce25a84deef5362049d42227832433c0a",
+    "markerAlignment": {
+      "inliers": 249,
+      "heldOutMatches": 64,
+      "nearbyControls": 79,
+      "p90ImagePixels": 2.074,
+      "referenceScale": 0.99811
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-ambulance-chaser": {
+    "x": 0.3754568,
+    "y": 0.34425928,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-ambulance-chaser-move-the-ambulance-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-ambulance-chaser-location-1.jpg",
+    "sourceMarkerPixel": [
+      946,
+      519
+    ],
+    "sourceImageSha256": "953c347a4e11648b9111c08966614d3689f4273c1ff69519c14a2dda083406a1",
+    "markerAlignment": {
+      "inliers": 343,
+      "heldOutMatches": 88,
+      "nearbyControls": 67,
+      "p90ImagePixels": 2.009,
+      "referenceScale": 0.99987
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-slam-dunk": {
+    "x": 0.27575904,
+    "y": 0.34344094,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-slam-dunk-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-slam-dunk-1.jpg",
+    "sourceMarkerPixel": [
+      971,
+      537
+    ],
+    "sourceImageSha256": "60dcc5d9780877fe6b8f23afbbb3051b5d604dc6effd025d12584797781b81c4",
+    "markerAlignment": {
+      "inliers": 313,
+      "heldOutMatches": 83,
+      "nearbyControls": 130,
+      "p90ImagePixels": 1.785,
+      "referenceScale": 0.99975
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-collect-chemicals-for-kyle": {
+    "x": 0.64853909,
+    "y": 0.34168626,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-collect-chemicals-for-kyle-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-collect-chemicals-for-kyle-1.jpg",
+    "sourceMarkerPixel": [
+      953,
+      536
+    ],
+    "sourceImageSha256": "d83ff3aa66c587dfb3936da756f0cc0f9f6dfeb20bbbaa3eb480c65bb7b21330",
+    "markerAlignment": {
+      "inliers": 374,
+      "heldOutMatches": 89,
+      "nearbyControls": 199,
+      "p90ImagePixels": 1.68,
+      "referenceScale": 1.00015
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-daily-driver": {
+    "x": 0.28299973,
+    "y": 0.30073618,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-daily-driver-steal-the-crawler-for-moses-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-daily-driver-1.jpg",
+    "sourceMarkerPixel": [
+      961,
+      514
+    ],
+    "sourceImageSha256": "c6973c25e17b7eca1977a7a9ccd79fa885456d298059f9ed886cb69c7af8f19b",
+    "markerAlignment": {
+      "inliers": 312,
+      "heldOutMatches": 88,
+      "nearbyControls": 153,
+      "p90ImagePixels": 2.46,
+      "referenceScale": 0.99583
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-breakfast-run": {
+    "x": 0.35354877,
+    "y": 0.35312187,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-breakfast-run-check-on-jason-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-breakfast-run-1.jpg",
+    "sourceMarkerPixel": [
+      968,
+      528
+    ],
+    "sourceImageSha256": "6e432c484d1777c7c6c53f242e3110a9d095ffbba6b2b88b8223e07ffe9a9d32",
+    "markerAlignment": {
+      "inliers": 475,
+      "heldOutMatches": 116,
+      "nearbyControls": 125,
+      "p90ImagePixels": 1.964,
+      "referenceScale": 1.00143
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-thrillbillies": {
+    "x": 0.39260844,
+    "y": 0.30855441,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-thrillbillies-check-out-the-mud-club-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-thrillbillies-1.jpg",
+    "sourceMarkerPixel": [
+      962,
+      518
+    ],
+    "sourceImageSha256": "cce3501d627b39d5dd2ca126bf34ab0b19545fc0c6d5c75ffa7c6dc8586e83c5",
+    "markerAlignment": {
+      "inliers": 523,
+      "heldOutMatches": 137,
+      "nearbyControls": 96,
+      "p90ImagePixels": 1.9,
+      "referenceScale": 0.99921
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-twist-wrist-smash-grab": {
+    "x": 0.27835889,
+    "y": 0.33035164,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-twist-wrist-smash-grab-join-billy-on-a-job-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-twist-wrist-smash-grab-1.jpg",
+    "sourceMarkerPixel": [
+      961,
+      519
+    ],
+    "sourceImageSha256": "c52e84e85f8d49339f15fab8d14951b8a09cb73a19c6f27b2ddeaa1afef4ceb4",
+    "markerAlignment": {
+      "inliers": 362,
+      "heldOutMatches": 90,
+      "nearbyControls": 134,
+      "p90ImagePixels": 1.89,
+      "referenceScale": 0.99864
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-hit-avery-pawn": {
+    "x": 0.28096051,
+    "y": 0.33457248,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-hit-avery-pawn-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-hit-avery-pawn-1.jpg",
+    "sourceMarkerPixel": [
+      962,
+      524
+    ],
+    "sourceImageSha256": "94cf7973b6a662b3cd0071e46c4e3352e99ea034cf0185b1ba56e699ea6111eb",
+    "markerAlignment": {
+      "inliers": 345,
+      "heldOutMatches": 95,
+      "nearbyControls": 121,
+      "p90ImagePixels": 1.969,
+      "referenceScale": 0.99956
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-hit-kingpin-bowling": {
+    "x": 0.27969854,
+    "y": 0.37380921,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-hit-kingpin-bowling-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-hit-kingpin-bowling-1.jpg",
+    "sourceMarkerPixel": [
+      967,
+      548
+    ],
+    "sourceImageSha256": "7badfe3c283804eccbc68aff8f35f0f4b4ab36d6d409e18730869ba8b449e310",
+    "markerAlignment": {
+      "inliers": 407,
+      "heldOutMatches": 95,
+      "nearbyControls": 142,
+      "p90ImagePixels": 1.816,
+      "referenceScale": 0.99823
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-veteran-hunted": {
+    "x": 0.53966354,
+    "y": 0.15316654,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-veteran-hunted-meet-bret-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-veteran-hunted-1.jpg",
+    "sourceMarkerPixel": [
+      951,
+      525
+    ],
+    "sourceImageSha256": "d57486e9c3608ee70eb71d1790541c1a0e0f60ce5ae9ac6e39142bcaaf0f5de8",
+    "markerAlignment": {
+      "inliers": 277,
+      "heldOutMatches": 72,
+      "nearbyControls": 64,
+      "p90ImagePixels": 2.153,
+      "referenceScale": 1.00105
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-afternoon-delight": {
+    "x": 0.28150239,
+    "y": 0.34757519,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-afternoon-delight-rob-vickis-boss-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-afternoon-delights-1.jpg",
+    "sourceMarkerPixel": [
+      973,
+      529
+    ],
+    "sourceImageSha256": "00de6d832526006a612ecf5486931e43bd547877fb646d1630a00acc2458bb83",
+    "markerAlignment": {
+      "inliers": 357,
+      "heldOutMatches": 97,
+      "nearbyControls": 129,
+      "p90ImagePixels": 1.776,
+      "referenceScale": 0.99872
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-checking-out": {
+    "x": 0.35344766,
+    "y": 0.35302604,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-checking-out-move-to-vice-city-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-checking-out-1.jpg",
+    "sourceMarkerPixel": [
+      961,
+      514
+    ],
+    "sourceImageSha256": "8a7f617c073b5141427aecded7d42965993428f78449e6c60b3f82ba3e97ceb3",
+    "markerAlignment": {
+      "inliers": 473,
+      "heldOutMatches": 118,
+      "nearbyControls": 118,
+      "p90ImagePixels": 1.969,
+      "referenceScale": 1.00136
+    },
+    "evidenceNote": "The selected motel marker appears after the unlock call. The walkthrough directs the player back to the room to begin the mission."
+  },
+  "mission-collect-moses-gift": {
+    "x": 0.27447641,
+    "y": 0.36487107,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-collect-moses-gift-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-collect-moses-gift-1.jpg",
+    "sourceMarkerPixel": [
+      973,
+      516
+    ],
+    "sourceImageSha256": "87ab7b15e918a4613c3e9bd47e11e8146bb9eed50fe2ee4f66cdc9f95c3fc261",
+    "markerAlignment": {
+      "inliers": 258,
+      "heldOutMatches": 62,
+      "nearbyControls": 90,
+      "p90ImagePixels": 1.899,
+      "referenceScale": 0.99815
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-dealers-choice": {
+    "x": 0.69264906,
+    "y": 0.46810108,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-dealers-choice-go-see-drequan-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-dealers-choice-1.jpg",
+    "sourceMarkerPixel": [
+      977,
+      527
+    ],
+    "sourceImageSha256": "17762438249687d803e2a2eec87e19eca2cef8dfe4eb2b5e898ed2694a879417",
+    "markerAlignment": {
+      "inliers": 309,
+      "heldOutMatches": 86,
+      "nearbyControls": 134,
+      "p90ImagePixels": 1.394,
+      "referenceScale": 1.0002
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-dubious-provenance": {
+    "x": 0.24643754,
+    "y": 0.52236996,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-dubious-provenance-visit-the-antique-store-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-dubious-provenance-22.jpg",
+    "sourceMarkerPixel": [
+      969,
+      532
+    ],
+    "sourceImageSha256": "9383028184359256f53f27b7a3aad859f22630e0d42e9dd012a6701c0a65de5d",
+    "markerAlignment": {
+      "inliers": 214,
+      "heldOutMatches": 56,
+      "nearbyControls": 71,
+      "p90ImagePixels": 2.079,
+      "referenceScale": 0.99864
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-mami-knows-best": {
+    "x": 0.65287463,
+    "y": 0.62536925,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-mami-knows-best-catch-up-with-mia-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-mami-knows-best-1.jpg",
+    "sourceMarkerPixel": [
+      971,
+      510
+    ],
+    "sourceImageSha256": "2f3406edec07bceff3dde6b83eab884e6d91c9e5723a3b8168effcb447a301ca",
+    "markerAlignment": {
+      "inliers": 283,
+      "heldOutMatches": 71,
+      "nearbyControls": 107,
+      "p90ImagePixels": 1.227,
+      "referenceScale": 0.99976
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-join-a-street-race": {
+    "x": 0.64507028,
+    "y": 0.55372544,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-join-a-street-race-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-join-a-street-race-1.jpg",
+    "sourceMarkerPixel": [
+      959,
+      538
+    ],
+    "sourceImageSha256": "cb0eeed39d8437531462a52c120d7b407d09de8a9f6336d9271679fe64c520dd",
+    "markerAlignment": {
+      "inliers": 500,
+      "heldOutMatches": 129,
+      "nearbyControls": 246,
+      "p90ImagePixels": 1.081,
+      "referenceScale": 0.99948
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-here-kitty-kitty": {
+    "x": 0.6827152,
+    "y": 0.45923339,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-here-kitty-kitty-speak-with-tyrone-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-here-kitty-kitty-1.jpg",
+    "sourceMarkerPixel": [
+      974,
+      511
+    ],
+    "sourceImageSha256": "a7b9db57f653939ee57c8b4b07353d569faf4aa60f0e3e570595ac568f09a060",
+    "markerAlignment": {
+      "inliers": 188,
+      "heldOutMatches": 42,
+      "nearbyControls": 87,
+      "p90ImagePixels": 1.433,
+      "referenceScale": 1.00038
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-boobie-time": {
+    "x": 0.69273809,
+    "y": 0.46802372,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-boobie-time-talk-to-boobie-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-boobie-time-1.jpg",
+    "sourceMarkerPixel": [
+      963,
+      543
+    ],
+    "sourceImageSha256": "a4c9566c000cd70232811c85a10d5810350e5a8e25a6fa690d01d72f947a0d0e",
+    "markerAlignment": {
+      "inliers": 267,
+      "heldOutMatches": 68,
+      "nearbyControls": 123,
+      "p90ImagePixels": 1.976,
+      "referenceScale": 0.99998
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-buddy": {
+    "x": 0.4529648,
+    "y": 0.3244294,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-buddy-check-on-kyle-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-buddy-1.jpg",
+    "sourceMarkerPixel": [
+      958,
+      505
+    ],
+    "sourceImageSha256": "580b03d95a923b99b891498e9dd781ba97dbfc5d79f6929622303650844c22b8",
+    "markerAlignment": {
+      "inliers": 498,
+      "heldOutMatches": 128,
+      "nearbyControls": 133,
+      "p90ImagePixels": 1.982,
+      "referenceScale": 1.00071
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-meet-the-heders": {
+    "x": 0.70699435,
+    "y": 0.46845913,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-meet-the-heders-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-meet-the-heders-1.jpg",
+    "sourceMarkerPixel": [
+      964,
+      517
+    ],
+    "sourceImageSha256": "88c4c356b9303177c01e93d11a6b7118956e3871c431f4e10204b2f511c4bd60",
+    "markerAlignment": {
+      "inliers": 284,
+      "heldOutMatches": 72,
+      "nearbyControls": 118,
+      "p90ImagePixels": 1.637,
+      "referenceScale": 1.00002
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-bumper-to-bumper": {
+    "x": 0.65584219,
+    "y": 0.53129734,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-bumper-to-bumper-mentor-yago-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-bumper-to-bumper-1.jpg",
+    "sourceMarkerPixel": [
+      975,
+      525
+    ],
+    "sourceImageSha256": "1e042c2679ab79e074f4f6f19a7439b7aee0ee6968200fe806021ddf2427f8aa",
+    "markerAlignment": {
+      "inliers": 520,
+      "heldOutMatches": 130,
+      "nearbyControls": 234,
+      "p90ImagePixels": 1.589,
+      "referenceScale": 0.99941
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-car-service": {
+    "x": 0.63727019,
+    "y": 0.60116619,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-car-service-steal-the-car-for-raul-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-car-service-1.jpg",
+    "sourceMarkerPixel": [
+      943,
+      514
+    ],
+    "sourceImageSha256": "06eb5430e70765ea3054e77aab1e03c3b4c3358516f19cc13dc7d88daa1ff64f",
+    "markerAlignment": {
+      "inliers": 291,
+      "heldOutMatches": 74,
+      "nearbyControls": 127,
+      "p90ImagePixels": 1.617,
+      "referenceScale": 0.9998
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-top-billing": {
+    "x": 0.69255683,
+    "y": 0.46804496,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-top-billing-watch-the-real-dimez-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-top-billing-1.jpg",
+    "sourceMarkerPixel": [
+      956,
+      520
+    ],
+    "sourceImageSha256": "e927e74b4d7b0d30cef4aba5dde5b7a6e820848d3691f944d232a05386022efa",
+    "markerAlignment": {
+      "inliers": 290,
+      "heldOutMatches": 78,
+      "nearbyControls": 124,
+      "p90ImagePixels": 1.802,
+      "referenceScale": 0.99994
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-first-impressions": {
+    "x": 0.77294917,
+    "y": 0.52165644,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-first-impressions-meeting-with-raul-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-first-impressions-1.jpg",
+    "sourceMarkerPixel": [
+      967,
+      531
+    ],
+    "sourceImageSha256": "37e80208338e6e8568a01bf87f0648322d75b59bb94d29248ede50ad6356fb65",
+    "markerAlignment": {
+      "inliers": 305,
+      "heldOutMatches": 81,
+      "nearbyControls": 105,
+      "p90ImagePixels": 2.078,
+      "referenceScale": 0.99979
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-credit-check": {
+    "x": 0.71591078,
+    "y": 0.44442081,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-credit-check-meet-rauls-crew-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-credit-check-1.jpg",
+    "sourceMarkerPixel": [
+      968,
+      522
+    ],
+    "sourceImageSha256": "95d902e6212d37f255efeca3afb7f6827578f24853e97dd663c06562edd3dbc4",
+    "markerAlignment": {
+      "inliers": 249,
+      "heldOutMatches": 61,
+      "nearbyControls": 100,
+      "p90ImagePixels": 1.697,
+      "referenceScale": 0.99978
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-clonin-keys-makin-gs": {
+    "x": 0.8836331,
+    "y": 0.52607945,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-clonin-keys-makin-gs-steal-the-zorrusso-for-randy-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-clonin-keys-makin-gs-1.jpg",
+    "sourceMarkerPixel": [
+      961,
+      523
+    ],
+    "sourceImageSha256": "be7f4ab402b4ea096fdef12b16b5dfbaf7bf471625c39eba58f2387ad3c283a1",
+    "markerAlignment": {
+      "inliers": 287,
+      "heldOutMatches": 75,
+      "nearbyControls": 80,
+      "p90ImagePixels": 1.431,
+      "referenceScale": 0.99985
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-ride-or-die": {
+    "x": 0.69142112,
+    "y": 0.46855563,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-ride-or-die-meet-drequan-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-ride-or-die-1.jpg",
+    "sourceMarkerPixel": [
+      985,
+      523
+    ],
+    "sourceImageSha256": "78ea63761c6fe231342b26a55ec81d99a7b4fcdfa75892df2451c4e3ebc4ee39",
+    "markerAlignment": {
+      "inliers": 281,
+      "heldOutMatches": 67,
+      "nearbyControls": 88,
+      "p90ImagePixels": 1.717,
+      "referenceScale": 0.9729
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-race-against-yago": {
+    "x": 0.64544708,
+    "y": 0.55324165,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-race-against-yago-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-race-against-yago-1.jpg",
+    "sourceMarkerPixel": [
+      950,
+      534
+    ],
+    "sourceImageSha256": "fc9966c77dcb4382903678b8871aa24088f91517a589b9603a70f185618e3a16",
+    "markerAlignment": {
+      "inliers": 503,
+      "heldOutMatches": 121,
+      "nearbyControls": 236,
+      "p90ImagePixels": 1.38,
+      "referenceScale": 0.99956
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-sinfrontera-national-bank": {
+    "x": 0.67343055,
+    "y": 0.59629951,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-sinfrontera-national-bank-scope-out-the-bank-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-sinfrontera-national-bank-1.jpg",
+    "sourceMarkerPixel": [
+      971,
+      525
+    ],
+    "sourceImageSha256": "7fafcb8d991af7a542e9126999d9a1fa12bfc7f5fb9860fd31174b3fdc54016f",
+    "markerAlignment": {
+      "inliers": 274,
+      "heldOutMatches": 69,
+      "nearbyControls": 104,
+      "p90ImagePixels": 1.614,
+      "referenceScale": 0.9998
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-company-property": {
+    "x": 0.55303788,
+    "y": 0.73213776,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-company-property-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-company-property-1.jpg",
+    "sourceMarkerPixel": [
+      954,
+      523
+    ],
+    "sourceImageSha256": "ae3efb973cfc2ef5ecd043cbb62dee57f4ca5eca37bc1d09d4a053d31b4ce0f1",
+    "markerAlignment": {
+      "inliers": 255,
+      "heldOutMatches": 60,
+      "nearbyControls": 72,
+      "p90ImagePixels": 1.639,
+      "referenceScale": 1.00034
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-safe-word": {
+    "x": 0.71595859,
+    "y": 0.44603624,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-safe-word-steal-the-practice-safe-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-safe-word-1.jpg",
+    "sourceMarkerPixel": [
+      963,
+      518
+    ],
+    "sourceImageSha256": "9c69f938ad050f778abd84aca5b1c4f6f39055590321a0a949ff4c7c5b8c20d8",
+    "markerAlignment": {
+      "inliers": 240,
+      "heldOutMatches": 66,
+      "nearbyControls": 95,
+      "p90ImagePixels": 1.669,
+      "referenceScale": 0.99963
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-the-missing-link": {
+    "x": 0.358845,
+    "y": 0.68360089,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-the-missing-link-meet-andrea-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-the-missing-link-1.jpg",
+    "sourceMarkerPixel": [
+      967,
+      539
+    ],
+    "sourceImageSha256": "6a69448b6b993dec1adcb62c19b3347228bec037c911aedce11b56e55f01e03f",
+    "markerAlignment": {
+      "inliers": 197,
+      "heldOutMatches": 49,
+      "nearbyControls": 32,
+      "p90ImagePixels": 1.301,
+      "referenceScale": 0.99998
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-mall-rats": {
+    "x": 0.87370785,
+    "y": 0.53719451,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-mall-rats-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-mall-rats-1.jpg",
+    "sourceMarkerPixel": [
+      961,
+      520
+    ],
+    "sourceImageSha256": "3a89385808145a3c7a57fb1c5621b1cf12053ef43ecabf64a44fe366f2cabdf2",
+    "markerAlignment": {
+      "inliers": 614,
+      "heldOutMatches": 154,
+      "nearbyControls": 195,
+      "p90ImagePixels": 1.152,
+      "referenceScale": 0.99987
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-brother-to-brother": {
+    "x": 0.6577375,
+    "y": 0.53116336,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-brother-to-brother-back-up-yago-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-brother-to-brother-1.jpg",
+    "sourceMarkerPixel": [
+      961,
+      514
+    ],
+    "sourceImageSha256": "65c26974cd30d27e9c7f084d293aead0d3933e4d45e5511a814c2367106c74b8",
+    "markerAlignment": {
+      "inliers": 395,
+      "heldOutMatches": 104,
+      "nearbyControls": 235,
+      "p90ImagePixels": 1.78,
+      "referenceScale": 0.99984
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-cooties": {
+    "x": 0.69589594,
+    "y": 0.48300079,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-cooties-shoot-the-music-video-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-cooties-1.jpg",
+    "sourceMarkerPixel": [
+      956,
+      539
+    ],
+    "sourceImageSha256": "0386a674da241d339714e0b7117db8d82d0924e9624fe8e7625d4a3a27106e7b",
+    "markerAlignment": {
+      "inliers": 277,
+      "heldOutMatches": 68,
+      "nearbyControls": 105,
+      "p90ImagePixels": 1.626,
+      "referenceScale": 0.9996
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-hidden-charges": {
+    "x": 0.71545987,
+    "y": 0.4448457,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-hidden-charges-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-hidden-charges-1.jpg",
+    "sourceMarkerPixel": [
+      962,
+      522
+    ],
+    "sourceImageSha256": "2ff09f335b32e2d6a11985da60a44f81547f1c24df5effc9551439f3d33bc5ad",
+    "markerAlignment": {
+      "inliers": 250,
+      "heldOutMatches": 67,
+      "nearbyControls": 104,
+      "p90ImagePixels": 1.4,
+      "referenceScale": 0.99993
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-bricked-up": {
+    "x": 0.7077807,
+    "y": 0.4687686,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-bricked-up-return-to-the-apartment-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-bricked-up-1.jpg",
+    "sourceMarkerPixel": [
+      951,
+      531
+    ],
+    "sourceImageSha256": "5550b4bd52a6eef36d512d7342702d6386a65ab3c32d3794f42811237564c649",
+    "markerAlignment": {
+      "inliers": 274,
+      "heldOutMatches": 69,
+      "nearbyControls": 95,
+      "p90ImagePixels": 1.966,
+      "referenceScale": 0.99975
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-south-leonida-real-estate": {
+    "x": 0.55364456,
+    "y": 0.69541382,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-south-leonida-real-estate-meet-mia-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-south-leonida-real-estate-1.jpg",
+    "sourceMarkerPixel": [
+      967,
+      513
+    ],
+    "sourceImageSha256": "0a84762c0ca498d1d42de9cd2f85143aba61276f8a7d0e26c5a4828091ee9ec9",
+    "markerAlignment": {
+      "inliers": 255,
+      "heldOutMatches": 59,
+      "nearbyControls": 53,
+      "p90ImagePixels": 1.655,
+      "referenceScale": 1.00047
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-the-cartel-heist": {
+    "x": 0.71622112,
+    "y": 0.44590263,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-the-cartel-heist-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-the-cartel-heist-1.jpg",
+    "sourceMarkerPixel": [
+      957,
+      522
+    ],
+    "sourceImageSha256": "ab7c3cf99348a02728780b8df8a673cd5537a1a86e0c335819126ad4544f331b",
+    "markerAlignment": {
+      "inliers": 240,
+      "heldOutMatches": 56,
+      "nearbyControls": 105,
+      "p90ImagePixels": 2.05,
+      "referenceScale": 0.99991
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-the-impaler": {
+    "x": 0.53348264,
+    "y": 0.31336315,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-the-impaler-steal-the-impaler-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-the-impaler-1.jpg",
+    "sourceMarkerPixel": [
+      950,
+      517
+    ],
+    "sourceImageSha256": "f30c9276f7fb8bc814a35dee9811d602c57d2d4ffff46c224d8a06948a12d943",
+    "markerAlignment": {
+      "inliers": 475,
+      "heldOutMatches": 124,
+      "nearbyControls": 126,
+      "p90ImagePixels": 1.825,
+      "referenceScale": 0.99952
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-peach": {
+    "x": 0.65546668,
+    "y": 0.39295508,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-peach-join-the-cellerica-initiation-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-peach-1.jpg",
+    "sourceMarkerPixel": [
+      959,
+      526
+    ],
+    "sourceImageSha256": "53b66bb11b9a6ebe7dd31f0c678a6d7507c21bfe6624cac1a7e5a9117cd43b13",
+    "markerAlignment": {
+      "inliers": 437,
+      "heldOutMatches": 111,
+      "nearbyControls": 181,
+      "p90ImagePixels": 1.463,
+      "referenceScale": 0.99989
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-read-the-label": {
+    "x": 0.70616783,
+    "y": 0.41400337,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-read-the-label-retrieve-the-cellerica-van-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-read-the-label-1.jpg",
+    "sourceMarkerPixel": [
+      951,
+      527
+    ],
+    "sourceImageSha256": "5697fdd6954e0634769b40a34bae141164f6ca4809786dd25fcd9588b28ddfb6",
+    "markerAlignment": {
+      "inliers": 494,
+      "heldOutMatches": 132,
+      "nearbyControls": 132,
+      "p90ImagePixels": 1.622,
+      "referenceScale": 0.99963
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-puff-puff-pass": {
+    "x": 0.66857716,
+    "y": 0.38198201,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-puff-puff-pass-meet-at-the-warehouse-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-puff-puff-1.jpg",
+    "sourceMarkerPixel": [
+      966,
+      527
+    ],
+    "sourceImageSha256": "037adabb3f56dad07c025827f88a46f7079f97944af7831c59fcb5679e35b285",
+    "markerAlignment": {
+      "inliers": 473,
+      "heldOutMatches": 105,
+      "nearbyControls": 192,
+      "p90ImagePixels": 1.463,
+      "referenceScale": 0.99958
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-ocean-beach": {
+    "x": 0.70759638,
+    "y": 0.46850806,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-ocean-beach-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-ocean-beach-1.jpg",
+    "sourceMarkerPixel": [
+      965,
+      541
+    ],
+    "sourceImageSha256": "32b70b25b6a3eb2c87f56528f9bff797d33d6c4880ee207e04923357e010aafc",
+    "markerAlignment": {
+      "inliers": 271,
+      "heldOutMatches": 73,
+      "nearbyControls": 111,
+      "p90ImagePixels": 1.831,
+      "referenceScale": 0.99977
+    },
+    "evidenceNote": "Returning to the Bayside apartment starts the mission after The Cartel Heist. The highlighted marker points to the apartment."
+  },
+  "mission-company-cars": {
+    "x": 0.88326612,
+    "y": 0.45149779,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-company-cars-speak-to-the-concierge-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-company-cars-1.jpg",
+    "sourceMarkerPixel": [
+      979,
+      507
+    ],
+    "sourceImageSha256": "73d9a68f975bd43749575b20856dbde3aad2f98422059d59d76dcb8c5ec317fa",
+    "markerAlignment": {
+      "inliers": 279,
+      "heldOutMatches": 75,
+      "nearbyControls": 63,
+      "p90ImagePixels": 1.905,
+      "referenceScale": 1.00004
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-lawyer-up": {
+    "x": 0.70205277,
+    "y": 0.52171779,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-lawyer-up-meet-abe-gonzalez-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-lawyer-up-1.jpg",
+    "sourceMarkerPixel": [
+      982,
+      536
+    ],
+    "sourceImageSha256": "2940e842831f87f2f6347d195afaf392127c54939d19b69b2fa613c1c84c19ef",
+    "markerAlignment": {
+      "inliers": 188,
+      "heldOutMatches": 52,
+      "nearbyControls": 54,
+      "p90ImagePixels": 2.367,
+      "referenceScale": 0.99968
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-heavy-lifting": {
+    "x": 0.69706799,
+    "y": 0.49406763,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-heavy-lifting-bring-raul-the-hard-drive-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-heavy-lifting-1.jpg",
+    "sourceMarkerPixel": [
+      964,
+      535
+    ],
+    "sourceImageSha256": "216f8f57a2b66e0d4fed103782262d014e9e73548598373c2cddd9519a1b0c9e",
+    "markerAlignment": {
+      "inliers": 261,
+      "heldOutMatches": 65,
+      "nearbyControls": 96,
+      "p90ImagePixels": 1.974,
+      "referenceScale": 0.99984
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-its-a-date": {
+    "x": 0.71529841,
+    "y": 0.44278009,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-its-a-date-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-its-a-date-1.jpg",
+    "sourceMarkerPixel": [
+      974,
+      532
+    ],
+    "sourceImageSha256": "c78ec950662b96f3d858cfbb9c7a99ebf735a6548002a97863ebd43cc9d06e7f",
+    "markerAlignment": {
+      "inliers": 498,
+      "heldOutMatches": 127,
+      "nearbyControls": 193,
+      "p90ImagePixels": 1.862,
+      "referenceScale": 0.9997
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-party-hard": {
+    "x": 0.54654695,
+    "y": 0.53561324,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-party-hard-work-personal-security-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-party-hard-1.jpg",
+    "sourceMarkerPixel": [
+      949,
+      526
+    ],
+    "sourceImageSha256": "5ce1cfca3772bdaaaebbf9fdda71bfd9f77b6d3777ba09de5660750fff644430",
+    "markerAlignment": {
+      "inliers": 268,
+      "heldOutMatches": 57,
+      "nearbyControls": 82,
+      "p90ImagePixels": 2.376,
+      "referenceScale": 0.99912
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-photo-shoot": {
+    "x": 0.67958108,
+    "y": 0.61101816,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-photoshoot-shoot-a-promo-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-party-hard-1-1.jpg",
+    "sourceMarkerPixel": [
+      946,
+      521
+    ],
+    "sourceImageSha256": "c59733f971129a01c09ee3c520b71a1165e353071cd38e2fb0fd2e9c66075782",
+    "markerAlignment": {
+      "inliers": 256,
+      "heldOutMatches": 59,
+      "nearbyControls": 103,
+      "p90ImagePixels": 1.94,
+      "referenceScale": 0.9996
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-making-gainz": {
+    "x": 0.71595631,
+    "y": 0.44587072,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-making-gainz-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-making-gainz-1.jpg",
+    "sourceMarkerPixel": [
+      955,
+      517
+    ],
+    "sourceImageSha256": "52cae2998601b7ee96adb82d6aba594cc9d0f2964f318aa9a02ffc50cd174389",
+    "markerAlignment": {
+      "inliers": 205,
+      "heldOutMatches": 54,
+      "nearbyControls": 93,
+      "p90ImagePixels": 2.069,
+      "referenceScale": 0.99987
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-too-much-baggage": {
+    "x": 0.6036593,
+    "y": 0.56050025,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-too-much-baggage-scope-out-the-airport-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-too-much-baggage-1.jpg",
+    "sourceMarkerPixel": [
+      950,
+      537
+    ],
+    "sourceImageSha256": "0e51361d73955567aa714a1fc30fbf168878c6a213d0cf07fdae52b8e478da58",
+    "markerAlignment": {
+      "inliers": 217,
+      "heldOutMatches": 59,
+      "nearbyControls": 108,
+      "p90ImagePixels": 2.368,
+      "referenceScale": 0.99924
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-watch-it": {
+    "x": 0.85291245,
+    "y": 0.42477897,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-watch-it-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-watch-it-1.jpg",
+    "sourceMarkerPixel": [
+      950,
+      501
+    ],
+    "sourceImageSha256": "cf31fbaf81f5cfe7d61a59629d84d8cf9f8535cd7bb70837ee5dda365920e469",
+    "markerAlignment": {
+      "inliers": 107,
+      "heldOutMatches": 30,
+      "nearbyControls": 22,
+      "p90ImagePixels": 1.903,
+      "referenceScale": 1.00044
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-amateur-hour": {
+    "x": 0.84321208,
+    "y": 0.44139039,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-amateur-hour-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-amateur-hour-1.jpg",
+    "sourceMarkerPixel": [
+      975,
+      537
+    ],
+    "sourceImageSha256": "f81dde1f22bec5dd195bc1e76a4ff3c6dc9df3e43f53f1c45d83d96c5ee92610",
+    "markerAlignment": {
+      "inliers": 216,
+      "heldOutMatches": 56,
+      "nearbyControls": 61,
+      "p90ImagePixels": 1.655,
+      "referenceScale": 0.99973
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-cash-injections": {
+    "x": 0.88747584,
+    "y": 0.51185815,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-cash-injections-hang-out-with-nate-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-cash-injections-1.jpg",
+    "sourceMarkerPixel": [
+      950,
+      503
+    ],
+    "sourceImageSha256": "05199c022416ae3d66ce9ff799323189438f3272e89648e0579d34cb2f01cad5",
+    "markerAlignment": {
+      "inliers": 226,
+      "heldOutMatches": 54,
+      "nearbyControls": 37,
+      "p90ImagePixels": 1.512,
+      "referenceScale": 1.00003
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-dirty-work": {
+    "x": 0.71574402,
+    "y": 0.44847644,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-dirty-work-deal-with-raina-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-dirty-work-1.jpg",
+    "sourceMarkerPixel": [
+      636,
+      359
+    ],
+    "sourceImageSha256": "8c69492935fb512535dbb28b17f6f4e4e79685ce2316a9576f51ad1ff9a71c3a",
+    "markerAlignment": {
+      "inliers": 132,
+      "heldOutMatches": 37,
+      "nearbyControls": 51,
+      "p90ImagePixels": 2.014,
+      "referenceScale": 0.99948
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-adventures-in-babysitting": {
+    "x": 0.78915923,
+    "y": 0.51355071,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-adventures-in-babysitting-work-security-for-andres-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-adventures-in-babystting-1.jpg",
+    "sourceMarkerPixel": [
+      961,
+      527
+    ],
+    "sourceImageSha256": "6ec2f26f26c96341298ecb46fafa823cb56df9e4436473bded0714ba2287440f",
+    "markerAlignment": {
+      "inliers": 240,
+      "heldOutMatches": 56,
+      "nearbyControls": 82,
+      "p90ImagePixels": 1.844,
+      "referenceScale": 1.00038
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-fresh-evidence": {
+    "x": 0.69225723,
+    "y": 0.4688893,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-fresh-evidence-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-fresh-evidence-1.jpg",
+    "sourceMarkerPixel": [
+      962,
+      535
+    ],
+    "sourceImageSha256": "fdef9153048dd97bd11c681681f1373770b278d9bee1300a71a2a36c47ac6a68",
+    "markerAlignment": {
+      "inliers": 246,
+      "heldOutMatches": 58,
+      "nearbyControls": 89,
+      "p90ImagePixels": 2.248,
+      "referenceScale": 0.99986
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-childs-play": {
+    "x": 0.70697985,
+    "y": 0.54724922,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-childs-play-rescue-rafa-from-kidnappers-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-childs-play-1.jpg",
+    "sourceMarkerPixel": [
+      956,
+      533
+    ],
+    "sourceImageSha256": "920f7ddb34ee7adc72edc8af62f9a443b0a904cd352317e676ebafc98f29a712",
+    "markerAlignment": {
+      "inliers": 240,
+      "heldOutMatches": 60,
+      "nearbyControls": 100,
+      "p90ImagePixels": 2.316,
+      "referenceScale": 0.99941
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-this-is-a-free-call-from": {
+    "x": 0.54625024,
+    "y": 0.68428584,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-this-is-a-free-call-from-pick-up-shayna-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-this-is-a-free-call-from-1.jpg",
+    "sourceMarkerPixel": [
+      957,
+      526
+    ],
+    "sourceImageSha256": "ba2af015e588e55768ca0eb8974d945679fdaf494c7a542236be6be065b00e6a",
+    "markerAlignment": {
+      "inliers": 303,
+      "heldOutMatches": 82,
+      "nearbyControls": 66,
+      "p90ImagePixels": 1.461,
+      "referenceScale": 1.00048
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-power-play": {
+    "x": 0.6502298,
+    "y": 0.55326447,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-power-play-help-kordells-crew-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-power-play-1.jpg",
+    "sourceMarkerPixel": [
+      941,
+      529
+    ],
+    "sourceImageSha256": "b0c4cd39cda8be240624075d5978efad8c6855d94edb2f7e163cdd0bf7d71159",
+    "markerAlignment": {
+      "inliers": 211,
+      "heldOutMatches": 57,
+      "nearbyControls": 105,
+      "p90ImagePixels": 2.185,
+      "referenceScale": 0.99938
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-thats-where-the-money-is": {
+    "x": 0.86455718,
+    "y": 0.47546673,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-thats-where-the-money-is-wait-at-the-cafe-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta6-walkthrough-thats-where-the-money-is-1.jpg",
+    "sourceMarkerPixel": [
+      964,
+      524
+    ],
+    "sourceImageSha256": "13b485d59fcccf8771b0978f6dfff5182465e2f0c85c81c25fbae4984bc9469d",
+    "markerAlignment": {
+      "inliers": 220,
+      "heldOutMatches": 45,
+      "nearbyControls": 47,
+      "p90ImagePixels": 1.994,
+      "referenceScale": 1.00001
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  },
+  "mission-the-last-mile-backseat-pilot": {
+    "x": 0.22032258,
+    "y": 0.35331488,
+    "precision": "mission-marker",
+    "locationSource": "https://www.powerpyx.com/gta-6-the-last-mile-backseat-pilot-deliver-packages-walkthrough/",
+    "sourceImage": "https://www.powerpyx.com/wp-content/uploads/gta-6-walkthrough-the-last-mile-backseat-pilot-3.jpg",
+    "sourceMarkerPixel": [
+      955,
+      532
+    ],
+    "sourceImageSha256": "14c5af3ea56d73b0a9b08767a2fa7afe26d48e8593de8235d15df9aa6d2f1282",
+    "markerAlignment": {
+      "inliers": 285,
+      "heldOutMatches": 63,
+      "nearbyControls": 105,
+      "p90ImagePixels": 2.204,
+      "referenceScale": 0.99851
+    },
+    "evidenceNote": "The published starting-location screenshot selects this mission or its first physical action. The pin shows the selected in-game map marker."
+  }
+}

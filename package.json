@@ -1,0 +1,43 @@
+{
+  "name": "leonida-intelligence",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal GTA VI interactive map and discovery companion (unofficial fan tool).",
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "setup:data": "node scripts/fetch-data.ts",
+    "build": "vite build",
+    "start": "node --disable-warning=ExperimentalWarning server/main.ts",
+    "dev:server": "node --disable-warning=ExperimentalWarning --watch server/main.ts",
+    "dev:web": "vite",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "node --disable-warning=ExperimentalWarning --test --test-concurrency=1 \"tests/unit/*.test.ts\"",
+    "test:e2e": "playwright test",
+    "backup": "node --disable-warning=ExperimentalWarning scripts/backup.ts"
+  },
+  "dependencies": {
+    "@fastify/compress": "^8.1.0",
+    "@fastify/static": "^8.2.0",
+    "fast-xml-parser": "^5.2.5",
+    "fastify": "^5.4.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.0",
+    "@types/leaflet": "^1.9.20",
+    "@types/leaflet.markercluster": "^1.5.5",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.7.0",
+    "leaflet": "^1.9.4",
+    "leaflet.markercluster": "^1.5.3",
+    "lucide-react": "^0.525.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.5"
+  }
+}

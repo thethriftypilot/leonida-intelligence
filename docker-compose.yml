@@ -1,0 +1,19 @@
+# docker compose up -d   → open http://<server-ip>:5180 from any device on your home network
+services:
+  leonida:
+    build: .
+    image: leonida-intelligence:local
+    container_name: leonida-intelligence
+    restart: unless-stopped
+    ports:
+      # Publish on all interfaces of the host so LAN devices can connect.
+      # To restrict to one interface use e.g. "192.168.1.10:5180:5180".
+      - "${LI_PORT:-5180}:5180"
+    environment:
+      LI_UPDATE_INTERVAL_HOURS: "${LI_UPDATE_INTERVAL_HOURS:-12}"
+      LI_ACCESS_PIN: "${LI_ACCESS_PIN:-}"
+      LI_BACKUP_KEEP: "${LI_BACKUP_KEEP:-30}"
+      LI_OFFLINE: "${LI_OFFLINE:-false}"
+      # LI_FETCH_ARGS: "--hires"
+    volumes:
+      - ./data:/app/data
