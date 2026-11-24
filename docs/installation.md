@@ -3,7 +3,8 @@
 [← Back to README](../README.md)
 
 **On this page:**
-- [Windows 11 (recommended)](#windows-11)
+- [Windows installer (easiest)](#windows-installer-easiest)
+- [Windows 11 from source](#windows-11)
 - [Open it on other devices](#open-it-on-other-devices)
 - [Start automatically at logon](#start-automatically-at-logon)
 - [Linux home server (Docker)](#linux-home-server-docker)
@@ -18,9 +19,63 @@ browser, so there is nothing to install on them.
 
 ---
 
+## Windows installer (easiest)
+
+1. Download **`LeonidaIntelligence-Setup-<version>.exe`** from the
+   [latest release](https://github.com/thethriftypilot/leonida-intelligence/releases/latest).
+2. Double-click it. The installer isn't code-signed yet, so Windows may show *"Windows protected
+   your PC"*. Click **More info → Run anyway**. You can check the download against the
+   `.sha256` file published next to it.
+3. Leave the boxes ticked. They let your other devices connect and start the app when you sign in.
+   Windows asks for permission **once**, to add the firewall rule.
+4. The installer downloads the map, about 130 MB, with a progress window. Then it opens the map
+   in your browser.
+
+No admin rights are needed apart from that one optional firewall prompt. Nothing else needs
+installing: the installer brings its own copy of Node.js and Git (MinGit) and keeps them to
+itself.
+
+**The tray icon.** Leonida runs quietly in the notification area next to the clock. Click the
+icon to open the map. Right-click it for:
+
+- **Open on my phone or tablet…** shows the address to type on other devices. It also spots the
+  two usual blockers: the network is set to *Public*, or there's no firewall rule. Each has a
+  button that fixes it.
+- **Download / Update the map**, **Start with Windows**, and **Quit**.
+- **More:** restart the server, edit settings (port, PIN…), open the data folder, view the log.
+
+**Where things live**
+
+| What | Where |
+| --- | --- |
+| Program | `%LOCALAPPDATA%\Programs\Leonida Intelligence` (replaced on upgrade) |
+| Your progress, backups, map, settings (`data\.env`) | `%LOCALAPPDATA%\Leonida Intelligence\data` |
+| Server log | `%LOCALAPPDATA%\Leonida Intelligence\logs\server.log` |
+
+**Upgrading.** Run the newer installer. Your data folder isn't touched.
+
+**Uninstalling.** Use *Settings → Apps → Installed apps → Leonida Intelligence → Uninstall*.
+The uninstaller removes the firewall rule (one permission prompt) and the autostart entry. It
+then asks whether to delete your data as well; the default is to keep it.
+
+**Moving from a source install.** In the old copy, use *Tools → Backups → Export*. Then use
+*Import* in the installed app.
+
+**Silent install** (for scripting):
+`LeonidaIntelligence-Setup-<version>.exe /VERYSILENT /TASKS="autostart"`. This skips the
+firewall prompt and the map download. Afterwards, run `Leonida.exe --download-map` and use the
+tray's *Open on my phone or tablet* window.
+
+**Building the installer yourself.** You need Node.js 24+, plus Inno Setup 6 (`winget install
+JRSoftware.InnoSetup`). Then run `powershell -ExecutionPolicy Bypass -File installer\build.ps1`.
+The output goes to `build\out\`. Pushing a `v*` tag builds the installer and publishes it as a
+GitHub Release (`.github/workflows/release.yml`).
+
+---
+
 ## Windows 11
 
-**Requirements:** Node.js 24 or newer, and git.
+To run from source instead, you need Node.js 24 or newer, and git.
 
 ```powershell
 winget install OpenJS.NodeJS

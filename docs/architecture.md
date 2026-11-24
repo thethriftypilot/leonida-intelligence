@@ -46,7 +46,8 @@ server/        Fastify API (TypeScript, run natively by Node 24 — no build ste
 shared/        types, categories, coordinate frame, spoiler rules, search, routing
 web/           React + Vite front end (Leaflet with a custom CRS)
 seed/          pinned upstream data so the first start works offline
-scripts/       map download, CLI backup, test server, screenshot generator
+scripts/       map download, CLI backup, test server, screenshot generator, icon generator
+installer/     Windows installer: Inno Setup script, C# tray launcher, build script, network helper
 tests/unit     node:test unit + integration tests
 tests/e2e      Playwright browser tests
 docs/          documentation and screenshots

@@ -40,3 +40,11 @@ async function shutdown(sig: string) {
 process.on('SIGINT', () => void shutdown('SIGINT'));
 process.on('SIGTERM', () => void shutdown('SIGTERM'));
 process.on('unhandledRejection', (e) => console.error('unhandled rejection:', e));
+
+// Used by the Windows tray launcher: it keeps our stdin open and closes it to ask for a clean
+// shutdown. If the launcher dies, the pipe closes too, so the server never lingers on its own.
+if (process.env.LI_EXIT_ON_STDIN_CLOSE === '1') {
+  process.stdin.on('end', () => void shutdown('launcher closed'));
+  process.stdin.on('error', () => void shutdown('launcher closed'));
+  process.stdin.resume();
+}

@@ -39,8 +39,25 @@ Automated coverage: **27 unit/integration tests** and **10 Playwright browser te
 - [x] Dashboard, bottom progress bar, smart tools (useful, get first, nearby, planner,
   missing, community, surprise). *(e2e smoke)*
 - [x] Responsive layout including phone width. *(e2e mobile)*
+- [x] **Windows installer** (Inno Setup, per-user, with Node.js and MinGit bundled), tested on
+  Windows 11 on 23 Nov 2026:
+  - silent install, with the tray app starting the server;
+  - map download through the progress window (about 1 minute, 132 MB on disk);
+  - the map, tiles and LAN address served;
+  - a clean shutdown with `--quit`;
+  - an upgrade over a running copy, with data kept;
+  - a silent uninstall that removes the program and its autostart and registry entries.
 
 ## Not verified in this environment
+
+- [ ] **Windows installer, interactive parts:**
+  - clicking through the wizard pages;
+  - the firewall step: the permission prompt was declined during testing, so
+    `installer/tools/network.ps1` was only syntax-checked;
+  - the uninstaller's "delete your data?" question;
+  - the tray's *Open on my phone or tablet* window and its *Make Private* button.
+
+  The installer is also not code-signed, so expect a SmartScreen warning.
 
 - [ ] **Docker image**: Docker isn't installed on the build machine, so the Dockerfile and
   compose file are written but have **not been built or run**. Test on the Linux server with

@@ -4,8 +4,7 @@ import { fileURLToPath } from 'node:url';
 
 export const ROOT_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
-function loadDotEnv(): void {
-  const file = path.join(ROOT_DIR, '.env');
+function loadDotEnv(file: string): void {
   if (!fs.existsSync(file)) return;
   for (const line of fs.readFileSync(file, 'utf8').split(/\r?\n/)) {
     const m = line.match(/^\s*([A-Z0-9_]+)\s*=\s*(.*?)\s*$/);
@@ -14,7 +13,10 @@ function loadDotEnv(): void {
     if (process.env[m[1]] === undefined) process.env[m[1]] = val;
   }
 }
-loadDotEnv();
+// The Windows installer keeps settings next to the user's data (LI_DATA_DIR/.env), because the
+// program folder is replaced on every upgrade. That file wins over a .env in the project folder.
+if (process.env.LI_DATA_DIR) loadDotEnv(path.join(path.resolve(ROOT_DIR, process.env.LI_DATA_DIR), '.env'));
+loadDotEnv(path.join(ROOT_DIR, '.env'));
 
 export interface AppConfig {
   host: string;

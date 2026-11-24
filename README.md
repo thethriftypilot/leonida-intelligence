@@ -80,7 +80,25 @@ device, and the map gains new places as the community discovers them.
 
 ## 🚀 Quick start
 
-**Windows 11.** You need [Node.js 24+](https://nodejs.org) and [git](https://git-scm.com).
+### Windows: download and double-click
+
+[![Download for Windows](https://img.shields.io/badge/Download-Windows%20installer-ff5fa2?style=for-the-badge&logo=windows)](https://github.com/thethriftypilot/leonida-intelligence/releases/latest)
+
+1. Download **`LeonidaIntelligence-Setup-….exe`** from the
+   [latest release](https://github.com/thethriftypilot/leonida-intelligence/releases/latest),
+   then run it.
+2. It isn't code-signed yet. If Windows says *"Windows protected your PC"*, click **More info → Run
+   anyway**.
+3. The installer sets everything up: it downloads the map, adds the firewall rule, and can start
+   with Windows. Then it opens the map.
+
+Leonida then sits in the notification area next to the clock. Right-click the icon and choose
+**Open on my phone or tablet** to get the address for your other devices. More detail is in the
+[installation guide](docs/installation.md#windows-installer-easiest).
+
+### Windows from source
+
+You need [Node.js 24+](https://nodejs.org) and [git](https://git-scm.com).
 If you don't have them:
 
 ```powershell

@@ -1,0 +1,41 @@
+name: Release
+
+# Push a version tag (for example v1.0.1) to build the Windows installer and publish it as a
+# GitHub Release.
+on:
+  push:
+    tags: ['v*.*.*']
+
+permissions:
+  contents: write
+
+jobs:
+  windows-installer:
+    runs-on: windows-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - name: Typecheck
+        run: npm run typecheck
+      - name: Unit & integration tests
+        run: npm test
+      - name: Install Inno Setup
+        shell: pwsh
+        run: |
+          $found = (Get-Command iscc -ErrorAction SilentlyContinue) -or (Test-Path "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe") -or (Test-Path "$env:ProgramFiles\Inno Setup 6\ISCC.exe")
+          if (-not $found) { choco install innosetup -y --no-progress }
+      - name: Build installer
+        shell: pwsh
+        run: ./installer/build.ps1 -Version $env:GITHUB_REF_NAME.TrimStart('v')
+      - name: Publish release
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create $env:GITHUB_REF_NAME (Get-ChildItem build/out/*.exe, build/out/*.sha256).FullName `
+            --title "Leonida Intelligence $env:GITHUB_REF_NAME" --notes-file installer/RELEASE_NOTES.md
