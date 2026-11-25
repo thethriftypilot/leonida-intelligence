@@ -34,6 +34,14 @@ Rockstar Games / Take-Two Interactive. This project is not affiliated with or en
 - Records summarise and link to original publisher articles (e.g. PowerPyx, GamesRadar+). Those
   publishers retain all rights to their articles and screenshots, which are linked, not copied.
 
+### Glitches, bug fixes and patch notes
+- `seed/glitches/glitches.json` is written for this project in its own words (MIT). Each entry
+  summarises and links the articles it is based on: GTA6BUGS, games.gg, PC Gamer, Kotaku,
+  Pure Xbox, Dexerto, TweakTown, Red Bull and Rockstar Support. Those publishers retain all
+  rights to their articles; nothing is copied from them.
+- The red barn glitch pin reuses the position of the GTADB landmark *Apollo Aggregates, Peregrine
+  Bay* (L2453, CC BY 4.0, gtadb.org and contributors).
+
 ### Feeds
 - Research leads store only a title, link, date and a ≤280-character excerpt from public RSS/Atom
   feeds, always linking back to the publisher.

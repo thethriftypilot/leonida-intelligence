@@ -68,6 +68,7 @@ export function DetailPanel({ loc, progress, app, maxChapter, inRoute, onToggleR
       </div>
       <div className="li-panel-body">
         <div className="li-badges">
+          {glitchStatus(loc) && <span className={`li-badge-glitch gs-${glitchStatus(loc)}`} data-testid="glitch-status">{loc.subcategory}</span>}
           <span className={`li-badge-v v-${loc.verification}`} title="Verification status">{VERIFICATION_LABEL[loc.verification]}</span>
           <span className="li-badge-plain" title="Confidence score from evidence quality">Confidence {Math.round(loc.confidence * 100)}%</span>
           <span className="li-badge-plain">{PRECISION_LABEL[loc.precision] ?? loc.precision}</span>
@@ -87,16 +88,16 @@ export function DetailPanel({ loc, progress, app, maxChapter, inRoute, onToggleR
         {loc.description && <p className="li-desc">{loc.description}</p>}
         {loc.steps.length > 0 && (
           <>
-            <h4>How to get it</h4>
+            <h4>{loc.group === 'glitches' ? (loc.tags.includes('glitch-kind:update') ? 'What changed' : 'How to do it') : 'How to get it'}</h4>
             <ol className="li-steps">{loc.steps.map((s, i) => <li key={i}>{s}</li>)}</ol>
           </>
         )}
 
         <dl className="li-facts">
           <dt>Location</dt><dd>{[loc.neighborhood, loc.region].filter(Boolean).join(', ') || '—'}{loc.address && loc.address !== loc.name ? <div className="li-muted small">{loc.address}</div> : null}</dd>
-          <dt>Map position</dt><dd>{loc.x !== null ? `x ${loc.x.toFixed(0)}, y ${loc.y!.toFixed(0)}` : 'Unknown — in research queue'}</dd>
+          <dt>Map position</dt><dd>{loc.x !== null ? `x ${loc.x.toFixed(0)}, y ${loc.y!.toFixed(0)}` : loc.group === 'glitches' ? 'Not tied to one place' : 'Unknown — in research queue'}</dd>
           <dt>Story chapter</dt><dd>{loc.chapterMin !== null ? chapterLabel(loc.chapterMin, maxChapter) : loc.spoiler === 'none' ? 'General location — no known story restriction' : <span className="li-unknown">Unknown chapter requirement</span>}</dd>
-          {loc.availability && <><dt>Availability</dt><dd>{loc.availability}</dd></>}
+          {loc.availability && <><dt>{loc.group === 'glitches' ? 'Status' : 'Availability'}</dt><dd>{loc.availability}</dd></>}
           {loc.characters && <><dt>Character</dt><dd>{loc.characters}</dd></>}
           {loc.rewards && <><dt>Reported reward</dt><dd>{loc.rewards}</dd></>}
           {loc.repeatable !== null && <><dt>Repeatable</dt><dd>{loc.repeatable ? 'Yes' : 'No'}</dd></>}
@@ -132,7 +133,7 @@ export function DetailPanel({ loc, progress, app, maxChapter, inRoute, onToggleR
         <div className="li-row li-wrap">
           {loc.x !== null && <button className="li-btn" onClick={() => app.flyTo(loc.x!, loc.y!, 6)}><MapPinned size={14} /> Zoom to</button>}
           {loc.x !== null && <button className="li-btn" onClick={onToggleRoute}><RouteIcon size={14} /> {inRoute ? 'Remove from route' : 'Add to route'}</button>}
-          {loc.x === null && !loc.redacted && <button className="li-btn" onClick={() => app.startPick({ kind: 'placeItem', id: loc.id })}>I found it — place on map</button>}
+          {loc.x === null && !loc.redacted && loc.group !== 'glitches' && <button className="li-btn" onClick={() => app.startPick({ kind: 'placeItem', id: loc.id })}>I found it — place on map</button>}
           {loc.tags.includes('placed-by-you') && <button className="li-btn" onClick={async () => { await api.clearPosition(loc.id); await app.reload(); }}>Remove my placement</button>}
         </div>
 
@@ -153,4 +154,9 @@ export function DetailPanel({ loc, progress, app, maxChapter, inRoute, onToggleR
       </div>
     </div>
   );
+}
+
+/** The glitch status key ("working", "patched"…) of a glitch record, or null for other records. */
+export function glitchStatus(loc: LocationRecord): string | null {
+  return loc.tags.find((t) => t.startsWith('glitch-status:'))?.slice('glitch-status:'.length) ?? null;
 }

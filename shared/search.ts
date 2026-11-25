@@ -38,7 +38,7 @@ const GENERIC_GROUP_WORDS = new Set([
   'weapon', 'weapons', 'gun', 'guns', 'money', 'cash', 'vehicle', 'vehicles', 'car', 'cars', 'secret', 'secrets',
   'hidden', 'collectible', 'collectibles', 'activity', 'activities', 'shop', 'shops', 'store', 'stores', 'mission',
   'missions', 'story', 'landmark', 'landmarks', 'service', 'services', 'equipment', 'loot', 'rare', 'exotic',
-  'robbery', 'robberies', 'easter', 'egg', 'eggs', 'business',
+  'robbery', 'robberies', 'easter', 'egg', 'eggs', 'business', 'glitch', 'glitches', 'exploit', 'exploits', 'bug', 'bugs',
 ]);
 
 export function normalizeText(s: string): string {
@@ -86,7 +86,14 @@ export function parseQuery(raw: string, resolvePlace?: PlaceResolver): ParsedQue
   if (/\bhidden cash\b/.test(text)) groups.add('money');
   if (/\bmissions?\b/.test(text)) groups.add('story');
 
-  const terms = tokens.filter((t) => t.length > 1 && !STOP.has(t) && !GENERIC_GROUP_WORDS.has(t));
+  let terms = tokens.filter((t) => t.length > 1 && !STOP.has(t) && !GENERIC_GROUP_WORDS.has(t));
+  // "money glitch", "car dupe": the glitch words pick the group and the rest narrow it down.
+  if (groups.has('glitches') && groups.size > 1) {
+    const glitchWords = new Set(GROUPS.find((g) => g.key === 'glitches')!.keywords);
+    groups.clear();
+    groups.add('glitches');
+    terms = tokens.filter((t) => t.length > 1 && !STOP.has(t) && !glitchWords.has(t));
+  }
 
   if (groups.size) interpretation.unshift(`categories: ${[...groups].map((g) => GROUPS.find((x) => x.key === g)?.label ?? g).join(', ')}`);
   if (incomplete) interpretation.push('not yet completed by you');
@@ -184,7 +191,7 @@ export function searchLocations(
 // "What should I get first?" — subjective recommendations, kept separate from facts.
 
 const GROUP_WEIGHT: Record<string, number> = {
-  weapons: 3, money: 3, vehicles: 2, collectibles: 1.5, services: 1, activities: 1, story: 2, secrets: 1.5, landmarks: 0,
+  weapons: 3, money: 3, vehicles: 2, collectibles: 1.5, services: 1, activities: 1, story: 2, secrets: 1.5, glitches: 0, landmarks: 0,
 };
 
 export interface Recommendation {

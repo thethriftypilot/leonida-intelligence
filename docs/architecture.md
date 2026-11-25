@@ -21,6 +21,7 @@ flowchart LR
   E -->|git fetch| G[GTADB on GitHub]
   E -->|HTTPS| L[Loot Map dataset on GitHub]
   E -->|RSS/Atom| F[Guide feeds]
+  E -->|HTTPS| GL[Glitch list in this repo]
 ```
 
 The **research data** and **your progress** are two separate SQLite files. The research engine
@@ -41,6 +42,7 @@ server/        Fastify API (TypeScript, run natively by Node 24 — no build ste
     engine.ts      run orchestration, validation, merge, report
     gtadb.ts       GTADB adapter (git → GitHub HTTP → seed)
     lootmap.ts     GTA 6 Loot Map adapter
+    glitches.ts    curated glitches, bug fixes and patch notes (seed/glitches)
     rss.ts         RSS/Atom research leads
     manualImport.ts, dedupe.ts, http.ts (polite fetch with backoff)
 shared/        types, categories, coordinate frame, spoiler rules, search, routing
@@ -83,7 +85,7 @@ npm run typecheck
 ## Tests
 
 ```powershell
-npm test               # 27 unit + integration tests (node:test)
+npm test               # 31 unit + integration tests (node:test)
 ```
 
 ```powershell
@@ -91,7 +93,7 @@ npx playwright install chromium   # first time only
 ```
 
 ```powershell
-npm run test:e2e       # 10 browser tests against an isolated server with seed data
+npm run test:e2e       # 11 browser tests against an isolated server with seed data
 ```
 
 The browser tests start their own server on port 5199, with a fresh data folder in

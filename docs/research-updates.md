@@ -22,8 +22,17 @@ runs in its own adapter, so a broken or changed source never stops the others.
 | --- | --- | --- | --- |
 | **GTADB** (map.gtadb.org) | `git fetch` of a sparse checkout, which is what the maintainers ask for. Falls back to the GitHub API and raw file, then to a pinned copy in `seed/` | About 3,750 landmarks with in-game names, photos and tags (gun stores, mod shops, safehouses, marinas, airports…), plus the map tiles | CC BY 4.0 (data) |
 | **GTA 6 Loot Map** dataset (GitHub) | GitHub commit check, then the raw files at that commit. Falls back to a cached copy, then to the seed copy | Bank jobs, payday loans, vaults, collectibles, meditations, race trials, activities, rewards, and 176 missions with their chapters. Positions are taken from publishers' in-game map screenshots | MIT; each record links to its publisher's article |
+| **Glitches, bugs & patch notes** (this project) | Downloads the newest `seed/glitches/glitches.json` from this project's GitHub repository on every run. Falls back to the cached or bundled copy, whichever is newer | Current glitches with step-by-step instructions, a status (working, unconfirmed, patched, player fix, not fixed yet, fake) and the date it was last checked, plus update patch notes. Only placed on the map when a source names a place that matches a GTADB landmark | MIT (our own text); each entry links its sources |
 | **Guide & community feeds** (RSS/Atom) | Conditional GET (ETag / Last-Modified), at most one request per site every 1.5 seconds | **Research leads only.** These go to the review queue and are never placed on the map automatically | Only links and short excerpts are stored |
 | **Your imports** | **Tools → My data → Import** | Your own GeoJSON, JSON or CSV | Yours |
+
+**Keeping the glitch list current.** Glitches change with every game update, and no glitch
+site offers a licensed feed, so the list is curated by hand. To update it, edit
+`seed/glitches/glitches.json`: change an entry's `status` (for example `working` → `patched`,
+with `patchedIn`), update `checkedAt` and `statusNote`, and bump `updatedAt` at the top. Every
+entry needs at least one `https` source and must be written in your own words. Once the change is
+pushed to `main`, every install picks it up on its next update check, without an app update.
+Glitch news from the RSS feeds also lands in the review queue under *Glitches & Fixes*.
 
 Why other sites aren't used is explained in [Source research](research.md). In short, either
 their terms forbid automated collection, or they need a paid key whose reuse terms are unclear.

@@ -61,6 +61,8 @@ device, and the map gains new places as the community discovers them.
 - Runs offline on your own data; no AI subscription needed
 - Tools: **What should I get first?**, **Nearby**, **Route planner**, **What am I missing?**,
   **Surprise me**
+- **Glitches:** current glitches with step-by-step instructions, whether they still work, bug
+  workarounds and patch notes, each linked to its sources
 
 </td>
 <td valign="top">
@@ -202,6 +204,7 @@ For autostart, firewall, Linux/systemd, configuration and security, see the
 | --- | --- | --- |
 | Landmarks & map tiles | [GTADB](https://map.gtadb.org) — gtadb.org and all contributors (community cartography by YANIS and the GTA VI Mapping Community) | CC BY 4.0 |
 | Gameplay guides & missions | [GTA 6 Loot Map](https://github.com/theihtishaam/GTA-6-Interactive-Map-and-Loot-Tracker) dataset, linking to original publisher articles such as PowerPyx and GamesRadar+ | MIT |
+| Glitches, bug fixes & patch notes | This project's own summaries ([`seed/glitches/glitches.json`](seed/glitches/glitches.json)), each linking the articles it is based on (GTA6BUGS, games.gg, Pure Xbox, Dexerto, TweakTown, Rockstar Support…) | MIT (our text); articles © their publishers |
 | Research leads | Public RSS/Atom feeds; only links and short excerpts are stored | Publishers' own |
 
 - Map tiles are downloaded by each user's own setup and are **not** included in this

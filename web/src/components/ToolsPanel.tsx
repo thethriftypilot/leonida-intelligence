@@ -8,11 +8,13 @@ import { isDone, orderRoute } from '../../../shared/search.ts';
 import { distance, formatDistance } from '../../../shared/coords.ts';
 import { GroupIcon } from '../icons.tsx';
 import { timeAgo, VERIFICATION_LABEL } from '../state.ts';
+import { glitchStatus } from './DetailPanel.tsx';
 
-export type ToolId = 'search' | 'useful' | 'first' | 'nearby' | 'planner' | 'missing' | 'community' | 'review' | 'updates' | 'data';
+export type ToolId = 'search' | 'glitches' | 'useful' | 'first' | 'nearby' | 'planner' | 'missing' | 'community' | 'review' | 'updates' | 'data';
 
 const TABS: { id: ToolId; label: string }[] = [
   { id: 'search', label: 'Search' },
+  { id: 'glitches', label: 'Glitches' },
   { id: 'useful', label: 'Find useful' },
   { id: 'first', label: 'Get first' },
   { id: 'nearby', label: 'Nearby' },
@@ -59,6 +61,7 @@ export function ToolsPanel(p: Props) {
       </div>
       <div className="li-panel-body">
         {p.tool === 'search' && <SearchTool {...p} />}
+        {p.tool === 'glitches' && <GlitchesTool {...p} />}
         {p.tool === 'useful' && <UsefulTool {...p} />}
         {p.tool === 'first' && <FirstTool {...p} />}
         {p.tool === 'nearby' && <NearbyTool {...p} />}
@@ -86,7 +89,7 @@ function HitList({ hits, app, byId, progress, extra, testid }: { hits: BriefHit[
               <span className="li-hit-icon"><GroupIcon group={h.group} size={14} /></span>
               <span className="li-hit-main">
                 <span className="li-hit-name">{h.name}{done ? ' ✓' : ''}</span>
-                <small>{h.category}{l?.region ? ` · ${l.region}` : ''}{l && l.x === null ? ' · position unknown' : ''}{l ? ` · ${VERIFICATION_LABEL[l.verification]}` : ''}</small>
+                <small>{h.category}{l?.region ? ` · ${l.region}` : ''}{l && l.x === null && l.group !== 'glitches' ? ' · position unknown' : ''}{l ? ` · ${VERIFICATION_LABEL[l.verification]}` : ''}</small>
                 {extra?.(h)}
               </span>
               {typeof h.distance === 'number' && <span className="li-hit-dist">{formatDistance(h.distance)}</span>}
@@ -95,6 +98,66 @@ function HitList({ hits, app, byId, progress, extra, testid }: { hits: BriefHit[
         );
       })}
     </ul>
+  );
+}
+
+const GLITCH_SECTIONS: { category: string; blurb: string }[] = [
+  { category: 'Working glitches', blurb: 'Exploits and tricks that are reported to work on the current game version.' },
+  { category: 'Known bugs & fixes', blurb: 'Bugs players are hitting, with player workarounds where one exists.' },
+  { category: 'Game updates & patch notes', blurb: 'What each GTA VI update fixed.' },
+  { category: 'Patched glitches', blurb: 'Glitches that no longer work.' },
+  { category: 'Fake glitches & scams', blurb: 'Claims to ignore, and tricks that could cost you your account.' },
+];
+
+function GlitchesTool(p: Props) {
+  const [filter, setFilter] = useState<string>('all');
+  const all = useMemo(() => p.locations.filter((l) => l.group === 'glitches' && l.status === 'active'), [p.locations]);
+  const checked = all.map((l) => /Last checked (\d{4}-\d{2}-\d{2})/.exec(l.availability ?? '')?.[1]).filter(Boolean).sort().pop();
+  const hidden = (p.stats?.hiddenBySpoilers ?? 0) > 0;
+  const sections = GLITCH_SECTIONS.filter((s) => filter === 'all' || s.category === filter);
+  return (
+    <div data-testid="glitches-tool">
+      <p className="li-muted small">
+        Current glitches, player fixes for bugs, and what each update changed. Every entry has step-by-step instructions, a status and links to the articles it comes from.
+        {checked ? ` Last checked ${checked}.` : ''} The list refreshes with every update check; glitches can stop working after any game update.
+      </p>
+      <div className="li-row wrap">
+        <button className={`li-chip ${filter === 'all' ? 'active' : ''}`} onClick={() => setFilter('all')}>All ({all.length})</button>
+        {GLITCH_SECTIONS.map((s) => {
+          const n = all.filter((l) => l.category === s.category).length;
+          return n ? <button key={s.category} className={`li-chip ${filter === s.category ? 'active' : ''}`} onClick={() => setFilter(s.category)}>{s.category} ({n})</button> : null;
+        })}
+      </div>
+      <div className="li-row wrap">
+        <button className="li-btn" onClick={() => p.app.setHighlight(all.filter((l) => l.x !== null).map((l) => l.id), 'Glitch locations')}>Show glitch spots on the map</button>
+        <button className="li-btn" disabled={p.updating} onClick={p.onUpdate}>{p.updating ? 'Checking…' : 'Check for the latest'}</button>
+      </div>
+      {!all.length && <p className="li-empty">No glitch list yet. Click “Check for the latest”.</p>}
+      {sections.map((s) => {
+        const order = ['working', 'unfixed', 'workaround', 'unconfirmed', 'fixed', 'patched', 'fake'];
+        const rank = (l: LocationRecord) => { const i = order.indexOf(glitchStatus(l) ?? ''); return i < 0 ? order.length : i; };
+        const items = all.filter((l) => l.category === s.category).sort((a, b) => rank(a) - rank(b) || a.name.localeCompare(b.name));
+        if (!items.length) return null;
+        return (
+          <section key={s.category} className="li-glitch-section">
+            <h4>{s.category}</h4>
+            <p className="li-muted small">{s.blurb}</p>
+            <HitList
+              hits={items.map((l) => ({ id: l.id, name: l.name, group: l.group, category: l.category }))}
+              app={p.app} byId={p.byId} progress={p.progress} testid={`glitch-list-${s.category}`}
+              extra={(h) => {
+                const l = p.byId.get(h.id);
+                if (!l) return null;
+                const st = glitchStatus(l);
+                const plats = l.tags.filter((t) => t.startsWith('platform:')).map((t) => t.slice(9)).join(', ');
+                return <span className="li-glitch-meta"><span className={`li-badge-glitch gs-${st}`}>{l.subcategory}</span>{plats ? <small>{plats}</small> : null}{l.x !== null ? <small>· on the map</small> : null}</span>;
+              }}
+            />
+          </section>
+        );
+      })}
+      {hidden && <p className="li-muted small">Some story-related bugs may be hidden by your spoiler settings.</p>}
+    </div>
   );
 }
 

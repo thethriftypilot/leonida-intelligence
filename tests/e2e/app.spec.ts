@@ -159,6 +159,20 @@ test('smart tools: recommendations, missing, community and surprise', async ({ p
   await expect(page.getByTestId('detail-panel')).toBeVisible();
 });
 
+test('glitches tab lists sourced glitches with status and step-by-step instructions', async ({ page }) => {
+  await openApp(page);
+  await page.getByTestId('glitches-button').click();
+  const tool = page.getByTestId('glitches-tool');
+  await expect(tool).toContainText('Working glitches');
+  // Story bugs stay hidden at the Prologue.
+  await expect(tool).not.toContainText('Missing Persons');
+  await tool.getByText('Red barn money glitch (save and reload)').click();
+  await expect(page.getByTestId('detail-title')).toHaveText('Red barn money glitch (save and reload)');
+  await expect(page.getByTestId('glitch-status')).toHaveText('Working');
+  await expect(page.getByTestId('detail-panel')).toContainText('How to do it');
+  await expect(page.getByTestId('detail-panel').locator('.li-steps li')).toHaveCount(7);
+});
+
 test('mobile layout is usable', async ({ browser }) => {
   const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
   const page = await ctx.newPage();

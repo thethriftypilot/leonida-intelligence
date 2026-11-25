@@ -114,6 +114,7 @@ Open them with **Tools** in the top bar.
 | Tool | What it does |
 | --- | --- |
 | **Search** | Natural-language search (see above) |
+| **Glitches** | Current glitches and exploits, bugs with player workarounds, what each game update fixed, and fake glitches to avoid. Each entry has a status badge, the date it was last checked, step-by-step instructions and source links. Also opens from the **Glitches** button in the top bar |
 | **Find useful** | Pick a category and see everything in it, with the things you haven't done listed first |
 | **Get first** | Ranked suggestions for what to do next (see below) |
 | **Nearby** | Set your approximate position with **I'm here**, then list what's within 0.5–5 km |
@@ -123,6 +124,12 @@ Open them with **Tools** in the top bar.
 | **Review** | Research leads, possible duplicates, bad coordinates, and places with no position yet |
 | **Updates** | Run an update now, change the schedule, manage sources, and read update reports |
 | **My data** | Backups, restore, your markers, checklists, and importing GeoJSON or CSV files |
+
+**Glitches** are sorted by status: *Working*, *Not fixed yet*, *Player fix*, *Unconfirmed*,
+*Fixed*, *Patched* and *Fake / avoid*. A glitch tied to a place (such as the red barn money
+glitch) also has a pin on the map; **Show glitch spots on the map** highlights them. Glitches
+can stop working after any game update, so check the *Last checked* date. Bugs that name story
+missions follow your spoiler settings. Searching for *"money glitch"* also works.
 
 **Get first** ranks places by usefulness, reported rewards, chapter availability,
 missability and evidence. These are opinions, clearly labelled as such; the facts behind each

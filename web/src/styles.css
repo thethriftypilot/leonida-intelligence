@@ -326,3 +326,19 @@ h4 { margin: 18px 0 6px; text-transform: uppercase; font-size: 13px; color: var(
   .li-top-actions > .li-pill:first-child, .li-top-actions > .li-icon-btn { display: none; }
   .li-progress-btns { grid-template-columns: repeat(3, 1fr); }
 }
+
+/* Glitches */
+.li-row.wrap { flex-wrap: wrap; }
+.li-chip.active { border-color: var(--teal); background: #0d3333; color: #a6fff6; }
+.li-glitch-section { margin-top: 14px; }
+.li-glitch-section h4 { margin: 0 0 2px; }
+.li-glitch-meta { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; margin-top: 3px; }
+.li-badge-glitch { font-size: 11px; font-weight: 600; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--line); white-space: nowrap; }
+.li-badge-glitch.gs-working { background: #0f3a22; border-color: var(--good); color: #9ff0c4; }
+.li-badge-glitch.gs-unconfirmed { border-style: dashed; border-color: var(--warn); color: var(--warn); }
+.li-badge-glitch.gs-workaround { background: #0d2a3a; border-color: #4da3ff; color: #b8dcff; }
+.li-badge-glitch.gs-fixed { background: #0d3333; border-color: var(--teal); color: #a6fff6; }
+.li-badge-glitch.gs-unfixed { background: #3a2a0d; border-color: var(--warn); color: #ffd99a; }
+.li-badge-glitch.gs-patched { color: #999; text-decoration: line-through; }
+.li-badge-glitch.gs-fake { background: #3a0d14; border-color: var(--bad); color: #ffb3b3; }
+.li-desc { white-space: pre-line; }

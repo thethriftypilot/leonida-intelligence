@@ -114,3 +114,16 @@ test('route ordering produces a shorter-or-equal straight-line path', () => {
   assert.deepEqual(r.order.map((p) => p.id), ['1', '3', '4', '2']);
   assert.equal(Math.round(r.total), 1100);
 });
+
+test('search: "money glitch" looks in Glitches & Fixes, narrowed by the other words', () => {
+  const q = parseQuery('money glitch');
+  assert.deepEqual(q.groups, ['glitches']);
+  assert.deepEqual(q.terms, ['money']);
+  const locs = [
+    loc('g1', { group: 'glitches', name: 'Red barn money glitch', category: 'Working glitches' }),
+    loc('g2', { group: 'glitches', name: 'First-person camera glitch', category: 'Working glitches' }),
+    loc('m1', { group: 'money', name: 'Bank vault', category: 'Robberies' }),
+  ];
+  const { hits } = searchLocations(locs, q, {}, DEFAULT_SPOILERS);
+  assert.deepEqual(hits.map((h) => h.loc.id), ['g1']);
+});

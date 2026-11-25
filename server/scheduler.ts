@@ -43,6 +43,10 @@ export class Scheduler {
       const due = !last || Date.now() - Date.parse(last.startedAt) >= this.intervalHours() * 3600_000;
       if (due && !this.engine.isRunning()) {
         void this.engine.run(last ? 'schedule' : 'startup').catch((e) => this.log(`scheduled update failed: ${(e as Error).message}`));
+      } else if (!this.engine.isRunning()) {
+        // A source added by an app upgrade shouldn't wait up to a full interval for its first import.
+        const fresh = this.world.sources().filter((s) => s.enabled && s.lastStatus === 'never').map((s) => s.id);
+        if (fresh.length) void this.engine.run('startup', fresh).catch((e) => this.log(`first import failed: ${(e as Error).message}`));
       }
       if (Date.now() - this.backups.lastAutoBackupAt() > 24 * 3600_000) {
         const b = this.backups.backupUser(this.user.db, 'auto');

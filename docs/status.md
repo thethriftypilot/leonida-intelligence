@@ -6,7 +6,7 @@ Last verified: 22 November 2026.
 
 ## Operational and tested
 
-Automated coverage: **27 unit/integration tests** and **10 Playwright browser tests**. All pass.
+Automated coverage: **31 unit/integration tests** and **11 Playwright browser tests**. All pass.
 
 - [x] Real GTA VI basemap (GTADB `day` tiles, zoom 0–5) with an exact CRS calibration.
   Alternative layers: night style and the YANIS v18 community map. *(e2e: tiles load, zoom)*
@@ -39,6 +39,12 @@ Automated coverage: **27 unit/integration tests** and **10 Playwright browser te
 - [x] Dashboard, bottom progress bar, smart tools (useful, get first, nearby, planner,
   missing, community, surprise). *(e2e smoke)*
 - [x] Responsive layout including phone width. *(e2e mobile)*
+- [x] **Glitches & fixes** (24 Nov 2026): 11 sourced entries covering working glitches, bugs with
+  player fixes, the 01.002.002 patch notes and fakes to avoid. Each has a status, a checked
+  date and step-by-step instructions. The list refreshes from the GitHub repository on every
+  update run, falling back to the bundled copy. The red barn glitch is pinned on the GTADB
+  *Apollo Aggregates* landmark. *(unit: parsing, rejection, offline fallback, search; e2e:
+  Glitches tab and detail)*
 - [x] **Windows installer** (Inno Setup, per-user, with Node.js and MinGit bundled), tested on
   Windows 11 on 23 Nov 2026:
   - silent install, with the tray app starting the server;
@@ -72,6 +78,12 @@ Automated coverage: **27 unit/integration tests** and **10 Playwright browser te
   devices.
 
 ## Limited by available data or licensing (not software gaps)
+
+- **Glitches are curated by hand.** No glitch site offers a licensed data feed, so glitch
+  statuses only change when someone edits `seed/glitches/glitches.json` and pushes it. Statuses
+  were last checked on 24 Nov 2026, using press and fan-tracker reports, not hands-on testing.
+  Rockstar's own patch-notes page timed out when fetched, so the 01.002.002 notes come from two
+  outlets quoting it.
 
 - **Weapons, hidden cash, rare vehicle spawns, easter eggs.** The categories exist and fill
   in automatically. Today the only legitimately reusable data covers the following; the

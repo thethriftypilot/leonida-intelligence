@@ -105,3 +105,46 @@ test('Duplicate detection: certain vs possible vs distinct', () => {
   assert.equal(findDuplicate({ name: "Phil's Ammu-Nation", x: 5000, y: 0 }, existing), null);
   assert.equal(findDuplicate({ name: 'Totally different', x: 0, y: 0 }, existing), null);
 });
+
+test('Glitches: bundled list parses; every entry has steps or a summary, sources and a dated status', async () => {
+  const { parseGlitchFile } = await import('../../server/ingest/glitches.ts');
+  const { records } = parseGlitchFile(seed('glitches/glitches.json'));
+  assert.ok(records.length >= 8, `got ${records.length}`);
+  for (const r of records) {
+    assert.equal(r.group, 'glitches');
+    assert.ok(r.links.length > 0 && r.links.every((l) => l.url.startsWith('https://')), `${r.sourceKey} has https sources`);
+    assert.match(r.availability ?? '', /Last checked \d{4}-\d{2}-\d{2}/, `${r.sourceKey} has a checked date`);
+    assert.ok(r.tags.some((t) => t.startsWith('glitch-status:')));
+  }
+  const barn = records.find((r) => r.sourceKey === 'money-red-barn-save-reload')!;
+  assert.equal(barn.category, 'Working glitches');
+  assert.ok(barn.steps.length >= 5);
+  // Pinned on the real GTADB landmark, not an invented coordinate.
+  const lm = seed('gtadb/landmarks.json').L2453;
+  assert.match(lm[0], /^Apollo Aggregates/);
+  assert.ok(Math.abs(barn.x! - lm[1][0]) < 0.01 && Math.abs(barn.y! - lm[1][1]) < 0.01);
+  // Entries without a named place stay off the map.
+  assert.equal(records.find((r) => r.sourceKey === 'first-person-camera')!.x, null);
+  assert.equal(records.find((r) => r.sourceKey === 'fake-money-generators')!.category, 'Fake glitches & scams');
+});
+
+test('Glitches: entries without sources or with unknown status are rejected', async () => {
+  const { parseGlitchFile } = await import('../../server/ingest/glitches.ts');
+  const ok = { id: 'a', kind: 'glitch', status: 'working', name: 'A', summary: 's', sources: [{ label: 'x', url: 'https://example.com/a' }] };
+  const { records, notes } = parseGlitchFile({ schemaVersion: 1, updatedAt: '2026-01-01', entries: [ok, { ...ok, id: 'b', sources: [] }, { ...ok, id: 'c', status: 'maybe' }] });
+  assert.deepEqual(records.map((r) => r.sourceKey), ['a']);
+  assert.ok(notes.some((n) => n.includes('no sources')) && notes.some((n) => n.includes('unknown status')));
+  assert.throws(() => parseGlitchFile({ schemaVersion: 2, entries: [] }));
+});
+
+test('Glitches: adapter falls back to the bundled list when the network fails', async () => {
+  const { glitchesAdapter } = await import('../../server/ingest/glitches.ts');
+  const os = await import('node:os');
+  const dataDir = fs.mkdtempSync(path.join(os.tmpdir(), 'li-glitch-'));
+  const res = await glitchesAdapter.run({
+    dataDir, seedDir: path.join(ROOT_DIR, 'seed'), offline: false, previousRevision: null, config: {}, state: {}, firstRun: true,
+    log: () => {}, http: async () => { throw new Error('offline'); },
+  });
+  assert.ok(res.records.length >= 8);
+  assert.ok(res.notes[0].includes('bundled'));
+});

@@ -1,6 +1,6 @@
 import { renderToStaticMarkup } from 'react-dom/server';
 import {
-  Banknote, Car, Clapperboard, Crosshair, Dumbbell, Eye, Gem, Landmark, MapPin, Store, Star, Check, type LucideIcon,
+  Banknote, Bug, Car, Clapperboard, Crosshair, Dumbbell, Eye, Gem, Landmark, MapPin, Store, Star, Check, type LucideIcon,
 } from 'lucide-react';
 
 export const GROUP_ICONS: Record<string, LucideIcon> = {
@@ -12,6 +12,7 @@ export const GROUP_ICONS: Record<string, LucideIcon> = {
   activities: Dumbbell,
   services: Store,
   story: Clapperboard,
+  glitches: Bug,
   landmarks: Landmark,
   personal: MapPin,
 };

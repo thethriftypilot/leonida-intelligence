@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-24",
+  "latestGameVersion": "01.002.002",
+  "notice": "Written for Leonida Intelligence in our own words. Every entry links the articles it is based on; those publishers own their articles. Status lines say when they were last checked. Glitches can stop working with any update.",
+  "entries": [
+    {
+      "id": "money-red-barn-save-reload",
+      "kind": "glitch",
+      "status": "working",
+      "name": "Red barn money glitch (save and reload)",
+      "summary": "Loot you store in your own car's trunk survives loading a manual save, but the cocaine in the Apollo Aggregates warehouse (the red barn east of Hamlet) comes back. Fill the trunk, save, load, loot again, then sell everything to a fence.",
+      "statusNote": "Reported working after update 01.002.002 (24 Nov 2026). Rockstar has not commented, and the update notes do not mention it.",
+      "checkedAt": "2026-11-24",
+      "platforms": ["PS5", "Xbox Series X|S"],
+      "characters": "Jason or Lucia",
+      "requirements": "A personal car you own (register one at a Pay 'n' Spray or through Moses in Port Gellhorn). Manual saves only; autosaves do not work for this.",
+      "reward": "About $8,640 per repeat; the first full clear is about $11,280 (games.gg). Other outlets estimate roughly $10,000 per run.",
+      "steps": [
+        "Drive your own registered car to the Apollo Aggregates warehouse, the red barn in a gravel yard just east of Hamlet. Coming from Key Lento, look for three rectangular pools beside the highway; the yard is south-east of them.",
+        "Go in through the grey door beside the Apollo trailer and clear the building.",
+        "Take the cocaine from the office table and safe, and from the two vans in the middle of the barn, into stash bags.",
+        "Put the full bags in your car's trunk.",
+        "Pause, open the Game tab and choose Save Game. Then choose Load Game and load that save.",
+        "Drive back to the barn. The vans should be restocked. If they are empty, save and load once more, or wait a few in-game days.",
+        "Repeat until the trunk is full (up to four bags), then sell at a fence: Brian's Lockup in south-west Key Lento (keypad 7700) early on, later Dunk in Port Gellhorn or Tyrone in La Perle."
+      ],
+      "risks": [
+        "Sources disagree on what respawns: gta6bugs says the cash bag in the van comes back too; games.gg says only the two cocaine vans restock.",
+        "Cash held at the end of Chapter 1 does not carry into Chapter 2, so sell and spend before then.",
+        "A known bug can make a stash bag vanish after getting into a car or a cutscene. Sell often.",
+        "This is an exploit Rockstar may remove in a future update."
+      ],
+      "location": { "x": -1837.43, "y": -2876.11, "precision": "venue", "region": "Peregrine Bay", "neighborhood": "Vice-Dale County, east of Hamlet",
+        "note": "Pinned on the GTADB landmark 'Apollo Aggregates, Peregrine Bay' (L2453, CC BY 4.0), which matches the warehouse name and the sources' directions (east of Hamlet, north of Key Lento). The pin marks the venue, not the exact door." },
+      "spoiler": "gameplay",
+      "chapterMin": null,
+      "sources": [
+        { "label": "GTA6BUGS: money glitch status", "url": "https://gta6bugs.com/money-glitch", "date": "2026-11-20" },
+        { "label": "GTA6BUGS: still works after 01.002.002", "url": "https://gta6bugs.com/news/gta-6-money-glitch-still-works-after-update-01-002-002", "date": "2026-11-24" },
+        { "label": "games.gg: warehouse location and how to repeat", "url": "https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-money-glitch-warehouse-location-how-to-repeat/", "date": "2026-11-23" },
+        { "label": "PC Gamer: Hamlet warehouse cocaine respawn", "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-infinite-money-glitch/", "date": "2026-11" },
+        { "label": "Kotaku: early report of a loot glitch", "url": "https://kotaku.com/gta-6-infinite-money-glitch-how-to-rockstar-games-ps5-2000758907", "date": "2026-11-20" }
+      ]
+    },
+    {
+      "id": "first-person-camera",
+      "kind": "glitch",
+      "status": "unconfirmed",
+      "name": "First-person camera glitch",
+      "summary": "GTA VI has no first-person mode at launch, but a phone-and-button trick in a vehicle forces the camera into first person. You can then walk, drive and use weapons in first person.",
+      "statusNote": "Worked at launch (19 Nov 2026) on PS5 and Xbox. Not yet confirmed after update 01.002.002.",
+      "checkedAt": "2026-11-24",
+      "platforms": ["PS5", "Xbox Series X|S"],
+      "characters": "Jason or Lucia",
+      "requirements": "Any vehicle. Change one controller setting first.",
+      "reward": null,
+      "steps": [
+        "Open Settings, then the Controller section.",
+        "Xbox: set the View button to Camera instead of Map. PS5: set the touchpad to switch cameras instead of opening the map.",
+        "Get into any vehicle.",
+        "Press up on the d-pad to take out the phone.",
+        "Put the phone away (B on Xbox, Circle on PS5) while rapidly pressing View (Xbox) or the touchpad (PS5). It can take a few tries."
+      ],
+      "risks": [
+        "You cannot switch back to third person normally. Reload your save to get out.",
+        "Some events force the camera back, such as being arrested or visiting a barber.",
+        "Some items do not work properly in first person."
+      ],
+      "location": null,
+      "spoiler": "none",
+      "chapterMin": null,
+      "sources": [
+        { "label": "Pure Xbox: first-person glitch on Xbox and PS5", "url": "https://www.purexbox.com/news/2026/11/gta-6-first-person-glitch-discovered-and-it-works-on-xbox-and-ps5", "date": "2026-11" },
+        { "label": "Dexerto: glitch lets players access first-person mode", "url": "https://www.dexerto.com/gta/gta-6-glitch-lets-players-access-first-person-mode-3430025/", "date": "2026-11-19" }
+      ]
+    },
+    {
+      "id": "infinite-stamina-switch",
+      "kind": "glitch",
+      "status": "unconfirmed",
+      "name": "Infinite stamina (character switch)",
+      "summary": "When Jason and Lucia are together, switching character while sprinting refills stamina, so you can keep running.",
+      "statusNote": "Single player report on GTA6BUGS; not independently tested. Not marked patched as of 24 Nov 2026.",
+      "checkedAt": "2026-11-24",
+      "platforms": ["PS5", "Xbox Series X|S"],
+      "characters": "Jason and Lucia together",
+      "requirements": "A moment in free roam when both characters are together and you can switch between them.",
+      "reward": null,
+      "steps": [
+        "With Jason and Lucia together, start sprinting.",
+        "When stamina runs low, switch to the other character.",
+        "Switch back and keep sprinting; stamina is refilled."
+      ],
+      "risks": ["Minor and unverified. It may behave differently after updates."],
+      "location": null,
+      "spoiler": "none",
+      "chapterMin": null,
+      "sources": [
+        { "label": "GTA6BUGS: exploits list (#0316)", "url": "https://gta6bugs.com/exploits", "date": "2026-11-24" }
+      ]
+    },
+    {
+      "id": "fix-garages-missing",
+      "kind": "bug-fix",
+      "status": "workaround",
+      "name": "Bought garages not showing on the map",
+      "summary": "Garages you have bought can disappear from the map. Players found a simple fix.",
+      "statusNote": "Player workaround; the bug is not listed as fixed in update 01.002.002.",
+      "checkedAt": "2026-11-24",
+      "platforms": ["PS5", "Xbox Series X|S"],
+      "characters": null,
+      "requirements": "At least one bought garage.",
+      "reward": null,
+      "steps": [
+        "Open the real-estate app on the in-game phone.",
+        "Select any garage you own.",
+        "Close the app. All your garages should reappear on the map."
+      ],
+      "risks": [],
+      "location": null,
+      "spoiler": "gameplay",
+      "chapterMin": null,
+      "sources": [
+        { "label": "GTA6BUGS: bug tracker", "url": "https://gta6bugs.com/", "date": "2026-11-24" }
+      ]
+    },
+    {
+      "id": "fix-fishing-no-bites",
+      "kind": "bug-fix",
+      "status": "workaround",
+      "name": "Fishing: fish never bite",
+      "summary": "Some players never get a bite, which blocks finishing the fishing tutorial in Recalibration. Changing the fishing controls fixes it for many.",
+      "statusNote": "Player workaround; not listed as fixed in update 01.002.002.",
+      "checkedAt": "2026-11-24",
+      "platforms": ["PS5", "Xbox Series X|S"],
+      "characters": null,
+      "requirements": null,
+      "reward": null,
+      "steps": [
+        "Open Settings and find the fishing controls.",
+        "Switch them from the right stick to the button option.",
+        "Cast again."
+      ],
+      "risks": [],
+      "location": null,
+      "spoiler": "gameplay",
+      "chapterMin": null,
+      "sources": [
+        { "label": "GTA6BUGS: bug tracker", "url": "https://gta6bugs.com/", "date": "2026-11-24" }
+      ]
+    },
+    {
+      "id": "bug-missing-persons-softlock",
+      "kind": "bug",
+      "status": "unfixed",
+      "name": "Chapter 3 softlock: Jason greyed out after Missing Persons",
+      "summary": "After the Kelly County Missing Persons case, Jason can stay greyed out in the character wheel, which stops the story.",
+      "statusNote": "Still reported after update 01.002.002 (player reports, 23 Nov 2026). No confirmed workaround.",
+      "checkedAt": "2026-11-24",
+      "platforms": ["PS5", "Xbox Series X|S"],
+      "characters": "Jason",
+      "requirements": null,
+      "reward": null,
+      "steps": [
+        "No fix is confirmed. Keep a manual save from before the case so you can go back if it happens.",
+        "Report it to Rockstar Support so it is counted."
+      ],
+      "risks": [],
+      "location": null,
+      "spoiler": "story",
+      "chapterMin": 3,
+      "sources": [
+        { "label": "GTA6BUGS: bug tracker (#0261)", "url": "https://gta6bugs.com/", "date": "2026-11-24" },
+        { "label": "GTA6BUGS: what 01.002.002 did and didn't fix", "url": "https://gta6bugs.com/news/gta-6-update-01-002-002-patch-notes-ps5-xbox", "date": "2026-11-23" }
+      ]
+    },
+    {
+      "id": "bug-fully-catered-crash",
+      "kind": "bug",
+      "status": "unfixed",
+      "name": "Fully Catered: crash at the delivery cutscene",
+      "summary": "The game can crash when the delivery cutscene in the mission Fully Catered starts.",
+      "statusNote": "Still reported after update 01.002.002 (player reports, 23 Nov 2026). No confirmed workaround.",
+      "checkedAt": "2026-11-24",
+      "platforms": ["PS5", "Xbox Series X|S"],
+      "characters": null,
+      "requirements": null,
+      "reward": null,
+      "steps": ["No fix is confirmed. Make a manual save before the mission and report the crash to Rockstar Support."],
+      "risks": [],
+      "location": null,
+      "spoiler": "story",
+      "chapterMin": null,
+      "sources": [
+        { "label": "GTA6BUGS: what 01.002.002 did and didn't fix", "url": "https://gta6bugs.com/news/gta-6-update-01-002-002-patch-notes-ps5-xbox", "date": "2026-11-23" }
+      ]
+    },
+    {
+      "id": "update-01-002-002",
+      "kind": "update",
+      "status": "fixed",
+      "name": "Update 01.002.002: what it fixed",
+      "summary": "The first update after launch, released 23 November 2026 (about 604 MB on PS5, 1.6 GB on Xbox, shown as 1.0.2.2 there). It fixed seven groups of bugs. It does not mention any exploits.",
+      "statusNote": "Rockstar's patch notes, 23 Nov 2026.",
+      "checkedAt": "2026-11-24",
+      "platforms": ["PS5", "Xbox Series X|S"],
+      "characters": null,
+      "requirements": null,
+      "reward": null,
+      "steps": [
+        "Several crashes fixed.",
+        "Weather no longer stays the same for long stretches.",
+        "Autosave works correctly again.",
+        "Phone calls that start story missions or unlock content now trigger.",
+        "You can lose your Wanted Level again.",
+        "The deadlift bar at the gym works.",
+        "Partners hand over bags again, so you can sell them to fences."
+      ],
+      "risks": ["Still broken after this update, per player reports: the Chapter 3 Missing Persons softlock, Raul not calling after some jobs, and the Fully Catered crash."],
+      "location": null,
+      "spoiler": "none",
+      "chapterMin": null,
+      "sources": [
+        { "label": "Rockstar Support: GTA VI launch updates", "url": "https://support.rockstargames.com/articles/sN5pEdFYZdlvijKXd6xpJ/grand-theft-auto-vi-launch-updates-ps5-xbox-series-x-or-s", "date": "2026-11-23" },
+        { "label": "TweakTown: first GTA 6 update fixes", "url": "https://www.tweaktown.com/news/114835/first-gta-6-update-fixes-weather-game-crashes-wanted-level-glitches-and-more/index.html", "date": "2026-11-23" },
+        { "label": "GTA6BUGS: 01.002.002 patch notes", "url": "https://gta6bugs.com/news/gta-6-update-01-002-002-patch-notes-ps5-xbox", "date": "2026-11-23" }
+      ]
+    },
+    {
+      "id": "update-pre-launch",
+      "kind": "update",
+      "status": "fixed",
+      "name": "Pre-launch updates 01.002.000 and 01.002.001",
+      "summary": "Two updates before launch: 01.002.000 on 13 November 2026 (mandatory on PS5) and 01.002.001 on 16 November 2026. Rockstar published no notes for either.",
+      "statusNote": "No patch notes published.",
+      "checkedAt": "2026-11-24",
+      "platforms": ["PS5", "Xbox Series X|S"],
+      "characters": null,
+      "requirements": null,
+      "reward": null,
+      "steps": [],
+      "risks": [],
+      "location": null,
+      "spoiler": "none",
+      "chapterMin": null,
+      "sources": [
+        { "label": "Red Bull: GTA 6 updates and patch notes", "url": "https://www.redbull.com/in-en/gta-6-updates-patch-notes", "date": "2026-11-19" }
+      ]
+    },
+    {
+      "id": "fake-money-generators",
+      "kind": "fake",
+      "status": "fake",
+      "name": "Fake: money generators, 'add cash' sites and mod menus",
+      "summary": "Sites, apps, paid 'money drops' and videos promising unlimited GTA 6 money are fake or scams. Some are fake installers or phishing pages that steal Rockstar Social Club logins. GTA 6 has no online mode at launch, so 'money drops' cannot exist.",
+      "statusNote": "Flagged as fake or scams by GTA6BUGS (24 Nov 2026).",
+      "checkedAt": "2026-11-24",
+      "platforms": ["PS5", "Xbox Series X|S"],
+      "characters": null,
+      "requirements": null,
+      "reward": null,
+      "steps": [
+        "Never enter your Rockstar, PlayStation or Xbox login on a site that promises free money.",
+        "Ignore 'secret infinite money' videos uploaded before the game came out (19 Nov 2026).",
+        "If you want an exploit, use the red barn save-and-reload method in this list instead."
+      ],
+      "risks": ["Account theft and malware."],
+      "location": null,
+      "spoiler": "none",
+      "chapterMin": null,
+      "sources": [
+        { "label": "GTA6BUGS: money glitch (fakes section)", "url": "https://gta6bugs.com/money-glitch", "date": "2026-11-20" }
+      ]
+    },
+    {
+      "id": "fake-xbox-nz-region",
+      "kind": "fake",
+      "status": "fake",
+      "name": "Avoid: Xbox New Zealand region trick",
+      "summary": "Changing your Xbox region to New Zealand to play earlier breaks Microsoft's terms of use. Xbox staff reportedly warned against it.",
+      "statusNote": "Not recommended (GTA6BUGS, 24 Nov 2026).",
+      "checkedAt": "2026-11-24",
+      "platforms": ["Xbox Series X|S"],
+      "characters": null,
+      "requirements": null,
+      "reward": null,
+      "steps": [],
+      "risks": ["Could put your Xbox account at risk."],
+      "location": null,
+      "spoiler": "none",
+      "chapterMin": null,
+      "sources": [
+        { "label": "GTA6BUGS: exploits list (#0022)", "url": "https://gta6bugs.com/exploits", "date": "2026-11-24" }
+      ]
+    }
+  ]
+}

@@ -26,6 +26,8 @@ export const GROUPS: GroupDef[] = [
     keywords: ['shop', 'shops', 'store', 'stores', 'clothes', 'clothing', 'barber', 'hair', 'tattoo', 'tattoos', 'safehouse', 'safehouses', 'property', 'properties', 'hospital', 'police', 'gas', 'food', 'restaurant', 'electronics', 'earbuds', 'headphones', 'supermarket', 'pharmacy', 'business', 'service', 'services'] },
   { key: 'story', label: 'Story & Missions', color: '#ff5fa2', icon: 'clapperboard',
     keywords: ['mission', 'missions', 'story', 'strangers', 'stranger', 'side', 'job', 'jobs', 'quest', 'contact'] },
+  { key: 'glitches', label: 'Glitches & Fixes', color: '#ff7a1a', icon: 'bug',
+    keywords: ['glitch', 'glitches', 'exploit', 'exploits', 'bug', 'bugs', 'patch', 'patched', 'patches', 'fix', 'fixes', 'fixed', 'softlock', 'crash', 'crashes', 'dupe', 'duplicate', 'duplication', 'workaround', 'update', 'updates', 'cheese'] },
   { key: 'landmarks', label: 'Landmarks & Places', color: '#9aa4b8', icon: 'landmark',
     keywords: ['landmark', 'landmarks', 'place', 'places', 'building', 'buildings', 'hotel', 'hotels', 'park', 'beach', 'poi', 'point', 'interest'] },
 ];

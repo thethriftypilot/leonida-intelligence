@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { Search, ShieldCheck, ShieldOff, RefreshCw, LayoutDashboard, Shuffle, Maximize, Menu, Wrench } from 'lucide-react';
+import { Search, ShieldCheck, ShieldOff, RefreshCw, LayoutDashboard, Shuffle, Maximize, Menu, Wrench, Bug } from 'lucide-react';
 import type { LocationRecord, WorldMeta, SpoilerSettings } from '../../../shared/types.ts';
 import type { Settings, Stats } from '../api.ts';
 import type { AppApi } from '../App.tsx';
@@ -113,6 +113,7 @@ export function TopBar(p: Props) {
       </div>
       <div className="li-top-actions">
         <button className="li-pill" onClick={p.onSurprise} title="Surprise me: a random accessible, unfinished discovery"><Shuffle size={16} /><span>Surprise me</span></button>
+        <button className="li-pill" data-testid="glitches-button" onClick={() => p.app.openTool('glitches')} title="Current glitches, bug fixes and patch notes"><Bug size={16} /><span>Glitches</span></button>
         <button className="li-pill" onClick={() => p.app.openTool('useful')} title="Smart tools"><Wrench size={16} /><span>Tools</span></button>
         <button className="li-pill" data-testid="update-button" onClick={p.onUpdate} disabled={p.updating} title={`Last successful research update: ${timeAgo(last)}`}>
           <RefreshCw size={16} className={p.updating ? 'spin' : ''} /><span>{p.updating ? 'Updating…' : 'Check for updates'}</span>

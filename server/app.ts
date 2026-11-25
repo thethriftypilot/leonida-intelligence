@@ -13,6 +13,7 @@ import { createHttp } from './ingest/http.ts';
 import type { Http, SourceAdapter } from './ingest/types.ts';
 import { gtadbAdapter } from './ingest/gtadb.ts';
 import { lootMapAdapter } from './ingest/lootmap.ts';
+import { glitchesAdapter } from './ingest/glitches.ts';
 import { rssAdapter } from './ingest/rss.ts';
 import { Scheduler } from './scheduler.ts';
 import { WorldView } from './worldView.ts';
@@ -61,7 +62,7 @@ export async function buildApp(cfg: AppConfig, opts: BuildOptions = {}): Promise
   const world = new WorldRepo(dbs.world);
   const user = new UserRepo(dbs.user);
   const engine = new ResearchEngine({
-    world, user, backups, adapters: opts.adapters ?? [gtadbAdapter, lootMapAdapter, rssAdapter],
+    world, user, backups, adapters: opts.adapters ?? [gtadbAdapter, lootMapAdapter, glitchesAdapter, rssAdapter],
     http: opts.http ?? createHttp(), dataDir: cfg.dataDir, seedDir: cfg.seedDir, offline: cfg.offline, log,
   });
   const view = new WorldView(world, user, cfg.tilesDir);
