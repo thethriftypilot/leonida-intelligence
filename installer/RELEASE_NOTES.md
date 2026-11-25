@@ -1,3 +1,16 @@
+## What's new in v1.1.0
+
+- **Glitches & Fixes.** A new Glitches button and tab list current GTA VI glitches, player fixes
+  for known bugs, update patch notes and fake "glitches" to avoid. Each entry has a status
+  (Working, Unconfirmed, Patched, Fake…), the date it was last checked, step-by-step instructions
+  and links to its sources. The red barn money glitch is pinned on the map.
+- **Stays current on its own.** The glitch list is refreshed from this repository on every update
+  check, so status changes arrive without reinstalling.
+- Search understands phrases like *money glitch*.
+
+Already installed? Run the new installer over the old one. Your progress, markers and settings
+are kept.
+
 ## Download for Windows
 
 Download **`LeonidaIntelligence-Setup-….exe`** from *Assets* below, then double-click it.
