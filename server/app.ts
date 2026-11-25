@@ -3,6 +3,7 @@ import path from 'node:path';
 import Fastify, { type FastifyInstance, type FastifyRequest } from 'fastify';
 import fastifyStatic from '@fastify/static';
 import fastifyCompress from '@fastify/compress';
+import { EventHub, channelFor } from './events.ts';
 import type { AppConfig } from './config.ts';
 import { openDatabases, type Databases, nowIso } from './db.ts';
 import { WorldRepo } from './worldRepo.ts';
@@ -69,10 +70,12 @@ export async function buildApp(cfg: AppConfig, opts: BuildOptions = {}): Promise
   const scheduler = new Scheduler({ engine, world, user, backups, defaultInterval: cfg.updateIntervalHours, log });
   const ctx: AppContext = { cfg, dbs, world, user, backups, engine, scheduler, view };
 
+  const events = new EventHub();
   const origRun = engine.run.bind(engine);
   engine.run = (trigger, only) => {
     const p = origRun(trigger, only);
-    void p.then(() => view.invalidate(), () => view.invalidate());
+    const done = () => { view.invalidate(); events.publish({ channel: 'world' }); };
+    void p.then(done, done);
     return p;
   };
 
@@ -101,6 +104,16 @@ export async function buildApp(cfg: AppConfig, opts: BuildOptions = {}): Promise
         }
       }
     }
+  });
+
+  // Live sync: tell every other open device what just changed.
+  app.addHook('onResponse', async (req, reply) => {
+    if (reply.statusCode >= 400) return;
+    const channel = channelFor(req.method, req.url);
+    if (!channel) return;
+    const dev = String(req.headers['x-li-device'] ?? '').replace(/[^\w-]/g, '').slice(0, 40) || undefined;
+    const m = channel === 'progress' ? /^\/api\/progress\/([^?]+)/.exec(req.url) : null;
+    events.publish({ channel, device: dev, id: m ? decodeURIComponent(m[1]).slice(0, 300) : undefined });
   });
 
   app.addHook('onSend', async (_req, reply, payload) => {
@@ -133,6 +146,12 @@ export async function buildApp(cfg: AppConfig, opts: BuildOptions = {}): Promise
     ok: true, time: nowIso(), locations: world.countActive(), updating: engine.isRunning(),
     lastRun: world.lastRun()?.status ?? null,
   }));
+  app.get('/api/events', (req, reply) => {
+    reply.hijack();
+    events.add(reply.raw);
+    req.raw.on('close', () => reply.raw.end());
+  });
+
   app.get('/api/session', async (req) => {
     const c = parseCookies(req.headers.cookie).li_session;
     return { pinRequired: !!token, authenticated: !token || (!!c && safeEqual(c, token)) };
@@ -501,6 +520,7 @@ export async function buildApp(cfg: AppConfig, opts: BuildOptions = {}): Promise
 
   app.addHook('onClose', async () => {
     scheduler.stop();
+    events.close();
     dbs.close();
   });
 

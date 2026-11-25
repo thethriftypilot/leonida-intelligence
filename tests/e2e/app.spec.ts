@@ -131,7 +131,7 @@ test('backup export and restore through the UI', async ({ page, request }, info)
   await request.put(`/api/progress/${encodeURIComponent(loc.id)}`, { headers: H, data: { notes: 'state B', completed: false } });
   page.once('dialog', (d) => d.accept());
   await page.getByTestId('restore-file').setInputFiles(file);
-  await expect(page.locator('.li-toast')).toContainText('Restored');
+  await expect(page.locator('.li-toast').filter({ hasText: 'Restored' })).toBeVisible();
   const p = (await (await request.get('/api/progress')).json())[loc.id];
   expect(p.notes).toBe('state A');
   expect(p.completed).toBe(true);
@@ -184,4 +184,57 @@ test('mobile layout is usable', async ({ browser }) => {
   await page.locator('.li-suggest button', { hasText: 'Jack of Hearts' }).first().click();
   await expect(page.getByTestId('detail-title')).toBeVisible();
   await ctx.close();
+});
+
+test('play mode guides to the nearest unfinished place and records finds', async ({ page, request }) => {
+  await openApp(page);
+  await page.getByTestId('play-button').click();
+  await expect(page.getByTestId('play-mode')).toBeVisible();
+  const select = page.getByTestId('play-start-select');
+  const region = await select.locator('option').nth(2).getAttribute('value');
+  await select.selectOption(region!);
+  await page.getByTestId('play-start').click();
+  const target = page.getByTestId('play-target');
+  await expect(target).toBeVisible();
+  const first = (await target.locator('h3').textContent())!.trim();
+  await expect(target).toContainText(/\d+(\.\d+)? k?m/);
+  await expect(page.locator('.li-highlight-banner')).toContainText('play mode targets');
+
+  await page.getByTestId('play-got-it').click();
+  await expect(page.getByTestId('play-found')).toContainText('1 found');
+  await expect(target.locator('h3')).not.toHaveText(first);
+  const prog = await (await request.get('/api/progress')).json() as Record<string, { collected: boolean; completed: boolean }>;
+  expect(Object.values(prog).some((p) => p.collected || p.completed)).toBe(true);
+
+  const second = (await target.locator('h3').textContent())!.trim();
+  await page.getByTestId('play-skip').click();
+  await expect(target.locator('h3')).not.toHaveText(second);
+
+  await page.getByTestId('play-end').click();
+  await expect(page.getByTestId('play-summary')).toContainText('1 found');
+  await expect(page.locator('.li-highlight-banner')).toHaveCount(0);
+});
+
+test('live sync: a change on one device appears on another without reloading', async ({ page, request }) => {
+  await openApp(page);
+  await expect(page.getByTestId('live-indicator')).toHaveClass(/on/);
+  const { locations } = await (await request.get('/api/locations')).json() as { locations: { id: string; name: string; group: string; category: string }[] };
+  const l = locations.find((x) => x.group === 'collectibles' && x.category !== 'Unnamed buildings')!;
+  await request.put(`/api/progress/${encodeURIComponent(l.id)}`, { headers: H, data: { favorite: true } });
+  await expect(page.locator('.li-toasts')).toContainText(`Synced from another device: ${l.name}`);
+  await request.put(`/api/progress/${encodeURIComponent(l.id)}`, { headers: H, data: { favorite: false } });
+});
+
+test('dashboard shows achievements and draws a shareable progress card', async ({ page }) => {
+  await openApp(page);
+  await page.getByRole('button', { name: 'Dashboard' }).click();
+  const ach = page.getByTestId('achievements');
+  await expect(ach).toContainText('Welcome to Leonida');
+  await expect(ach).toContainText(/\d+ of \d+ unlocked/);
+  await page.getByTestId('share-button').click();
+  const canvas = page.getByTestId('share-canvas');
+  await expect(canvas).toBeVisible();
+  expect(await canvas.evaluate((c: HTMLCanvasElement) => c.width)).toBe(1200);
+  const painted = await canvas.evaluate((c: HTMLCanvasElement) => c.toDataURL('image/png').length);
+  expect(painted).toBeGreaterThan(20_000);
 });

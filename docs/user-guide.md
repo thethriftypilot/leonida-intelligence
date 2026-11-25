@@ -6,6 +6,8 @@
 - [The screen at a glance](#the-screen-at-a-glance)
 - [Reading the map](#reading-the-map)
 - [Tracking your progress](#tracking-your-progress)
+- [Play Mode](#play-mode)
+- [Achievements and sharing](#achievements-and-sharing)
 - [Asking questions](#asking-questions)
 - [Smart tools](#smart-tools)
 - [Spoiler protection](#spoiler-protection)
@@ -69,6 +71,11 @@ Every place has five toggles: **Visited**, **Collected**, **Completed**, **Favou
 
 Progress is stored on the host computer, so every device sees the same thing. Research updates
 never change it.
+
+**Live sync:** when you mark something on one device, every other open device updates within a
+moment, with no reload, and shows *Synced from another device*. The small radio icon in the top
+bar turns green while live sync is connected. If it drops, changes still save, and other devices
+catch up within two minutes.
 
 Other things you can do:
 
@@ -188,6 +195,46 @@ it, and links to its sources.
 - **Undoing a bad research update:** **Tools → My data → research snapshots → roll back**. This
   only affects the shared map data, never your progress.
 
+## Play Mode
+
+Play Mode turns the map into a guide for your play session. It's built for a phone or tablet
+beside the TV.
+
+1. Press **Play** in the top bar or on the map's side buttons (or press `P`).
+2. Choose what you're hunting: collectibles, money, weapons, secrets, activities and so on. Each
+   button shows how many are left.
+3. Choose where you're starting: where you last said you are, a spot you pick on the map, or a
+   region.
+4. Press **Start hunting**.
+
+Play Mode then shows the **nearest place you haven't finished**: how far away it is, which
+direction, the area, and the first steps from its guide. The map zooms to it and shows only your
+next few targets.
+
+- **Got it** marks the place collected (or completed, for missions and activities) and moves on
+  to the next nearest one, starting from where you just were.
+- **Skip** leaves it for another time.
+- **Details** opens its full page.
+
+The panel keeps a timer, how many you've found and how far you've travelled. **End session**
+shows a summary. Your session survives a page reload.
+
+Play Mode never suggests places your story progress hasn't unlocked, places without a sourced
+position or disputed ones. Places with only an approximate area are left out unless you tick the
+box. Distances are straight lines, because no licensed road map of Leonida exists.
+
+## Achievements and sharing
+
+The **Dashboard** lists 20 achievements worked out from your progress: your first find, 10, 50
+and 150 finds, places visited, 25 / 50 / 75 / 100 % completion, and finishing every entry in a
+category. Locked achievements show how close you are. A pop-up appears the first time each
+one unlocks.
+
+**Share my progress** draws a progress card (completion ring, category bars, badges) on your
+device. **Save image** downloads it as a PNG to post on Facebook, Discord or Reddit. **Copy
+image** copies it, in browsers that allow it (on another device this usually needs HTTPS). The
+card contains no spoilers and nothing is uploaded.
+
 ## Keyboard shortcuts
 
 | Key | Action |
@@ -195,4 +242,5 @@ it, and links to its sources.
 | `/` | Focus search |
 | `Esc` | Close the panel, or cancel the current map action |
 | `F` | Toggle full screen |
+| `P` | Open or close Play Mode |
 | Arrow keys, `+` / `−` | Pan and zoom (when the map has focus) |

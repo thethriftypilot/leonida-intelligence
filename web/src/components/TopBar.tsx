@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { Search, ShieldCheck, ShieldOff, RefreshCw, LayoutDashboard, Shuffle, Maximize, Menu, Wrench, Bug } from 'lucide-react';
+import { Search, ShieldCheck, ShieldOff, RefreshCw, LayoutDashboard, Shuffle, Maximize, Menu, Wrench, Bug, Play, Radio } from 'lucide-react';
 import type { LocationRecord, WorldMeta, SpoilerSettings } from '../../../shared/types.ts';
 import type { Settings, Stats } from '../api.ts';
 import type { AppApi } from '../App.tsx';
@@ -24,6 +24,9 @@ interface Props {
   onDashboard: () => void;
   onSurprise: () => void;
   onFullscreen: () => void;
+  onPlay: () => void;
+  playOpen: boolean;
+  live: boolean;
 }
 
 export function TopBar(p: Props) {
@@ -112,12 +115,14 @@ export function TopBar(p: Props) {
         )}
       </div>
       <div className="li-top-actions">
+        <button className={`li-pill li-play-pill ${p.playOpen ? 'active' : ''}`} data-testid="play-button" onClick={p.onPlay} title="Play Mode: a guided hunt to the nearest unfinished places (P)"><Play size={16} /><span>Play</span></button>
         <button className="li-pill" onClick={p.onSurprise} title="Surprise me: a random accessible, unfinished discovery"><Shuffle size={16} /><span>Surprise me</span></button>
         <button className="li-pill" data-testid="glitches-button" onClick={() => p.app.openTool('glitches')} title="Current glitches, bug fixes and patch notes"><Bug size={16} /><span>Glitches</span></button>
         <button className="li-pill" onClick={() => p.app.openTool('useful')} title="Smart tools"><Wrench size={16} /><span>Tools</span></button>
         <button className="li-pill" data-testid="update-button" onClick={p.onUpdate} disabled={p.updating} title={`Last successful research update: ${timeAgo(last)}`}>
           <RefreshCw size={16} className={p.updating ? 'spin' : ''} /><span>{p.updating ? 'Updating…' : 'Check for updates'}</span>
         </button>
+        <span className={`li-live ${p.live ? 'on' : ''}`} data-testid="live-indicator" title={p.live ? 'Live sync on: changes on your other devices appear here instantly' : 'Live sync reconnecting… changes still save'}><Radio size={14} /></span>
         <button className="li-icon-btn" onClick={p.onDashboard} aria-label="Dashboard" title="Dashboard"><LayoutDashboard size={18} /></button>
         <button className="li-icon-btn" onClick={p.onFullscreen} aria-label="Full screen" title="Full screen (F)"><Maximize size={18} /></button>
       </div>

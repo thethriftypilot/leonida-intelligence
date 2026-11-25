@@ -11,6 +11,26 @@ export class ApiError extends Error {
   }
 }
 
+/** A random id for this browser tab, so live-sync events it caused itself can be ignored. */
+export const DEVICE_ID = Math.random().toString(36).slice(2, 12);
+
+export interface LiveEvent { channel: 'progress' | 'markers' | 'checklists' | 'routes' | 'settings' | 'world'; id?: string; device?: string }
+
+/** Listen for changes made on other devices. Returns an unsubscribe function. */
+export function subscribeLive(onEvent: (e: LiveEvent) => void, onState?: (connected: boolean) => void): () => void {
+  if (typeof EventSource === 'undefined') return () => undefined;
+  const es = new EventSource('/api/events');
+  es.onopen = () => onState?.(true);
+  es.onerror = () => onState?.(false);
+  es.onmessage = (m) => {
+    try {
+      const e = JSON.parse(m.data) as LiveEvent;
+      if (e.device !== DEVICE_ID) onEvent(e);
+    } catch { /* ignore malformed */ }
+  };
+  return () => es.close();
+}
+
 let revealActive = () => false;
 export function setRevealProvider(fn: () => boolean): void {
   revealActive = fn;
@@ -21,7 +41,7 @@ async function req<T>(method: string, url: string, body?: unknown, opts: { revea
   if (opts.reveal !== false && method === 'GET' && revealActive()) u += (u.includes('?') ? '&' : '?') + 'reveal=1';
   const res = await fetch(u, {
     method,
-    headers: { 'X-LI-Client': '1', ...(body !== undefined ? { 'Content-Type': 'application/json' } : {}) },
+    headers: { 'X-LI-Client': '1', 'X-LI-Device': DEVICE_ID, ...(body !== undefined ? { 'Content-Type': 'application/json' } : {}) },
     body: body !== undefined ? JSON.stringify(body) : undefined,
     credentials: 'same-origin',
   });

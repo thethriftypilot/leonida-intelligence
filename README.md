@@ -12,7 +12,7 @@ device, and the map gains new places as the community discovers them.
 [![CI](https://github.com/thethriftypilot/leonida-intelligence/actions/workflows/ci.yml/badge.svg)](https://github.com/thethriftypilot/leonida-intelligence/actions/workflows/ci.yml)
 ![Node 24](https://img.shields.io/badge/Node.js-24+-3c873a?style=flat-square)
 ![Windows · Linux · Docker](https://img.shields.io/badge/runs%20on-Windows%20%C2%B7%20Linux%20%C2%B7%20Docker-ff5fa2?style=flat-square)
-![Tests](https://img.shields.io/badge/tests-27%20unit%20%2B%2010%20browser-2ee6d6?style=flat-square)
+![Tests](https://img.shields.io/badge/tests-36%20unit%20%2B%2014%20browser-2ee6d6?style=flat-square)
 ![License MIT](https://img.shields.io/badge/code-MIT-ff9f43?style=flat-square)
 ![Unofficial](https://img.shields.io/badge/unofficial-fan%20tool-9aa4b8?style=flat-square)
 
@@ -47,6 +47,8 @@ device, and the map gains new places as the community discovers them.
 ### ✅ Your progress, on every device
 - Mark places **visited, collected, completed, favourite, planned**
 - Notes, checklists, saved routes, completion stats
+- **Live sync:** mark it on your phone and the PC map updates instantly
+- **Achievements** with unlock pop-ups, and a **shareable progress card** image
 - Stored on your host computer, not in the browser
 - Daily automatic backups, plus export and restore
 
@@ -54,6 +56,12 @@ device, and the map gains new places as the community discovers them.
 </tr>
 <tr>
 <td valign="top">
+
+### 🎮 Play Mode
+- A guided hunt for your play session: it always points you at the **nearest place you haven't
+  finished**, with distance, direction and the first steps
+- **Got it** marks it done and moves on; it keeps a timer, finds and distance travelled
+- Built for the phone beside your TV, and never suggests anything your story hasn't unlocked
 
 ### 🔎 Ask it questions
 - *"Show me hidden cash near Vice City"*

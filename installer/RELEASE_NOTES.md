@@ -1,12 +1,16 @@
-## What's new in v1.1.0
+## What's new in v1.2.0
 
-- **Glitches & Fixes.** A new Glitches button and tab list current GTA VI glitches, player fixes
-  for known bugs, update patch notes and fake "glitches" to avoid. Each entry has a status
-  (Working, Unconfirmed, Patched, Fake…), the date it was last checked, step-by-step instructions
-  and links to its sources. The red barn money glitch is pinned on the map.
-- **Stays current on its own.** The glitch list is refreshed from this repository on every update
-  check, so status changes arrive without reinstalling.
-- Search understands phrases like *money glitch*.
+- **🎮 Play Mode.** Press the **Play** button (or `P`) and pick what you're hunting. Leonida
+  points you at the nearest place you haven't finished, with distance, a compass arrow and the
+  first steps of the guide. Tap **Got it** and it moves on to the next one. It tracks your session
+  time and finds, and never suggests anything your story progress hasn't unlocked.
+- **⚡ Live sync.** Tick something off on your phone and your PC's map updates within a moment.
+  A radio icon in the top bar turns green while it's connected.
+- **🏆 Achievements.** 20 achievements on the Dashboard, from *Welcome to Leonida* to
+  *100% Leonida*, with a pop-up when each one unlocks.
+- **📸 Share your progress.** The Dashboard makes a spoiler-free progress image you can save and
+  post. It's drawn on your device; nothing is uploaded.
+- Works better on phones: Play Mode fills the screen and keeps its place if the page reloads.
 
 Already installed? Run the new installer over the old one. Your progress, markers and settings
 are kept.

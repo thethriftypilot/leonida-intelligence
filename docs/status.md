@@ -2,11 +2,11 @@
 
 [← Back to README](../README.md)
 
-Last verified: 22 November 2026.
+Last verified: 25 November 2026.
 
 ## Operational and tested
 
-Automated coverage: **31 unit/integration tests** and **11 Playwright browser tests**. All pass.
+Automated coverage: **36 unit/integration tests** and **14 Playwright browser tests**. All pass.
 
 - [x] Real GTA VI basemap (GTADB `day` tiles, zoom 0–5) with an exact CRS calibration.
   Alternative layers: night style and the YANIS v18 community map. *(e2e: tiles load, zoom)*
@@ -45,6 +45,16 @@ Automated coverage: **31 unit/integration tests** and **11 Playwright browser te
   update run, falling back to the bundled copy. The red barn glitch is pinned on the GTADB
   *Apollo Aggregates* landmark. *(unit: parsing, rejection, offline fallback, search; e2e:
   Glitches tab and detail)*
+- [x] **Play Mode** (25 Nov 2026): a guided hunt to the nearest unfinished, unlocked, positioned
+  place, with distance, compass direction, steps, *Got it* / *Skip*, a timer and a session
+  summary. The session survives reloads. *(unit: queue order, chapter/done/disputed/area
+  exclusion, bearings; e2e: start, got it, skip, end)*
+- [x] **Live sync** across devices with Server-Sent Events (`/api/events`). Events carry only a
+  channel and an id. It falls back to a 2-minute refresh if the connection drops. *(unit:
+  channel mapping, hub streaming; e2e: a change made elsewhere appears without reload)*
+- [x] **Achievements** (20, computed from your stats, with unlock pop-ups) and a **shareable
+  progress card** drawn on a canvas in the browser. *(unit: unlocking and progress; e2e:
+  dashboard and card render)*
 - [x] **Windows installer** (Inno Setup, per-user, with Node.js and MinGit bundled), tested on
   Windows 11 on 23 Nov 2026:
   - silent install, with the tray app starting the server;

@@ -18,6 +18,7 @@ flowchart LR
     S --> T[Map tiles<br/>data/sources/gtadb]
   end
   Devices -->|http://host:5180| S
+  S -.->|live sync events| Devices
   E -->|git fetch| G[GTADB on GitHub]
   E -->|HTTPS| L[Loot Map dataset on GitHub]
   E -->|RSS/Atom| F[Guide feeds]
@@ -32,6 +33,7 @@ only writes to `world.sqlite`, so an update can never overwrite your progress.
 ```text
 server/        Fastify API (TypeScript, run natively by Node 24 — no build step)
   app.ts         routes, LAN/CSRF/PIN guard, static files and map tiles
+  events.ts      live sync: Server-Sent Events hub for changes made on other devices
   db.ts          two SQLite databases (built-in node:sqlite) + versioned migrations
   worldRepo.ts   research data: locations, history, review queue, update runs, sources
   userRepo.ts    personal data: progress, markers, checklists, routes, settings, your verdicts
@@ -45,7 +47,8 @@ server/        Fastify API (TypeScript, run natively by Node 24 — no build ste
     glitches.ts    curated glitches, bug fixes and patch notes (seed/glitches)
     rss.ts         RSS/Atom research leads
     manualImport.ts, dedupe.ts, http.ts (polite fetch with backoff)
-shared/        types, categories, coordinate frame, spoiler rules, search, routing
+shared/        types, categories, coordinate frame, spoiler rules, search, routing,
+               Play Mode hunt queue (play.ts), achievements (achievements.ts)
 web/           React + Vite front end (Leaflet with a custom CRS)
 seed/          pinned upstream data so the first start works offline
 scripts/       map download, CLI backup, test server, screenshot generator, icon generator
@@ -85,7 +88,7 @@ npm run typecheck
 ## Tests
 
 ```powershell
-npm test               # 31 unit + integration tests (node:test)
+npm test               # 36 unit + integration tests (node:test)
 ```
 
 ```powershell
@@ -93,7 +96,7 @@ npx playwright install chromium   # first time only
 ```
 
 ```powershell
-npm run test:e2e       # 11 browser tests against an isolated server with seed data
+npm run test:e2e       # 14 browser tests against an isolated server with seed data
 ```
 
 The browser tests start their own server on port 5199, with a fresh data folder in

@@ -1,6 +1,8 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { CustomMarker, LocationRecord, Progress, WorldMeta } from '../../shared/types.ts';
-import { api, ApiError, setRevealProvider, type Settings, type Stats } from './api.ts';
+import { api, ApiError, setRevealProvider, subscribeLive, type Settings, type Stats } from './api.ts';
+import { PlayMode } from './components/PlayMode.tsx';
+import { computeAchievements, newlyUnlocked } from '../../shared/achievements.ts';
 import { MapView, type FlyRequest, type MapMode } from './components/MapView.tsx';
 import { TopBar } from './components/TopBar.tsx';
 import { Sidebar } from './components/Sidebar.tsx';
@@ -18,7 +20,8 @@ export type PickPurpose =
   | { kind: 'newMarker' }
   | { kind: 'placeItem'; id: string }
   | { kind: 'reviewApprove'; reviewId: number; title: string; group: string | null }
-  | { kind: 'routeStart' };
+  | { kind: 'routeStart' }
+  | { kind: 'playStart' };
 
 export interface AppApi {
   select: (id: string | null, fly?: boolean) => void;
@@ -62,6 +65,9 @@ export default function App() {
   const [updating, setUpdating] = useState(false);
   const [toasts, setToasts] = useState<Toast[]>([]);
   const [leftOpen, setLeftOpen] = useState(() => window.innerWidth > 900);
+  const [playOpen, setPlayOpen] = useState<boolean>(() => loadLocal('li.play', { active: false }).active);
+  const [playPicked, setPlayPicked] = useState<{ point: { x: number; y: number }; nonce: number } | null>(null);
+  const [live, setLive] = useState(false);
   const toastId = useRef(0);
 
   const revealActive = revealUntil > Date.now();
@@ -130,17 +136,55 @@ export default function App() {
     return () => clearInterval(t);
   }, [updating, reload, toast]);
 
-  // Background refresh every 2 minutes so other devices' changes appear.
+  // Live sync: changes made on another phone, tablet or PC appear here within a moment.
+  const locNames = useRef(new Map<string, string>());
+  const lastSyncToast = useRef(0);
+  const updatingRef = useRef(false);
+  updatingRef.current = updating;
   useEffect(() => {
+    if (auth !== 'ok') return;
+    return subscribeLive((e) => {
+      if (e.channel === 'progress') {
+        api.progress().then(setProgressMap).catch(() => undefined);
+        api.stats().then(setStats).catch(() => undefined);
+        const name = e.id ? locNames.current.get(e.id) : undefined;
+        if (name && Date.now() - lastSyncToast.current > 4000) { lastSyncToast.current = Date.now(); toast(`Synced from another device: ${name}`); }
+      } else if (e.channel === 'markers') {
+        api.markers().then(setMarkers).catch(() => undefined);
+      } else if (e.channel === 'settings') {
+        void reload();
+      } else if (e.channel === 'world') {
+        // While this device is watching an update run, its own poll reloads and reports the result.
+        if (!updatingRef.current) void reload();
+      }
+      window.dispatchEvent(new CustomEvent('li-live', { detail: e }));
+    }, setLive);
+  }, [auth, reload, toast]);
+
+  // Fallback when live sync is unavailable: refresh every 2 minutes.
+  useEffect(() => {
+    if (live) return;
     const t = setInterval(() => {
       if (document.visibilityState !== 'visible') return;
       api.progress().then(setProgressMap).catch(() => undefined);
       api.markers().then(setMarkers).catch(() => undefined);
     }, 120_000);
     return () => clearInterval(t);
-  }, []);
+  }, [live]);
 
   const byId = useMemo(() => new Map(locations.map((l) => [l.id, l])), [locations]);
+  useEffect(() => { locNames.current = new Map(locations.map((l) => [l.id, l.name])); }, [locations]);
+
+  // Achievements, with a pop-up the first time each one unlocks on this device.
+  const achievements = useMemo(() => (stats ? computeAchievements(stats) : []), [stats]);
+  useEffect(() => {
+    if (!achievements.length) return;
+    let seen: string[] | null = null;
+    try { seen = JSON.parse(localStorage.getItem('li.ach.seen') ?? 'null'); } catch { /* ignore */ }
+    const fresh = seen ? newlyUnlocked(achievements, new Set(seen)) : [];
+    for (const a of fresh.slice(0, 3)) toast(`${a.icon} Achievement unlocked: ${a.title}`, 'success');
+    try { localStorage.setItem('li.ach.seen', JSON.stringify(achievements.filter((a) => a.unlocked).map((a) => a.id))); } catch { /* ignore */ }
+  }, [achievements, toast]);
   const filtered = useMemo(() => applyFilters(locations, filters, progress, highlight?.ids ?? null), [locations, filters, progress, highlight]);
   const layer = meta?.layers.find((l) => l.id === layerId && l.installed) ?? meta?.layers.find((l) => l.installed) ?? null;
 
@@ -198,6 +242,8 @@ export default function App() {
         await reload();
         if (r.locationId) setSelectedId(r.locationId);
         toast('Lead added to the map as an unconfirmed location.', 'success');
+      } else if (p.kind === 'playStart') {
+        setPlayPicked({ point: pt, nonce: Date.now() });
       } else if (p.kind === 'routeStart') {
         setRoute((r) => { const n = { ...r, start: pt }; saveLocal('li.route', n); return n; });
         setTool('planner');
@@ -247,6 +293,7 @@ export default function App() {
       if (e.key === '/') { e.preventDefault(); document.getElementById('li-search')?.focus(); }
       else if (e.key === 'Escape') { if (mode !== 'none') { setMode('none'); setPick(null); } else if (selectedId) setSelectedId(null); else setTool(null); }
       else if (e.key.toLowerCase() === 'f' && !e.ctrlKey && !e.metaKey) toggleFullscreen();
+      else if (e.key.toLowerCase() === 'p' && !e.ctrlKey && !e.metaKey) setPlayOpen((v) => !v);
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
@@ -279,7 +326,7 @@ export default function App() {
           setRevealUntil(until);
         }}
         onUpdate={runUpdate} onDashboard={() => setShowDashboard(true)} onSurprise={surprise}
-        onFullscreen={toggleFullscreen}
+        onFullscreen={toggleFullscreen} onPlay={() => setPlayOpen((v) => !v)} playOpen={playOpen} live={live}
       />
       {revealActive && (
         <div className="li-reveal-banner" role="status">
@@ -305,6 +352,7 @@ export default function App() {
               {pick.kind === 'placeItem' && 'Click the map where you found this item. It will be labelled as your placement.'}
               {pick.kind === 'reviewApprove' && `Click the map where "${pick.title}" is located.`}
               {pick.kind === 'routeStart' && 'Click the map to set your route start.'}
+              {pick.kind === 'playStart' && 'Click the map where you are in the game to start hunting from there.'}
               <button onClick={() => { setMode('none'); setPick(null); }}>Cancel (Esc)</button>
             </div>
           )}
@@ -321,10 +369,17 @@ export default function App() {
             myPosition={settings?.myPosition ?? null} route={routePoints} mode={mode} onPick={onPick} fly={fly}
           />
           <div className="li-map-tools">
+            <button className={`li-map-play ${playOpen ? 'active' : ''}`} onClick={() => setPlayOpen((v) => !v)} title="Play Mode: guided hunt (P)" data-testid="map-play-button">🎮<span>Play</span></button>
             <button className={mode === 'measure' ? 'active' : ''} onClick={() => setMode(mode === 'measure' ? 'none' : 'measure')} title="Measure distance">📏<span>Measure</span></button>
             <button onClick={() => startPick({ kind: 'newMarker' })} title="Add your own marker">📍<span>Add pin</span></button>
             <button onClick={() => startPick({ kind: 'myPosition' })} title="Set where you are">🧭<span>I'm here</span></button>
           </div>
+          {playOpen && (
+            <PlayMode
+              locations={locations} progress={progress} settings={settings} meta={meta} app={appApi}
+              pickedStart={playPicked} onPickStart={() => startPick({ kind: 'playStart' })} onClose={() => setPlayOpen(false)}
+            />
+          )}
           <BottomBar stats={stats} progress={progress} byId={byId} app={appApi} />
         </main>
         {rightOpen && (
@@ -348,7 +403,7 @@ export default function App() {
           </aside>
         )}
       </div>
-      {showDashboard && <Dashboard stats={stats} onClose={() => setShowDashboard(false)} app={appApi} />}
+      {showDashboard && <Dashboard stats={stats} achievements={achievements} onClose={() => setShowDashboard(false)} app={appApi} />}
       <Toasts toasts={toasts} />
     </div>
   );
